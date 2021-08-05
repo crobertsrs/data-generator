@@ -14,7 +14,6 @@ One record per student, contains the following information
 - Last Name
 - Cohort
 - DOB
-- Most Recent Academic Year
 
 **Enrollment Records**
 One record per student per year, contains the following information:
@@ -67,7 +66,7 @@ One record per organization.
 
 first_names.txt comes directly from the U.S. Social Security Association list of baby names 2020 https://www.ssa.gov/oact/babynames/limits.html and originally had the name yob2020.txt from the National data set.
 
-surnames.txt was generated with the following call to the census api
+last_names.txt was generated with the following call to the census api
 `api.census.gov/data/2010/surname?get=NAME,COUNT&RANK=200:500`
 it has the following structure:
 `["NAME","COUNT","RANK"]`
