@@ -19,7 +19,8 @@ One record per student, contains the following information
 One record per student per year, contains the following information:
 
 - Enrollment ID
-- Year
+- Student ID
+- Academic Year
 - Grade
 - School Name
 - School District
