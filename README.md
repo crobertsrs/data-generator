@@ -62,7 +62,7 @@ One record per organization.
 - Student ID
 - List of Grades Participated
 
-## References
+## References / Data Sources
 
 first_names.txt comes directly from the U.S. Social Security Association list of baby names 2020 https://www.ssa.gov/oact/babynames/limits.html and originally had the name yob2020.txt from the National data set.
 
@@ -70,3 +70,7 @@ last_names.txt was generated with the following call to the census api
 `api.census.gov/data/2010/surname?get=NAME,COUNT&RANK=200:500`
 it has the following structure:
 `["NAME","COUNT","RANK"]`
+
+lower_ed_schools.csv is derived from data from the Washington state Office of the Superintendent of Public Instruction (OSPI), but I didn't want to end up hosting a copy of that data in this repo, so I kept only what I needed. I took the 2021 enrollment report card, filtered for schools with names containing the words "elementary", "middle", and "high". Then I filtered to only include schools in the Seattle, Renton, and Highline school districts. Then I deleted all data except school and district names and deduplicated rows. Data from the WA OSPI can be found at https://www.k12.wa.us/data-reporting/data-portal
+
+higher_ed_schools.csv is derived from the Postsecondary School Location - Current dataset that can be found on the NCES website or data.gov, but I didn't want to end up hosting a copy of that data in this repo, so I kept only what I needed. I kept only the name of the institution, deduplicated rows, then did a little manual cleaning to thin out some of the university systems with many locations. Data from data.gov can be found at https://catalog.data.gov/dataset/postsecondary-school-locations-current
