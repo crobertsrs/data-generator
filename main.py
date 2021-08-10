@@ -246,9 +246,11 @@ def generate_enrollment(permrecs_df, starting_grade, rate_of_attrition):
                 # Prep for next grade
                 grade += 1
 
+    list_of_enrollment_ids = [x+1 for x in range(len(list_of_student_ids))]
 
     # Create data frame
     data = {
+        "Enrollment ID": list_of_enrollment_ids,
         "Student ID": list_of_student_ids,
         "Academic Year": list_of_academic_years,
         "Grade": list_of_grades,
@@ -260,11 +262,33 @@ def generate_enrollment(permrecs_df, starting_grade, rate_of_attrition):
     }
     df = pd.DataFrame(data)
 
-    df.to_csv('output/enrollment.csv', index=True)
+    df.to_csv('output/enrollment.csv', index=False)
     return df
-    # Sort by Academic Year, then Student Name, reindex, convert index to a column
+
+def generate_organizations():
+    list_of_organizations = []
+    with open('data/organization_names.txt') as f:
+        lines = f.readlines()
+        list_of_organizations = [ line[:len(line)-1] for line in lines]
+    random.shuffle(list_of_organizations)
+
+    list_of_organization_ids = [x+1 for x in range(len(list_of_organizations))]
+    
+    # Create data frame
+    data = {
+        "Organization ID": list_of_organization_ids,
+        "Organization Name": list_of_organizations,
+    }
+    df = pd.DataFrame(data)
+    df.to_csv('output/organizations.csv', index=False)
+    return df
+
+def generate_internships(rate_of_hs_applicants, rate_of_cs_applicants, rate_of_hs_completion, rate_of_cs_completion):
+
+    pass
 
 
 if __name__ == "__main__":
     permrecs = generate_permrecs(3, 10, 2002)
     enrollment = generate_enrollment(permrecs, 5, 0.03)
+    organizations = generate_organizations()
