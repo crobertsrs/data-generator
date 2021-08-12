@@ -11,11 +11,17 @@ def generate_permrecs(number_of_cohorts, cohort_size, starting_year):
 
     number_of_students = number_of_cohorts * cohort_size
 
+    # Lists of data to be generated then converted to pandas DF
+    list_of_ids = []
+    list_of_first_names = []
+    list_of_last_names = []
+    list_of_cohorts = []
+    list_of_dobs = []
+
     # Data for Generators
     list_of_ids = [x for x in range(1,number_of_students+1)]
 
     # Generate first names with data in text files
-    list_of_first_names = []
     with open('data/first_names.txt') as f:
         lines = f.readlines()
         list_of_first_names = [
@@ -24,7 +30,6 @@ def generate_permrecs(number_of_cohorts, cohort_size, starting_year):
     list_of_first_names = list_of_first_names[:number_of_students]
 
     # Generate last names with data in text files
-    list_of_last_names = []
     with open('data/last_names.txt') as f:
         lines = f.readlines()
         list_of_last_names = [
@@ -37,7 +42,6 @@ def generate_permrecs(number_of_cohorts, cohort_size, starting_year):
                        for x in range(number_of_cohorts)]
 
     # Generate dobs based on the starting year
-    list_of_dobs = []
     for i in list_of_cohorts:
         start_date = datetime.date(starting_year + i - 1, 1, 1)
         list_of_dobs.append(
@@ -61,10 +65,8 @@ def generate_permrecs(number_of_cohorts, cohort_size, starting_year):
 
 def generate_enrollment(permrecs_df, starting_grade, rate_of_attrition):
 
-    # For each student, generate 1 enrollment record per year
-    # starting with the starting grade (academic years are auto calculated based on dobs)
-    # students drop out of program at provided rate of attrition
-    # Schools are pulled from spreadsheet
+    # Before generating data, define several lookup tables and methods 
+    # for pseudorandomly choosing data options.
 
     # A simple grade to age lookup
     grade_age_lookup = {
@@ -125,11 +127,11 @@ def generate_enrollment(permrecs_df, starting_grade, rate_of_attrition):
         "Moved Away",
     ]
 
-    # Read and shuffle schools
-
+    # Lists of data used for randomly selecting schools
     list_of_elementary_school_options = []
     list_of_middle_school_options = []
     list_of_high_school_options = []
+
     with open('data/lower_schools.csv') as f:
         lines = csv.reader(f, delimiter=',', quotechar='"')
         for line in lines:
@@ -179,7 +181,8 @@ def generate_enrollment(permrecs_df, starting_grade, rate_of_attrition):
     #   After each enrollment record, there is a change the student does not continue
     #   If the student does continue, make another record
 
-    # Establish empty lists to be used as columns
+    # Lists of data to be generated then converted to pandas DF
+    list_of_enrollment_ids = []
     list_of_student_ids = []
     list_of_academic_years = []
     list_of_grades = []
@@ -265,8 +268,12 @@ def generate_enrollment(permrecs_df, starting_grade, rate_of_attrition):
     df.to_csv('output/enrollment.csv', index=False)
     return df
 
+
 def generate_organizations():
+
+    list_of_organization_ids = []
     list_of_organizations = []
+
     with open('data/organization_names.txt') as f:
         lines = f.readlines()
         list_of_organizations = [ line[:len(line)-1] for line in lines]
@@ -283,8 +290,11 @@ def generate_organizations():
     df.to_csv('output/organizations.csv', index=False)
     return df
 
+
 def generate_internships(enrollment_records, organization_records, avg_number_of_applications_per_student, apps_per_student_stdv, rate_of_interviewed, rate_of_completion, rate_of_desired_career_path):
     
+    # Before generating data, define lookups and filter dfs that will be used.
+
     # Generates internships for HS 3rd and 4th years, and all college years at the rates provided.
     list_of_grades_for_internships = ["11", "12", "C1", "C2", "C3", "C4", "C5"]
 
@@ -296,8 +306,8 @@ def generate_internships(enrollment_records, organization_records, avg_number_of
 
     enrollments_eligible_for_internships = enrollment_records[enrollment_records["Grade"].isin(list_of_grades_for_internships)]
 
-    #print(enrollments_eligible_for_internships.head())
-
+    # Lists of data to be generated then converted to pandas DF
+    list_of_internship_ids = []
     list_of_student_ids = []
     list_of_org_ids = []
     list_of_internship_names = []
@@ -312,22 +322,6 @@ def generate_internships(enrollment_records, organization_records, avg_number_of
     # To avoid iterrowing over the df, function creates some number of internships given a student-year (one row in df)
     # This is preemptively optimizing, but an interesting thing to try
     def generate_internships_for_one_student_year(student_id, academic_year):
-        # For each enrollment record with the correct grade, generate roughly avg_number_of_applications_per_student records
-        #   Note that only one record can be accepted and completed
-        
-        #   - Add student ID
-        #   - Choose random org ID
-        #   - Choose random internship name
-        #   - Select career path
-        #   - interviewed 
-        # random_number_determining_interviewed = random.random()
-        #   - accepted 
-        # random_number_determining_accepted = random.random()
-        #   - completed 
-        # random_number_determining_completed = random.random()
-        #   - Start date: should be some time in June in that year 
-        #  start_date = datetime.date( year[:-4] + i - 1, 1, 1)
-        #   - End date: Should be 2-12 weeks long
 
         number_of_internships = max(0, int(random.gauss(avg_number_of_applications_per_student, apps_per_student_stdv)))
         if number_of_internships != 0: 
@@ -367,7 +361,6 @@ def generate_internships(enrollment_records, organization_records, avg_number_of
 
             random_day_interval_start = random.randrange(1,30)
             start_date_base = datetime.date( int(academic_year[:4]), 1, 1)
-            # print(start_date_base)
             start_date = str(start_date_base + datetime.timedelta(days=random_day_interval_start))
             list_of_start_dates.append(start_date)
 
