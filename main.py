@@ -283,12 +283,126 @@ def generate_organizations():
     df.to_csv('output/organizations.csv', index=False)
     return df
 
-def generate_internships(rate_of_hs_applicants, rate_of_cs_applicants, rate_of_hs_completion, rate_of_cs_completion):
+def generate_internships(enrollment_records, organization_records, avg_number_of_applications_per_student, apps_per_student_stdv, rate_of_interviewed, rate_of_completion, rate_of_desired_career_path):
+    
+    # Generates internships for HS 3rd and 4th years, and all college years at the rates provided.
+    list_of_grades_for_internships = ["11", "12", "C1", "C2", "C3", "C4", "C5"]
 
-    pass
+    careers_df = pd.read_csv('data/job_titles_and_career_paths.csv', header=0)  
+    careers_df["2018 SOC Direct Match Title Intern"] = careers_df["2018 SOC Direct Match Title"] + " Intern"
+    list_of_career_fields = careers_df["2018 SOC Major Group"].unique().tolist()
+    list_of_internships = careers_df["2018 SOC Direct Match Title Intern"].unique().tolist()
+    list_of_org_ids_from_organizations = organization_records["Organization ID"].tolist()
+
+    enrollments_eligible_for_internships = enrollment_records[enrollment_records["Grade"].isin(list_of_grades_for_internships)]
+
+    #print(enrollments_eligible_for_internships.head())
+
+    list_of_student_ids = []
+    list_of_org_ids = []
+    list_of_internship_names = []
+    list_of_career_paths = []
+    list_of_is_desired_career_paths = []
+    list_of_interviewds = []
+    list_of_accepteds = []
+    list_of_completeds = []
+    list_of_start_dates = []
+    list_of_end_dates = []
+
+    # To avoid iterrowing over the df, function creates some number of internships given a student-year (one row in df)
+    # This is preemptively optimizing, but an interesting thing to try
+    def generate_internships_for_one_student_year(student_id, academic_year):
+        # For each enrollment record with the correct grade, generate roughly avg_number_of_applications_per_student records
+        #   Note that only one record can be accepted and completed
+        
+        #   - Add student ID
+        #   - Choose random org ID
+        #   - Choose random internship name
+        #   - Select career path
+        #   - interviewed 
+        # random_number_determining_interviewed = random.random()
+        #   - accepted 
+        # random_number_determining_accepted = random.random()
+        #   - completed 
+        # random_number_determining_completed = random.random()
+        #   - Start date: should be some time in June in that year 
+        #  start_date = datetime.date( year[:-4] + i - 1, 1, 1)
+        #   - End date: Should be 2-12 weeks long
+
+        number_of_internships = max(0, int(random.gauss(avg_number_of_applications_per_student, apps_per_student_stdv)))
+        if number_of_internships != 0: 
+            index_of_completed_internship = random.randrange(0, number_of_internships)
+        
+        has_accepted_one_internship = False
+
+        for i in range(number_of_internships):
+            list_of_student_ids.append(student_id)
+            list_of_org_ids.append(list_of_org_ids_from_organizations[random.randrange(0,len(list_of_org_ids_from_organizations))])
+            list_of_internship_names.append(list_of_internships[random.randrange(0,len(list_of_internships))])
+            list_of_career_paths.append(list_of_career_fields[random.randrange(0,len(list_of_career_fields))])
+            
+            is_desired_career_path = random.random()
+            if is_desired_career_path <= rate_of_desired_career_path:
+                list_of_is_desired_career_paths.append(True)
+            else:
+                list_of_is_desired_career_paths.append(False)
+
+            is_interviewed = random.random()
+            if is_interviewed <= rate_of_interviewed:
+                list_of_interviewds.append(True)
+            else:
+                list_of_interviewds.append(False)
+
+            if not has_accepted_one_internship and list_of_interviewds[len(list_of_interviewds)-1]:
+                has_accepted_one_internship = True
+                list_of_accepteds.append(True)
+            else:
+                list_of_accepteds.append(False)
+
+            is_completed = random.random()
+            if list_of_accepteds[len(list_of_accepteds)-1] and is_completed <= rate_of_completion:
+                list_of_completeds.append(True)
+            else:
+                list_of_completeds.append(False)
+
+            random_day_interval_start = random.randrange(1,30)
+            start_date_base = datetime.date( int(academic_year[:4]), 1, 1)
+            # print(start_date_base)
+            start_date = str(start_date_base + datetime.timedelta(days=random_day_interval_start))
+            list_of_start_dates.append(start_date)
+
+            random_day_interval_end = random.randrange(32,90)
+            end_date_base = datetime.date( int(start_date[:4]), int(start_date[5:7]), int(start_date[8:10]))
+            end_date = str(end_date_base + datetime.timedelta(days=random_day_interval_end))
+            list_of_end_dates.append(end_date)
+
+    [generate_internships_for_one_student_year(x, y) for x, y in zip(enrollments_eligible_for_internships['Student ID'], enrollments_eligible_for_internships['Academic Year'])]
+
+    list_of_internship_ids = [x+1 for x in range(len(list_of_student_ids))]
+
+    data = {
+        "Internship ID": list_of_internship_ids,
+        "Student ID": list_of_student_ids,
+        "Organization ID": list_of_org_ids,
+        "Internship Name": list_of_internship_names,
+        "Career Path": list_of_career_paths,
+        "Is Desired Career Path": list_of_is_desired_career_paths,
+        "Interviewed?": list_of_interviewds,
+        "Accepted?": list_of_accepteds,
+        "Completed?": list_of_completeds,
+        "Start Date": list_of_start_dates,
+        "End Date": list_of_end_dates,
+    }
+    
+    df = pd.DataFrame(data)
+    df.to_csv('output/internships.csv', index=False)
+    return df
+
+    # print(enrollments_eligible_for_internships.head())
 
 
 if __name__ == "__main__":
     permrecs = generate_permrecs(3, 10, 2002)
     enrollment = generate_enrollment(permrecs, 5, 0.03)
     organizations = generate_organizations()
+    internships = generate_internships(enrollment, organizations, 3, 1, 0.5, 0.5, 0.5)

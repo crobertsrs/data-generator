@@ -32,11 +32,16 @@ One record per student per year, contains the following information:
 0-6 records per student (2 in HS and up to 5 in college), contains the following information:
 
 - Internship ID
-- Internship Name
+- Student ID
 - Organization ID
+- Internship Name
+- Internship Career Path
+- Is Desired Career Path?
+- Interviewed?
+- Accepted?
+- Completed?
 - Start Date
 - End Date
-- Student ID
 
 **Organizations**
 One record per organization.
@@ -49,6 +54,7 @@ One record per organization.
 
 - Role ID
 - Role Title
+- Career Path
 - Organization ID
 - Start Date
 - End Date
@@ -75,3 +81,9 @@ it has the following structure:
 lower_ed_schools.csv is derived from data from the Washington state Office of the Superintendent of Public Instruction (OSPI), but I didn't want to end up hosting a copy of that data in this repo, so I kept only what I needed. I took the 2021 enrollment report card, filtered for schools with names containing the words "elementary", "middle", and "high". Then I filtered to only include schools in the Seattle, Renton, and Highline school districts. Then I deleted all data except school and district names and deduplicated rows. Data from the WA OSPI can be found at https://www.k12.wa.us/data-reporting/data-portal
 
 higher_ed_schools.csv is derived from the Postsecondary School Location - Current dataset that can be found on the NCES website or data.gov, but I didn't want to end up hosting a copy of that data in this repo, so I kept only what I needed. I kept only the name of the institution, deduplicated rows, then did a little manual cleaning to thin out some of the university systems with many locations. Data from data.gov can be found at https://catalog.data.gov/dataset/postsecondary-school-locations-current
+
+organization_names.txt was generated with https://randommer.io/random-business-names 
+
+job_titles_and_career_paths.csv is the direct match file from the U.S. Bureau of Labor Statistics' 2018 Standard Occupational Classification System modified to include the major and minor groups found in the 2018 SOC Structure https://www.bls.gov/soc/2018/#materials 
+
+
