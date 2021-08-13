@@ -304,7 +304,7 @@ def generate_internships(enrollment_records, organization_records, avg_number_of
     list_of_internships = careers_df["2018 SOC Direct Match Title Intern"].unique().tolist()
     list_of_org_ids_from_organizations = organization_records["Organization ID"].tolist()
 
-    enrollments_eligible_for_internships = enrollment_records[enrollment_records["Grade"].isin(list_of_grades_for_internships)]
+    enrollment_records_eligible_for_internships = enrollment_records[enrollment_records["Grade"].isin(list_of_grades_for_internships)]
 
     # Lists of data to be generated then converted to pandas DF
     list_of_internship_ids = []
@@ -369,7 +369,7 @@ def generate_internships(enrollment_records, organization_records, avg_number_of
             end_date = str(end_date_base + datetime.timedelta(days=random_day_interval_end))
             list_of_end_dates.append(end_date)
 
-    [generate_internships_for_one_student_year(x, y) for x, y in zip(enrollments_eligible_for_internships['Student ID'], enrollments_eligible_for_internships['Academic Year'])]
+    [generate_internships_for_one_student_year(x, y) for x, y in zip(enrollment_records_eligible_for_internships['Student ID'], enrollment_records_eligible_for_internships['Academic Year'])]
 
     list_of_internship_ids = [x+1 for x in range(len(list_of_student_ids))]
 
@@ -391,7 +391,127 @@ def generate_internships(enrollment_records, organization_records, avg_number_of
     df.to_csv('output/internships.csv', index=False)
     return df
 
-    # print(enrollments_eligible_for_internships.head())
+    # print(enrollment_records_eligible_for_internships.head())
+
+# This method assumes we are finding and collecting data about students even after they leave the program
+def generate_career_experiences(enrollment_records, organization_records):
+
+    # Parameters for data generation:
+    career_experience_tenure_average_years = 2
+    career_experience_tenure_stddev_years = 2
+    rate_of_desired_career_paths = 0.5
+    grade_first_eligible_for_career_experience = "9"
+    max_year = int(enrollment_records["Academic Year"].max()[:4])
+
+    # Prepare lookups and sources of data
+
+    # Prepare data - Enrollment records
+    enrollment_records_of_students_first_career_eligible_year = enrollment_records[enrollment_records["Grade"] == grade_first_eligible_for_career_experience]
+
+    # Prepare data - Organization IDs
+    list_of_org_ids_from_organizations = organization_records["Organization ID"].tolist()
+
+    # Prepare data - Career Experience Names
+    careers_df = pd.read_csv('data/job_titles_and_career_paths.csv', header=0)  
+    list_of_career_experience_options = careers_df["2018 SOC Direct Match Title"].unique().tolist()
+
+    # Prepare data - Career fields
+    list_of_career_fields = careers_df["2018 SOC Major Group"].unique().tolist()
+
+    # Lists of data to be generated then converted to pandas df
+    list_of_career_experience_ids = []
+    list_of_student_ids = []
+    list_of_org_ids = []
+    list_of_career_experience_names = []
+    list_of_career_paths = []
+    list_of_is_desired_career_paths = []
+    list_of_start_dates = []
+    list_of_end_dates = []
+
+    # Generate data
+
+    # To avoid iterrowing over the df, this function generates a career experience given a student id and academic year
+    # Method should eventually be called using only each student's first eligible enrollment record (by year)
+    def generate_career_experiences_for_one_student_year(student_id, academic_year, max_year):
+        
+        # max year in enrollments record is assumed to be "current" year
+        # Given a student id and a year, jobs are generated with some number of days as the tenure (minimum of 365)
+        # until "current year" is reached or exceeded for which "present" is used as end date.
+        
+        # Generate data - Max end date 
+        max_date = datetime.date( int(max_year), 1, 1)
+
+        # Set minimum start date based on student's first eligible academic year
+        end_date = datetime.date( int(academic_year[:4]), random.randrange(1,12), 1)
+
+        # Generate career experiences initializing end date with minimum:
+        while end_date < max_date:
+
+            # Generate data - Student ID
+            list_of_student_ids.append(student_id)
+
+            # Generate data - Organization ID
+            list_of_org_ids.append(list_of_org_ids_from_organizations[random.randrange(0,len(list_of_org_ids_from_organizations))])
+
+            # Generate data - Career Experience Name
+            career_experience_name = list_of_career_experience_options[random.randrange(0,len(list_of_career_experience_options))] # will be used again
+            list_of_career_experience_names.append(career_experience_name)
+
+            # Generate data - Career field
+            # filter by direct match title, get career field
+            this_career_experience_df = careers_df[careers_df["2018 SOC Direct Match Title"] == career_experience_name]
+            # print()
+            # print(career_experience_name)
+            # print(this_career_experience_df)
+            # print(this_career_experience_df.index.tolist()[0])
+            career_field_of_this_experience = this_career_experience_df.at[this_career_experience_df.index.tolist()[0],"2018 SOC Major Group"]
+            list_of_career_paths.append(career_field_of_this_experience)
+
+            # Generate data - Is desired career field?
+            is_desired_career_path = random.random()
+            if is_desired_career_path <= rate_of_desired_career_paths:
+                list_of_is_desired_career_paths.append(True)
+            else:
+                list_of_is_desired_career_paths.append(False)
+
+            # Generate data - Start Date
+            # New jobs should start 1-30 days after the previous one ended
+            start_date_days_after_last_job = random.randrange(1,30)
+            delta_for_start_date_after_previous_end_date = datetime.timedelta(days=start_date_days_after_last_job)
+            start_date = end_date + delta_for_start_date_after_previous_end_date
+            list_of_start_dates.append(str(start_date))
+
+            # Generate data - End Date
+            career_experience_tenure = max(1, int(random.gauss(career_experience_tenure_average_years, career_experience_tenure_stddev_years)))
+            career_experience_tenure_interval_delta = datetime.timedelta(days=career_experience_tenure*365)
+            end_date = end_date + career_experience_tenure_interval_delta
+            list_of_end_dates.append(str(end_date))
+
+        # After all jobs have been made, replace final end date with "present"
+        list_of_end_dates[len(list_of_end_dates)-1] = "present"
+
+    # Call data generation function for each student's first eligible enrollment record
+    [ generate_career_experiences_for_one_student_year(x, y, max_year) for x,y in zip(enrollment_records_of_students_first_career_eligible_year["Student ID"], enrollment_records_of_students_first_career_eligible_year["Academic Year"])]
+
+    # Generate data - Career experience IDs
+    list_of_career_experience_ids = [x+1 for x in range(len(list_of_student_ids))]
+
+
+    # Convert lists to data frame and export
+    data = {
+        "Career Experience ID": list_of_career_experience_ids,
+        "Student ID": list_of_student_ids,
+        "Organization ID": list_of_org_ids,
+        "Career Experience Name": list_of_career_experience_names,
+        "Career Path": list_of_career_paths,
+        "Is Desired Career Path": list_of_is_desired_career_paths,
+        "Start Date": list_of_start_dates,
+        "End Date": list_of_end_dates,
+    }
+
+    df = pd.DataFrame(data)
+    df.to_csv('output/careers.csv', index=False)
+    return df
 
 
 if __name__ == "__main__":
@@ -399,3 +519,12 @@ if __name__ == "__main__":
     enrollment = generate_enrollment(permrecs, 5, 0.03)
     organizations = generate_organizations()
     internships = generate_internships(enrollment, organizations, 3, 1, 0.5, 0.5, 0.5)
+    careers = generate_career_experiences(enrollment, organizations)
+
+
+# TO DO
+# Move all parameters to beginning of methods
+# Add more comments
+# Move str out of variables and into the list appends
+# Rename source lists as "options"
+# Change career field selector for internships to match career experience generator

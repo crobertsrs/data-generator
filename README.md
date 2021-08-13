@@ -50,14 +50,20 @@ One record per organization.
 - Organization Name
 
 **Careers**
-0-4 records per student starting in HS.
+These records are meant to track student careers. Each row has the following information:
 
-- Role ID
-- Role Title
-- Career Path
+- Career Experience ID
+- Student ID
 - Organization ID
+- Career Experience Name
+- Career Path
+- Is Desired Career Path
 - Start Date
 - End Date
+
+The rough idea is that starting in 9th grade, we might keep track of the career experiences students are engaging in. Even if they end up not continuing in our program, it can be helpful to know whether or not they are working in their desired field. Though we don't currently collect information in this manner, one could imagine an organization using public tools like LinkedIn, asking alumni, or reaching out to organizational partners to see where students are in their careers. 
+
+For simplicity, this version of the data generator starts giving students career experiences in 9th grade. Each experience lasts a few years, then within 1 month they start a new one. The rate at which any one experience is within their desired career path is randomly chosen. Though that doesn't really reflect reality, it is helpful for testing later.
 
 **Activities**
 0-20 records per student starting in MS, contains the following information:
