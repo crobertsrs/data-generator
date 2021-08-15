@@ -5,6 +5,8 @@ import re
 import datetime
 import random
 import csv
+import json
+
 
 
 def generate_permrecs(number_of_cohorts, cohort_size, starting_year):
@@ -514,13 +516,107 @@ def generate_career_experiences(enrollment_records, organization_records):
     return df
 
 
+def generate_activities(permanent_records, enrollment_records):
+    # For each student, generate activities that cover the time they are in the program.
+    # Some students tend to have more, some tend to have less
+    # Given a student, get the number of years they are in the program
+    #   - Choose how many activities we are going to give them
+    #   - Each year, give them that many activities +- 1
+    #   - If they need to gain or lose an activity, pick one at random
+    #   - Set grade boundaries for completely redoing activities
+    
+    # On average, most student will have 3 activities at a time
+    avg_activities_at_a_time = 3
+    stddev_activities = 2
+
+    grades_that_trigger_activity_rerolling = ["9", "C1"]
+
+    list_of_student_ids = []
+    list_of_activity_ids = []
+    list_of_activity_names = []
+    list_of_activity_types = []
+    list_of_grades_participated = []
+
+    # Load dictionary of activity options
+    dataframe_of_activity_options = pd.read_csv('data/student_organizations.csv')
+    list_of_tuples_of_activity_type_and_name = [(x,y) for x, y in zip(dataframe_of_activity_options["Type"], dataframe_of_activity_options["Name"])]
+
+    # Get student ID's from permrecs
+    list_of_studentids_from_permrecs = permanent_records["Student ID"].tolist()
+
+    # For each ID, subset enrollment records for each student
+    list_of_studentID_grade_tuples = []
+
+    for id in list_of_studentids_from_permrecs:
+        this_students_enrollment_records = enrollment_records[enrollment_records["Student ID"] == str(id)]
+        this_students_grades = this_students_enrollment_records["Grade"].tolist()
+        list_of_studentID_grade_tuples.append((id, this_students_grades))
+
+    # Set this student's number of activities (this student will always have that number plus or minus 1)
+    base_number_of_activities = int(random.gauss(avg_activities_at_a_time, stddev_activities))
+
+    # For each grade we have about the student, choose a number of activities and make that many records for the student
+    list_of_students_current_activities = []
+
+    for studentid_grade in list_of_studentID_grade_tuples:
+        for grade in studentid_grade[1]:
+            modifier = random.randint(-1,1)
+            number_of_activities_for_this_student_this_year = max(0, base_number_of_activities + modifier)
+
+            # To simulate getting new activities at new schools, clear the list when crossing major grade boundaries
+            if grade in grades_that_trigger_activity_rerolling:
+                list_of_students_current_activities = []
+
+            while number_of_activities_for_this_student_this_year > len(list_of_students_current_activities):
+
+                # Randomly choose an activity and type
+                random_activity_and_type = list_of_tuples_of_activity_type_and_name[random.randrange(len(list_of_tuples_of_activity_type_and_name))]
+                activity_type = random_activity_and_type[0]
+                activity_name = random_activity_and_type[1]
+
+                # Add random activity with random type as tuple to list_of_students_current_activities
+                list_of_students_current_activities.append((activity_type, activity_name))
+
+            while number_of_activities_for_this_student_this_year < len(list_of_students_current_activities): 
+
+                #remove random item from list_of_students_current_activities
+                index_to_remove = random.randrange(0,len(list_of_students_current_activities))
+                del list_of_students_current_activities[index_to_remove]
+
+            # by this point, the student's list of current activities should have the correct number
+            # create the records
+            for activity in list_of_students_current_activities:
+                list_of_student_ids.append(studentid_grade[0])
+                list_of_activity_names.append(activity[1])
+                list_of_activity_types.append(activity[0])
+                list_of_grades_participated.append(grade)
+
+    # Generate data - Career experience IDs
+    list_of_activity_ids = [x+1 for x in range(len(list_of_student_ids))]
+
+    # Convert lists to data frame and export
+    data = {
+        "Activity ID": list_of_activity_ids,
+        "Student ID": list_of_student_ids,
+        "Activity Name": list_of_activity_names,
+        "Activity Type": list_of_activity_types,
+        "grades_participated": list_of_grades_participated,
+    }
+
+    df = pd.DataFrame(data)
+    df.to_csv('output/activities.csv', index=False)
+    return df
+
+
+
+
 if __name__ == "__main__":
     permrecs = generate_permrecs(3, 10, 2002)
     enrollment = generate_enrollment(permrecs, 5, 0.03)
     organizations = generate_organizations()
     internships = generate_internships(enrollment, organizations, 3, 1, 0.5, 0.5, 0.5)
     careers = generate_career_experiences(enrollment, organizations)
-
+    activities = generate_activities(permrecs, enrollment)
 
 # TO DO
 # Move all parameters to beginning of methods

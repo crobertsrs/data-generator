@@ -1,435 +1,445 @@
 Internship ID,Student ID,Organization ID,Internship Name,Career Path,Is Desired Career Path,Interviewed?,Accepted?,Completed?,Start Date,End Date
-1,1,47,Long Wall Mining Machine Tender Intern,Business and Financial Operations Occupations,False,False,False,False,2018-01-06,2018-03-13
-2,1,21,Family Counselor Intern,Business and Financial Operations Occupations,True,True,True,False,2018-01-07,2018-03-13
-3,1,22,Assembly Line Tender Intern,Healthcare Practitioners and Technical Occupations,True,False,False,False,2019-01-26,2019-03-02
-4,1,32,Command And Control Intern,Office and Administrative Support Occupations,False,False,False,False,2019-01-10,2019-03-01
-5,1,76,Production Control Technologist Intern,Legal Occupations,True,False,False,False,2020-01-10,2020-03-03
-6,1,5,Relocatable Over-The-Horizon Radar Watch Officer Intern,Transportation and Material Moving Occupations,True,True,True,True,2020-01-04,2020-02-26
-7,1,22,Signal Intelligence/Ground Electronic Warfare Officer Intern,Sales and Related Occupations,True,False,False,False,2020-01-20,2020-03-29
-8,1,76,Printed Circuit Board Drafter Intern,Building and Grounds Cleaning and Maintenance Occupations,True,False,False,False,2021-01-06,2021-03-26
-9,1,17,Aircraft Engine Mechanic Intern,Construction and Extraction Occupations,True,False,False,False,2021-01-20,2021-04-17
-10,1,32,Dynamite Shooter Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,True,True,True,2021-01-23,2021-03-26
-11,2,86,Gift Wrapper Intern,Healthcare Practitioners and Technical Occupations,True,False,False,False,2018-01-30,2018-03-09
-12,2,54,Auto Body Painter Intern,Personal Care and Service Occupations,True,True,True,False,2018-01-27,2018-03-10
-13,2,36,Bottle Line Worker Intern,Management Occupations,True,False,False,False,2018-01-03,2018-02-19
-14,2,65,Marine Air Ground Task Force (Magtf) Planning Specialist Intern,Protective Service Occupations,False,False,False,False,2018-01-08,2018-03-05
-15,2,99,Citrus Picker Intern,Legal Occupations,False,False,False,False,2019-01-13,2019-02-26
-16,2,82,Fire Control Technician G (Gunfire Control) Intern,Healthcare Practitioners and Technical Occupations,False,False,False,False,2019-01-10,2019-03-07
-17,2,71,Radio Astronomer Intern,"Installation, Maintenance, and Repair Occupations",True,True,True,False,2020-01-14,2020-04-05
-18,2,31,Histologic Aide Intern,Community and Social Service Occupations,True,True,False,False,2020-01-16,2020-03-12
-19,2,29,Executive Casino Host Intern,Production Occupations,True,False,False,False,2021-01-21,2021-04-07
-20,2,64,Accompanist Intern,Office and Administrative Support Occupations,False,True,True,False,2021-01-09,2021-04-01
-21,2,21,Construction Equipment Mechanic Intern,Protective Service Occupations,False,True,False,False,2021-01-04,2021-02-26
-22,2,40,Trench Pipe Layer Helper Intern,Sales and Related Occupations,True,False,False,False,2022-01-13,2022-03-18
-23,2,4,Aquaculture Farm Manager Intern,Personal Care and Service Occupations,False,True,True,False,2022-01-22,2022-03-28
-24,2,51,Tool and Die Designer Intern,Transportation and Material Moving Occupations,True,False,False,False,2022-01-16,2022-03-02
-25,2,90,Shingles Roofer Helper Intern,Personal Care and Service Occupations,False,False,False,False,2023-01-07,2023-02-21
-26,2,64,Certified Phlebotomy Technician Intern,"Life, Physical, and Social Science Occupations",False,True,True,True,2023-01-15,2023-02-19
-27,2,63,Electrical Estimator Intern,Management Occupations,False,False,False,False,2023-01-24,2023-04-14
-28,2,6,Free Lance Artist Intern,Production Occupations,False,True,True,False,2024-01-10,2024-03-26
-29,2,25,Au Pair Intern,"Farming, Fishing, and Forestry Occupations",True,False,False,False,2024-01-15,2024-04-11
-30,3,11,Seismic Observer Intern,Personal Care and Service Occupations,True,False,False,False,2018-01-15,2018-04-11
-31,3,68,Railway Switch Operator Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,True,True,False,2018-01-16,2018-03-04
-32,3,88,"Officer In Charge, Aviation Unit Or Detachment Intern",Healthcare Practitioners and Technical Occupations,False,False,False,False,2019-01-17,2019-03-22
-33,3,78,Highway Maintainer Intern,"Life, Physical, and Social Science Occupations",False,False,False,False,2020-01-22,2020-03-26
-34,3,91,Mining Excavator Backhoe Operator Intern,Computer and Mathematical Occupations,False,False,False,False,2020-01-16,2020-03-11
-35,3,34,Thermostat Repairer Intern,Architecture and Engineering Occupations,True,True,True,False,2021-01-07,2021-03-29
-36,3,51,Heavy Antiarmor Weapons Infantryman Intern,"Installation, Maintenance, and Repair Occupations",False,False,False,False,2022-01-28,2022-03-20
-37,3,53,Wind Tunnel Technician Intern,Sales and Related Occupations,True,True,True,False,2023-01-02,2023-03-06
-38,3,59,Hedge Trimmer Intern,Military Specific Occupations,False,False,False,False,2023-01-20,2023-04-19
-39,3,21,Edge Trimmer Mechanic Intern,Computer and Mathematical Occupations,False,True,True,True,2024-01-18,2024-03-19
-40,3,28,Registered Radiation Therapist Intern,Production Occupations,False,True,False,False,2024-01-26,2024-03-11
-41,4,5,Structural Engineering Technician Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,False,False,False,2019-01-22,2019-03-06
-42,4,32,Livestock Breeder Intern,Food Preparation and Serving Related Occupations,True,True,True,False,2019-01-02,2019-03-29
-43,4,40,Convention Planner Intern,Military Specific Occupations,True,False,False,False,2019-01-15,2019-03-07
-44,4,17,Labor Relations Director Intern,Legal Occupations,True,False,False,False,2020-01-21,2020-03-14
-45,4,10,Blueprint Tracer Intern,Transportation and Material Moving Occupations,True,True,True,True,2021-01-23,2021-03-04
-46,4,43,Targeting Acquisition Officer Intern,Transportation and Material Moving Occupations,False,True,False,False,2021-01-07,2021-03-19
-47,4,71,Nuclear Station Operator Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,True,False,False,2021-01-26,2021-04-09
-48,4,100,Draughtsman Intern,"Installation, Maintenance, and Repair Occupations",True,False,False,False,2022-01-19,2022-03-17
-49,4,37,Transformer Maker Intern,"Life, Physical, and Social Science Occupations",False,False,False,False,2022-01-30,2022-04-28
-50,4,49,Dog Trainer Intern,Building and Grounds Cleaning and Maintenance Occupations,False,False,False,False,2023-01-16,2023-03-18
-51,4,36,Executive Casino Host Intern,"Farming, Fishing, and Forestry Occupations",True,True,True,True,2023-01-18,2023-03-29
-52,4,100,Printing Worker Supervisor Intern,Architecture and Engineering Occupations,True,False,False,False,2023-01-20,2023-04-19
-53,4,70,Bottle Line Worker Intern,"Installation, Maintenance, and Repair Occupations",False,False,False,False,2023-01-26,2023-03-14
-54,4,42,Unexploded Ordnance Quality Control Worker Intern,Production Occupations,True,False,False,False,2024-01-02,2024-03-19
-55,4,46,Underwriting Account Representative Intern,Management Occupations,False,False,False,False,2025-01-20,2025-03-27
-56,4,45,Pedicab Driver Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,False,False,False,2025-01-09,2025-02-15
-57,4,77,Tool Polishing Machine Operator Intern,Military Specific Occupations,False,True,True,True,2025-01-07,2025-02-28
-58,4,93,Silk Screen Printer Intern,Military Specific Occupations,False,True,False,False,2025-01-06,2025-03-29
-59,5,21,Pedorthist Intern,Building and Grounds Cleaning and Maintenance Occupations,True,False,False,False,2019-01-02,2019-02-21
-60,5,67,Automotive Glass Technician Intern,"Life, Physical, and Social Science Occupations",True,False,False,False,2019-01-26,2019-03-26
-61,5,14,Pawn Shop Clerk Intern,Building and Grounds Cleaning and Maintenance Occupations,False,True,True,True,2019-01-27,2019-03-02
-62,5,83,Dispensing Audiologist Intern,Architecture and Engineering Occupations,False,False,False,False,2020-01-08,2020-03-08
-63,5,65,Apparel Embroidery Digitizer Intern,Legal Occupations,True,False,False,False,2020-01-26,2020-03-28
-64,5,52,Floriculture Professor Intern,Healthcare Practitioners and Technical Occupations,True,False,False,False,2020-01-04,2020-02-23
-65,5,19,Medical Photographer Intern,Healthcare Practitioners and Technical Occupations,True,False,False,False,2021-01-15,2021-04-14
-66,5,41,Boom Crane Operator Intern,Healthcare Practitioners and Technical Occupations,True,False,False,False,2021-01-12,2021-04-04
-67,5,46,Forestry Technician Intern,"Installation, Maintenance, and Repair Occupations",False,False,False,False,2022-01-29,2022-03-23
-68,5,80,Orthodontist Assistant Intern,"Life, Physical, and Social Science Occupations",False,False,False,False,2022-01-15,2022-04-09
-69,5,82,Invoice Control Clerk Intern,Sales and Related Occupations,False,False,False,False,2022-01-08,2022-03-02
-70,5,63,Rip Saw Operator Intern,Building and Grounds Cleaning and Maintenance Occupations,True,False,False,False,2023-01-22,2023-03-10
-71,5,76,Wall-to-Wall Carpet Installer Intern,Community and Social Service Occupations,False,True,True,True,2023-01-23,2023-03-03
-72,5,80,Distribution Center Manager Intern,Transportation and Material Moving Occupations,False,True,False,False,2023-01-20,2023-04-01
-73,5,95,Air Control Electronics Operator Intern,Office and Administrative Support Occupations,False,False,False,False,2024-01-14,2024-03-27
-74,5,62,Ethics Professor Intern,Production Occupations,False,True,True,False,2024-01-02,2024-03-06
-75,5,66,Agency Legal Counsel Intern,Construction and Extraction Occupations,True,False,False,False,2024-01-25,2024-03-22
-76,5,86,Acds Block 1 Operator Intern,Protective Service Occupations,False,False,False,False,2025-01-22,2025-03-16
-77,5,73,Eyeglass Lens Cutter Intern,Sales and Related Occupations,True,True,True,False,2025-01-27,2025-04-22
-78,7,80,Labor Relations Consultant Intern,Educational Instruction and Library Occupations,False,True,True,True,2020-01-28,2020-03-29
-79,7,71,Boiler Mechanic Intern,Building and Grounds Cleaning and Maintenance Occupations,True,True,True,False,2021-01-16,2021-03-18
-80,7,34,Nanny Intern,Community and Social Service Occupations,False,False,False,False,2021-01-26,2021-04-16
-81,7,12,Cartography Professor Intern,Educational Instruction and Library Occupations,False,True,True,True,2022-01-29,2022-03-07
-82,7,69,Copying Machine Repairer Intern,Building and Grounds Cleaning and Maintenance Occupations,True,True,False,False,2022-01-26,2022-03-05
-83,7,70,Ambulatory Anesthesiologist Intern,"Life, Physical, and Social Science Occupations",True,False,False,False,2022-01-27,2022-03-12
-84,7,31,Synchronous Motor Assembler Intern,Sales and Related Occupations,False,True,True,False,2023-01-21,2023-03-29
-85,7,71,Cryptanalyst Intern,"Farming, Fishing, and Forestry Occupations",False,True,False,False,2023-01-04,2023-03-05
-86,7,16,Network Diagnostic Support Specialist Intern,Healthcare Support Occupations,False,False,False,False,2024-01-14,2024-03-26
-87,7,97,Grades 1 Through 5 Teacher Intern,Construction and Extraction Occupations,False,True,True,True,2024-01-16,2024-03-07
-88,7,77,Weapons Officer Intern,Architecture and Engineering Occupations,False,False,False,False,2025-01-25,2025-04-13
-89,7,35,Resort Desk Clerk Intern,Management Occupations,True,True,True,False,2025-01-07,2025-03-17
-90,7,15,Therapeutic Dietitian Intern,Community and Social Service Occupations,False,True,False,False,2025-01-09,2025-02-10
-91,7,2,VP Promotions Intern,Management Occupations,False,True,False,False,2025-01-18,2025-04-15
-92,7,73,Electrocardiogram Technician Intern,Office and Administrative Support Occupations,False,False,False,False,2025-01-16,2025-04-06
-93,7,41,Hebrew Cantor Intern,Construction and Extraction Occupations,True,False,False,False,2026-01-19,2026-04-03
-94,7,46,Crating and Moving Estimator Intern,Sales and Related Occupations,False,True,True,False,2026-01-28,2026-03-03
-95,8,98,Special Technical Operations Officer Intern,Construction and Extraction Occupations,True,True,True,True,2020-01-14,2020-02-24
-96,8,57,Sunday School Teacher Aide Intern,Production Occupations,False,True,False,False,2020-01-12,2020-02-21
-97,8,89,Pharmaceutical Detailer Intern,Production Occupations,True,True,True,True,2021-01-19,2021-02-20
-98,8,78,Long Distance Operator Intern,Business and Financial Operations Occupations,True,False,False,False,2021-01-10,2021-02-21
-99,8,26,Nursing Home Manager Intern,Office and Administrative Support Occupations,False,True,True,True,2022-01-15,2022-04-02
-100,8,51,Parking Meter Collector Intern,Protective Service Occupations,True,False,False,False,2022-01-21,2022-02-28
-101,8,17,Mobile Applications Developer Intern,Architecture and Engineering Occupations,True,False,False,False,2022-01-27,2022-03-19
-102,8,35,Lance Crewmember/Mlrs Sergeant Intern,Healthcare Practitioners and Technical Occupations,False,False,False,False,2023-01-26,2023-03-11
-103,8,32,Gas Storage Operator Intern,Production Occupations,False,False,False,False,2023-01-08,2023-03-20
-104,8,92,Field Artillery Senior Sergeant Intern,Construction and Extraction Occupations,False,True,True,False,2023-01-21,2023-03-31
-105,8,72,Space Systems Operations Superintendent Intern,Management Occupations,True,True,True,False,2024-01-24,2024-02-26
-106,8,37,Sales Director Intern,Transportation and Material Moving Occupations,True,False,False,False,2024-01-20,2024-03-01
-107,8,3,American Sign Language Interpreter Intern,"Life, Physical, and Social Science Occupations",False,True,True,False,2025-01-16,2025-03-13
-108,8,55,Black Studies Professor Intern,Architecture and Engineering Occupations,False,False,False,False,2025-01-05,2025-03-01
-109,8,26,Wastewater Operator Intern,Management Occupations,True,True,True,True,2026-01-25,2026-03-04
-110,8,68,Marine Pipefitter Intern,Personal Care and Service Occupations,False,False,False,False,2026-01-09,2026-02-28
-111,8,92,Mine Shuttle Car Operator Intern,Military Specific Occupations,True,False,False,False,2026-01-26,2026-02-27
-112,9,89,Mental Health Orderly Intern,Business and Financial Operations Occupations,True,True,True,False,2020-01-28,2020-03-19
-113,9,58,Management Information Systems Director Intern,"Life, Physical, and Social Science Occupations",True,True,False,False,2020-01-08,2020-02-12
-114,9,24,Mortgage Closing Clerk Intern,Architecture and Engineering Occupations,True,True,True,False,2021-01-28,2021-03-02
-115,9,13,Oil Well Engineer Intern,Architecture and Engineering Occupations,True,False,False,False,2021-01-04,2021-03-21
-116,9,85,Gift Wrapper Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",False,False,False,False,2021-01-22,2021-04-05
-117,9,92,Mental Health Orderly Intern,Community and Social Service Occupations,False,True,True,True,2022-01-05,2022-03-12
-118,9,31,Lime Filter Operator Intern,"Farming, Fishing, and Forestry Occupations",False,True,False,False,2022-01-10,2022-03-17
-119,9,39,Telesales Supervisor Intern,Healthcare Support Occupations,True,False,False,False,2022-01-15,2022-04-11
-120,9,34,Gem Cutter Intern,"Life, Physical, and Social Science Occupations",False,False,False,False,2022-01-09,2022-03-10
-121,9,14,Time Study Statistician Intern,Community and Social Service Occupations,True,False,False,False,2022-01-15,2022-04-09
-122,9,63,On-Air Director Intern,Healthcare Support Occupations,True,True,True,True,2023-01-11,2023-04-02
-123,9,13,Driver Education Instructor Intern,Office and Administrative Support Occupations,False,True,False,False,2023-01-30,2023-03-26
-124,9,7,Computer Programming Professor Intern,Community and Social Service Occupations,True,False,False,False,2023-01-16,2023-03-31
-125,9,63,License Clerk Intern,Management Occupations,True,False,False,False,2024-01-14,2024-03-10
-126,9,5,Biodiesel Engine Specialist Intern,Architecture and Engineering Occupations,False,False,False,False,2024-01-07,2024-03-20
-127,9,76,Card Table Attendant Intern,Office and Administrative Support Occupations,True,False,False,False,2025-01-02,2025-03-11
-128,9,61,Manufacturing Operations Manager Intern,Healthcare Support Occupations,False,True,True,True,2025-01-22,2025-04-01
-129,9,40,Slot Attendant Intern,Business and Financial Operations Occupations,True,False,False,False,2025-01-12,2025-03-13
-130,9,4,Sampling Expert Intern,Transportation and Material Moving Occupations,False,False,False,False,2026-01-17,2026-03-05
-131,9,49,Production Cost Estimator Intern,Building and Grounds Cleaning and Maintenance Occupations,False,False,False,False,2026-01-05,2026-02-11
-132,10,7,Seismic Observer Intern,Personal Care and Service Occupations,True,False,False,False,2021-01-25,2021-03-27
-133,10,30,Powerhouse Electrician Intern,"Installation, Maintenance, and Repair Occupations",False,False,False,False,2021-01-20,2021-04-02
-134,10,10,Russian History Professor Intern,Food Preparation and Serving Related Occupations,True,False,False,False,2022-01-02,2022-02-06
-135,10,1,Pipe Fitter Helper Intern,Architecture and Engineering Occupations,False,False,False,False,2022-01-23,2022-03-22
-136,10,27,Photo Lab Specialist Intern,Business and Financial Operations Occupations,False,False,False,False,2022-01-14,2022-03-24
-137,11,5,Court Messenger Intern,Computer and Mathematical Occupations,True,True,True,True,2021-01-23,2021-03-11
-138,11,27,Pediatric Physician Assistant Intern,Legal Occupations,True,False,False,False,2021-01-28,2021-03-31
-139,11,79,Auto Clutch Rebuilder Intern,Military Specific Occupations,True,True,True,False,2022-01-20,2022-04-03
-140,11,56,Fiberglass Luggage Molder Intern,"Installation, Maintenance, and Repair Occupations",False,False,False,False,2022-01-06,2022-03-26
-141,11,68,Personnel Administrator Intern,Building and Grounds Cleaning and Maintenance Occupations,True,True,False,False,2022-01-24,2022-04-10
-142,11,33,Poultry Cutter Intern,Legal Occupations,False,False,False,False,2023-01-22,2023-03-22
-143,11,24,Registered Respiratory Therapist Intern,Educational Instruction and Library Occupations,False,False,False,False,2023-01-18,2023-03-09
-144,11,24,Spike Machine Operator Intern,Personal Care and Service Occupations,False,False,False,False,2024-01-26,2024-03-25
-145,11,15,Armor Reconnaissance Vehicle Driver Intern,Architecture and Engineering Occupations,True,False,False,False,2024-01-07,2024-03-14
-146,11,36,Almond Paste Mixer Intern,"Life, Physical, and Social Science Occupations",False,False,False,False,2025-01-21,2025-02-25
-147,11,28,Corporate Financial Analyst Intern,"Farming, Fishing, and Forestry Occupations",True,True,True,False,2025-01-05,2025-03-24
-148,11,74,Sleeping Car Service Attendant Intern,Business and Financial Operations Occupations,False,False,False,False,2025-01-28,2025-03-27
-149,11,22,Naval Engineer Intern,Sales and Related Occupations,True,False,False,False,2026-01-20,2026-04-02
-150,11,74,Slate Roofer Helper Intern,Community and Social Service Occupations,False,False,False,False,2026-01-02,2026-03-05
-151,11,71,Network Technician Intern,Transportation and Material Moving Occupations,False,True,True,True,2027-01-19,2027-04-10
-152,12,56,Circulation Clerk Intern,Office and Administrative Support Occupations,True,False,False,False,2021-01-24,2021-04-09
-153,12,39,Radiation Engineer Intern,Building and Grounds Cleaning and Maintenance Occupations,True,True,True,False,2022-01-19,2022-04-11
-154,12,32,Transportation Manager Intern,Community and Social Service Occupations,False,True,False,False,2022-01-05,2022-04-03
-155,12,13,Statement Clerk Intern,Office and Administrative Support Occupations,False,False,False,False,2023-01-15,2023-03-27
-156,12,59,House Carpenter Helper Intern,Healthcare Practitioners and Technical Occupations,True,False,False,False,2023-01-02,2023-03-02
-157,12,85,Naval Tactical Data System--Combat Information Center Officer Intern,Educational Instruction and Library Occupations,True,False,False,False,2024-01-16,2024-04-01
-158,12,5,Fixed-Wing Aircraft Crew Chief Intern,Educational Instruction and Library Occupations,False,False,False,False,2024-01-18,2024-03-10
-159,12,79,Airplane Charter Clerk Intern,Transportation and Material Moving Occupations,True,False,False,False,2025-01-18,2025-03-28
-160,12,17,Sweater Designer Intern,Healthcare Support Occupations,False,False,False,False,2025-01-12,2025-02-25
-161,12,100,Costume Designer Intern,Healthcare Practitioners and Technical Occupations,False,False,False,False,2025-01-06,2025-03-05
-162,12,22,Biomedical Electronics Technician Intern,Building and Grounds Cleaning and Maintenance Occupations,False,False,False,False,2026-01-07,2026-03-29
-163,12,83,Industrial Gas Fitter Helper Intern,Healthcare Support Occupations,False,True,True,False,2026-01-19,2026-03-22
-164,12,18,Multi-operation Forming Machine Setter Intern,Community and Social Service Occupations,True,True,True,False,2027-01-29,2027-04-28
-165,12,9,Procedure Analyst Intern,"Life, Physical, and Social Science Occupations",False,True,False,False,2027-01-27,2027-03-05
-166,13,58,Research Librarian Intern,Business and Financial Operations Occupations,False,False,False,False,2022-01-07,2022-03-07
-167,13,80,Wetlands Conservation Laborer Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,True,True,False,2022-01-28,2022-04-19
-168,13,46,Police Detective Intern,Personal Care and Service Occupations,True,False,False,False,2022-01-03,2022-03-20
-169,13,80,Marine Rigger Intern,Architecture and Engineering Occupations,False,True,True,True,2023-01-14,2023-03-02
-170,13,27,Retail Buyer Intern,"Farming, Fishing, and Forestry Occupations",False,True,True,True,2024-01-08,2024-02-13
-171,13,27,Sales Director Intern,Production Occupations,False,True,False,False,2024-01-17,2024-02-21
-172,13,48,Biological Chemist Intern,Military Specific Occupations,False,False,False,False,2024-01-12,2024-03-14
-173,13,33,Mineralogy Professor Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",False,True,True,False,2025-01-16,2025-02-27
-174,13,37,Agricultural Soil Conservation Professor Intern,"Life, Physical, and Social Science Occupations",False,False,False,False,2025-01-15,2025-02-21
-175,13,17,Aoc Airspace Control Officer Intern,Architecture and Engineering Occupations,False,False,False,False,2025-01-19,2025-04-15
-176,13,35,Wood Tile Installation Helper Intern,Construction and Extraction Occupations,True,True,False,False,2025-01-15,2025-02-16
-177,13,22,Carpet Layer Intern,"Life, Physical, and Social Science Occupations",True,True,True,False,2026-01-25,2026-04-13
-178,13,20,Naval Surface Fire Support Planner Intern,Building and Grounds Cleaning and Maintenance Occupations,True,False,False,False,2026-01-21,2026-04-15
-179,13,82,Real Property Evaluator Intern,Legal Occupations,False,True,True,False,2027-01-29,2027-03-31
-180,13,97,Bore Mill Operator for Plastic Intern,Legal Occupations,False,True,False,False,2027-01-25,2027-04-15
-181,13,6,Data Analytics Specialist Intern,Office and Administrative Support Occupations,False,False,False,False,2028-01-10,2028-03-04
-182,13,68,Fiscal Manager Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",False,False,False,False,2028-01-25,2028-03-10
-183,13,77,Satellite Communications Operator Intern,"Life, Physical, and Social Science Occupations",False,True,True,False,2028-01-11,2028-03-16
-184,14,82,EMS Director Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,False,False,False,2022-01-03,2022-02-17
-185,14,19,Oceanography Professor Intern,Personal Care and Service Occupations,False,True,True,False,2022-01-22,2022-04-21
-186,14,55,Winch Derrick Operator Intern,Food Preparation and Serving Related Occupations,False,False,False,False,2022-01-14,2022-03-11
-187,14,93,Beveller Operator Intern,Educational Instruction and Library Occupations,False,False,False,False,2024-01-29,2024-03-14
-188,14,38,Golf Caddy Intern,Healthcare Practitioners and Technical Occupations,False,True,True,False,2024-01-30,2024-03-16
-189,14,53,Scene and Lighting Design Lecturer Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,True,False,False,2024-01-24,2024-03-25
-190,14,35,Special Warfare Boat Operator Intern,Community and Social Service Occupations,True,False,False,False,2025-01-28,2025-03-02
-191,14,10,Boat Painter Intern,Transportation and Material Moving Occupations,True,True,True,False,2025-01-29,2025-04-16
-192,14,60,Ski Coach Intern,Transportation and Material Moving Occupations,False,True,False,False,2025-01-20,2025-03-07
-193,14,46,Radioisotope Technologist Intern,"Installation, Maintenance, and Repair Occupations",False,False,False,False,2026-01-13,2026-03-23
-194,14,14,Zookeeper Intern,Computer and Mathematical Occupations,True,False,False,False,2026-01-14,2026-03-25
-195,14,88,Anode Builder Intern,Building and Grounds Cleaning and Maintenance Occupations,True,True,True,True,2027-01-04,2027-03-17
-196,15,24,Display Artist Intern,Production Occupations,False,True,True,False,2023-01-30,2023-03-10
-197,15,14,Periodontist Intern,Transportation and Material Moving Occupations,True,False,False,False,2023-01-03,2023-03-20
-198,15,97,Drug Abuse Social Worker Intern,Protective Service Occupations,False,True,True,False,2024-01-15,2024-04-08
-199,15,90,Marketing Instructor Intern,Healthcare Practitioners and Technical Occupations,True,True,False,False,2024-01-22,2024-03-05
-200,15,12,Flutist Intern,Sales and Related Occupations,True,False,False,False,2024-01-20,2024-04-06
-201,15,17,Homeowner Association Manager Intern,Management Occupations,False,True,True,True,2025-01-06,2025-03-22
-202,15,88,Snowmobile Mechanic Intern,Military Specific Occupations,False,True,False,False,2025-01-03,2025-02-11
-203,15,75,Signals Intelligence/Electronic Warfare Chief Intern,Office and Administrative Support Occupations,False,False,False,False,2025-01-10,2025-02-21
-204,15,32,Funeral Home Assistant Intern,Educational Instruction and Library Occupations,True,True,False,False,2025-01-26,2025-04-11
-205,15,25,Forest Firefighter Intern,Healthcare Support Occupations,True,True,True,True,2026-01-27,2026-04-14
-206,15,16,Quality Inspector Intern,Healthcare Support Occupations,True,False,False,False,2026-01-22,2026-03-20
-207,15,69,Pharmacist Aide Intern,Computer and Mathematical Occupations,False,False,False,False,2026-01-10,2026-04-08
-208,15,45,Licensed Massage Therapist Intern,Protective Service Occupations,False,False,False,False,2027-01-28,2027-03-04
-209,15,20,Communication Signals Intelligence Intern,Transportation and Material Moving Occupations,False,True,True,False,2027-01-27,2027-04-02
-210,15,75,Environmental Conservation Professor Intern,Computer and Mathematical Occupations,False,False,False,False,2028-01-29,2028-03-19
-211,15,58,Casino Floor Runner Intern,Legal Occupations,True,False,False,False,2028-01-21,2028-04-15
-212,16,97,Pharmacist Technician Intern,Production Occupations,False,True,True,False,2023-01-06,2023-02-23
-213,16,4,Telemarketing Sales Representative Intern,Management Occupations,False,True,False,False,2023-01-26,2023-03-23
-214,16,94,Tactical/Mobile (Tacmobile) Ashore Analysis Systems Operator Intern,Personal Care and Service Occupations,False,False,False,False,2023-01-27,2023-04-10
-215,16,92,Phlebotomy Technician Intern,Transportation and Material Moving Occupations,True,False,False,False,2024-01-20,2024-04-14
-216,16,1,Barge Loader Intern,Personal Care and Service Occupations,True,True,True,True,2024-01-15,2024-03-29
-217,16,47,Mobile Bridge Conveyor Operator Intern,Military Specific Occupations,True,False,False,False,2024-01-30,2024-03-10
-218,16,63,Maxillofacial Surgeon Intern,Construction and Extraction Occupations,True,True,False,False,2024-01-22,2024-03-24
-219,16,52,Acid Purification Equipment Operator Intern,Management Occupations,True,False,False,False,2025-01-05,2025-03-13
-220,16,34,Field Artillery Operations Man Intern,Architecture and Engineering Occupations,False,False,False,False,2026-01-14,2026-03-04
-221,16,100,Business Office Manager Intern,Food Preparation and Serving Related Occupations,True,True,True,False,2026-01-26,2026-04-15
-222,16,56,Palliative Care Nurse Practitioner Intern,Business and Financial Operations Occupations,False,True,False,False,2026-01-29,2026-03-15
-223,16,18,Industrial Safety Engineer Intern,Office and Administrative Support Occupations,True,False,False,False,2027-01-03,2027-03-27
-224,16,57,Logging Equipment Mechanic Helper Intern,Protective Service Occupations,True,True,True,True,2027-01-25,2027-04-10
-225,16,100,Electronic Resources Librarian Intern,Business and Financial Operations Occupations,False,True,False,False,2027-01-11,2027-02-25
-226,16,37,Blind Aide Intern,Building and Grounds Cleaning and Maintenance Occupations,False,False,False,False,2027-01-23,2027-04-02
-227,16,6,Pollution Control Engineer Intern,Food Preparation and Serving Related Occupations,True,True,True,True,2028-01-07,2028-02-09
-228,16,10,Foundry Molder Intern,Computer and Mathematical Occupations,False,True,False,False,2028-01-15,2028-03-17
-229,16,98,Residential Building Inspector Intern,Legal Occupations,True,True,False,False,2028-01-27,2028-03-08
-230,16,15,Aircraft Photographic Equipment Repairer Intern,Construction and Extraction Occupations,False,False,False,False,2029-01-17,2029-02-21
-231,16,100,Hat Designer Intern,Food Preparation and Serving Related Occupations,False,True,True,False,2029-01-09,2029-03-04
-232,17,37,Harbor Pilot Intern,Office and Administrative Support Occupations,True,False,False,False,2023-01-22,2023-03-20
-233,17,100,Probation Officer Intern,Military Specific Occupations,True,True,True,True,2023-01-23,2023-03-01
-234,17,33,Machine Engraver Intern,Healthcare Practitioners and Technical Occupations,False,False,False,False,2024-01-13,2024-02-23
-235,17,16,Passenger Agent Intern,Food Preparation and Serving Related Occupations,True,False,False,False,2024-01-07,2024-03-09
-236,17,31,Computational Theory Scientist Intern,Office and Administrative Support Occupations,False,False,False,False,2024-01-26,2024-04-17
-237,17,48,Rig Supervisor Intern,"Installation, Maintenance, and Repair Occupations",False,False,False,False,2025-01-12,2025-03-25
-238,17,77,Secondary School Assistant Teacher Intern,Food Preparation and Serving Related Occupations,False,False,False,False,2025-01-20,2025-03-15
-239,18,27,Funeral Assistant Intern,Construction and Extraction Occupations,True,False,False,False,2023-01-09,2023-02-14
-240,18,5,Towboat Pilot Intern,Community and Social Service Occupations,False,False,False,False,2023-01-09,2023-03-15
-241,18,58,Registered Medical Transcriptionist Intern,Building and Grounds Cleaning and Maintenance Occupations,False,True,True,False,2023-01-14,2023-02-28
-242,18,33,Memorial Marker Designer Intern,Construction and Extraction Occupations,True,False,False,False,2023-01-05,2023-03-30
-243,18,34,Spooler Operator Intern,"Farming, Fishing, and Forestry Occupations",True,False,False,False,2024-01-27,2024-03-21
-244,18,55,Emergency Communications Operator Intern,"Installation, Maintenance, and Repair Occupations",False,True,True,False,2024-01-06,2024-02-13
-245,18,68,Cullet Crusher and Washer Intern,Building and Grounds Cleaning and Maintenance Occupations,False,True,False,False,2024-01-03,2024-02-27
-246,18,17,Reaming Machine Operator for Plastic Intern,Personal Care and Service Occupations,False,False,False,False,2025-01-07,2025-02-15
-247,18,23,Deer Hunter Intern,Community and Social Service Occupations,False,True,True,False,2025-01-24,2025-02-26
-248,18,67,Professional Dirt Bike Racer Intern,Food Preparation and Serving Related Occupations,False,True,False,False,2025-01-25,2025-04-24
-249,18,87,Aircraft Cleaner Intern,"Installation, Maintenance, and Repair Occupations",True,True,True,True,2026-01-22,2026-04-03
-250,18,67,Picking Crew Supervisor Intern,Sales and Related Occupations,True,False,False,False,2027-01-28,2027-03-09
-251,18,89,Logging Equipment Mechanic Intern,Protective Service Occupations,True,True,True,True,2027-01-12,2027-03-16
-252,18,93,Tactical Air Control Party (Tacp) Manager Intern,Transportation and Material Moving Occupations,True,False,False,False,2027-01-12,2027-03-18
-253,18,71,Post Tensioning Ironworker Helper Intern,Educational Instruction and Library Occupations,True,True,True,True,2028-01-25,2028-03-15
-254,18,46,Clutch Housing Assembler Intern,Architecture and Engineering Occupations,False,True,False,False,2028-01-29,2028-03-17
-255,18,59,Cosmetology Instructor Intern,Construction and Extraction Occupations,True,False,False,False,2029-01-12,2029-03-08
-256,18,92,Tile Designer Intern,Military Specific Occupations,False,True,True,False,2029-01-12,2029-02-14
-257,19,94,Book Sorter Intern,Healthcare Practitioners and Technical Occupations,False,False,False,False,2024-01-26,2024-03-05
-258,19,61,Nursing Home Manager Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",False,False,False,False,2024-01-21,2024-02-24
-259,19,61,Signals Intelligence Analysis Manager Intern,"Life, Physical, and Social Science Occupations",False,True,True,False,2024-01-27,2024-03-22
-260,19,14,Mine Tailings Worker Intern,Healthcare Support Occupations,True,False,False,False,2024-01-21,2024-04-16
-261,19,89,Oil Field Roustabout Intern,Educational Instruction and Library Occupations,True,True,True,True,2025-01-20,2025-02-26
-262,19,98,Global Command And Control System Common Operational Picture/Maritime 4.X (Gccs Cop/M 4.X) Operator Intern,Office and Administrative Support Occupations,False,False,False,False,2026-01-23,2026-03-04
-263,19,21,Scuba Diver Intern,Personal Care and Service Occupations,False,False,False,False,2026-01-22,2026-03-27
-264,19,96,Aoc Director Combat Operations Officer Intern,Food Preparation and Serving Related Occupations,True,False,False,False,2027-01-16,2027-02-20
-265,19,55,Truck Washer Intern,Legal Occupations,True,False,False,False,2027-01-21,2027-02-26
-266,19,10,Parole Officer Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,True,True,True,2027-01-11,2027-03-17
-267,19,81,Certified Rehabilitation Counselor Intern,Sales and Related Occupations,False,False,False,False,2028-01-12,2028-04-09
-268,19,66,Special Communication Signals Collection Operator/Analyst Intern,Computer and Mathematical Occupations,False,True,True,True,2028-01-09,2028-03-04
-269,19,35,Foreign Exchange Trader Intern,Business and Financial Operations Occupations,False,False,False,False,2028-01-28,2028-04-15
-270,19,38,Electronics Technology Instructor Intern,Healthcare Support Occupations,False,True,True,False,2029-01-23,2029-03-08
-271,19,27,Window Decorator Intern,Community and Social Service Occupations,True,False,False,False,2029-01-23,2029-04-11
-272,19,51,Quilter Intern,Healthcare Practitioners and Technical Occupations,False,False,False,False,2029-01-10,2029-02-23
-273,19,94,Fiber Optic Central Office Installer Intern,Office and Administrative Support Occupations,True,True,True,False,2030-01-16,2030-04-01
-274,19,49,Construction Millwright Intern,Computer and Mathematical Occupations,False,True,False,False,2030-01-27,2030-03-05
-275,19,32,Gear Cutter Intern,Building and Grounds Cleaning and Maintenance Occupations,True,True,False,False,2030-01-13,2030-04-05
-276,21,43,Classified Ad Clerk Intern,"Farming, Fishing, and Forestry Occupations",False,False,False,False,2024-01-17,2024-03-11
-277,21,68,LAN Systems Administrator Intern,Community and Social Service Occupations,False,False,False,False,2024-01-24,2024-04-22
-278,21,19,Barn Worker Intern,Sales and Related Occupations,False,True,True,False,2024-01-24,2024-03-25
-279,21,83,Subsurface Augmentee Elint Operator Intern,Production Occupations,False,True,False,False,2024-01-15,2024-03-12
-280,21,55,Insurance Clerk Intern,Sales and Related Occupations,False,True,True,False,2025-01-06,2025-04-05
-281,21,67,Certified Occupational Therapy Assistant Intern,Transportation and Material Moving Occupations,True,True,False,False,2025-01-22,2025-04-04
-282,21,23,Mutuel Teller Intern,Transportation and Material Moving Occupations,True,False,False,False,2026-01-26,2026-04-08
-283,21,93,Metallographer Intern,Production Occupations,True,False,False,False,2026-01-08,2026-04-05
-284,21,87,RV Servicer Intern,Computer and Mathematical Occupations,False,True,True,False,2026-01-06,2026-03-28
-285,21,76,Compensation Director Intern,Legal Occupations,True,True,True,True,2027-01-18,2027-04-06
-286,21,33,Arterial Embalmer Intern,Healthcare Practitioners and Technical Occupations,False,True,False,False,2027-01-05,2027-02-15
-287,21,19,Track Surfacing Machine Operator Intern,Legal Occupations,False,False,False,False,2027-01-22,2027-04-11
-288,21,3,Railway Equipment Operator Intern,Legal Occupations,True,True,True,True,2028-01-22,2028-03-09
-289,21,23,Trombonist Intern,"Farming, Fishing, and Forestry Occupations",False,True,False,False,2028-01-24,2028-04-13
-290,21,37,Advanced Tomahawk Weapon Control System (Atwcs) An/Swg-4 Operator And Maintenance Technician Intern,Architecture and Engineering Occupations,True,True,False,False,2028-01-21,2028-04-02
-291,21,63,Ammonia Refrigeration Worker Intern,Production Occupations,False,True,True,False,2029-01-19,2029-04-09
-292,21,27,Gas Plant Technician Intern,Healthcare Practitioners and Technical Occupations,True,True,False,False,2029-01-26,2029-04-10
-293,21,13,Addictions Counselor Assistant Intern,Building and Grounds Cleaning and Maintenance Occupations,False,False,False,False,2030-01-21,2030-03-22
-294,21,68,Registered Pharmacist Intern,Community and Social Service Occupations,True,False,False,False,2030-01-29,2030-04-08
-295,22,61,Advance Seal Delivery System Maintainer Intern,Healthcare Practitioners and Technical Occupations,False,True,True,False,2025-01-15,2025-03-08
-296,22,10,Ground Nuclear Weapons Assembly Officer Intern,Business and Financial Operations Occupations,False,True,False,False,2025-01-07,2025-02-21
-297,22,65,Metallurgical Engineer Intern,Educational Instruction and Library Occupations,False,False,False,False,2026-01-12,2026-03-19
-298,22,13,Flexographic Press Operator Intern,Educational Instruction and Library Occupations,False,True,True,False,2026-01-12,2026-03-17
-299,22,87,Advertising Solicitor Intern,Community and Social Service Occupations,True,False,False,False,2026-01-05,2026-02-11
-300,22,89,Peddler Intern,"Life, Physical, and Social Science Occupations",True,False,False,False,2026-01-07,2026-02-16
-301,22,44,Electronic Intelligence Officer Intern,Sales and Related Occupations,True,False,False,False,2027-01-14,2027-03-11
-302,22,45,Accounts Collector Intern,Business and Financial Operations Occupations,True,False,False,False,2027-01-17,2027-03-13
-303,22,31,Wine Steward Intern,Transportation and Material Moving Occupations,True,True,True,True,2027-01-17,2027-03-15
-304,22,30,Occupational Therapy Professor Intern,Architecture and Engineering Occupations,True,False,False,False,2028-01-11,2028-04-07
-305,22,28,Transportation Security Administration (TSA) Screener Intern,Military Specific Occupations,True,True,True,False,2028-01-03,2028-03-09
-306,22,92,Public Works Inspector Intern,"Farming, Fishing, and Forestry Occupations",True,True,False,False,2028-01-20,2028-03-19
-307,22,65,Tile Installer Intern,Military Specific Occupations,False,True,True,True,2029-01-18,2029-02-28
-308,22,50,Emergency Medicine Specialist Intern,Sales and Related Occupations,False,True,False,False,2029-01-05,2029-02-24
-309,22,62,Blind Aide Intern,Military Specific Occupations,False,True,False,False,2029-01-09,2029-03-28
-310,22,55,Weed Science Research Technician Intern,Computer and Mathematical Occupations,False,False,False,False,2029-01-05,2029-02-06
-311,22,8,Mining Shovel Operator Intern,Building and Grounds Cleaning and Maintenance Occupations,False,True,False,False,2029-01-07,2029-03-27
-312,22,98,Piano Player Intern,"Farming, Fishing, and Forestry Occupations",True,False,False,False,2030-01-28,2030-03-15
-313,22,80,Professional Soccer Player Intern,"Farming, Fishing, and Forestry Occupations",True,True,True,False,2030-01-22,2030-03-24
-314,22,32,Sample Checker Intern,"Installation, Maintenance, and Repair Occupations",False,False,False,False,2031-01-02,2031-03-08
-315,22,91,Shearer Operator Intern,Healthcare Support Occupations,True,True,True,False,2031-01-30,2031-04-18
-316,22,39,Chief Financial Officer Intern,"Life, Physical, and Social Science Occupations",False,False,False,False,2031-01-02,2031-03-23
-317,23,45,Ringmaster Intern,Community and Social Service Occupations,True,False,False,False,2025-01-27,2025-04-03
-318,23,24,Library Media Specialist Intern,"Installation, Maintenance, and Repair Occupations",False,True,True,True,2025-01-07,2025-03-29
-319,23,33,Professional Dirt Bike Racer Intern,Production Occupations,True,True,False,False,2025-01-17,2025-03-31
-320,23,70,Tugboat Captain Intern,Healthcare Support Occupations,True,True,False,False,2025-01-14,2025-03-20
-321,23,53,Ferry Boat Captain Intern,Educational Instruction and Library Occupations,False,False,False,False,2026-01-23,2026-03-09
-322,23,80,Labor Relations Representative Intern,Construction and Extraction Occupations,True,True,True,False,2026-01-20,2026-03-10
-323,23,76,Construction Ironworker Helper Intern,Healthcare Practitioners and Technical Occupations,False,False,False,False,2026-01-06,2026-03-06
-324,23,88,Office Messenger Intern,"Life, Physical, and Social Science Occupations",True,False,False,False,2027-01-04,2027-02-18
-325,23,42,Investigative Reporter Intern,Military Specific Occupations,True,True,True,False,2027-01-07,2027-03-11
-326,23,36,Pierogi Maker Intern,Management Occupations,True,True,False,False,2027-01-09,2027-03-22
-327,23,38,Pulmonologist Intern,Educational Instruction and Library Occupations,False,True,True,False,2028-01-16,2028-02-27
-328,23,96,Type Setter Intern,Office and Administrative Support Occupations,False,False,False,False,2028-01-30,2028-04-24
-329,23,63,River Pilot Intern,Architecture and Engineering Occupations,False,True,False,False,2028-01-27,2028-04-16
-330,23,47,Optical Scientist Intern,Educational Instruction and Library Occupations,True,False,False,False,2029-01-05,2029-03-25
-331,23,60,Commercial Carpet Installer Intern,"Farming, Fishing, and Forestry Occupations",False,True,True,False,2030-01-06,2030-03-27
-332,23,74,Structural Engineer Intern,Military Specific Occupations,True,False,False,False,2031-01-14,2031-04-04
-333,23,20,Artist's Model Intern,Food Preparation and Serving Related Occupations,True,True,True,False,2031-01-21,2031-03-05
-334,23,35,Aoc Operations - Combat Search And Rescue Chief Intern,Business and Financial Operations Occupations,False,False,False,False,2031-01-13,2031-02-15
-335,23,25,Drywall Taper Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,True,False,False,2031-01-17,2031-04-08
-336,23,51,Mine Car Mechanic Intern,Healthcare Support Occupations,False,True,False,False,2031-01-21,2031-04-13
-337,23,20,Dental Secretary Intern,Management Occupations,False,True,False,False,2031-01-22,2031-03-01
-338,24,32,Family Physician Intern,Educational Instruction and Library Occupations,True,False,False,False,2025-01-02,2025-03-17
-339,24,76,Suit Maker Intern,Computer and Mathematical Occupations,False,True,True,True,2025-01-20,2025-03-21
-340,24,13,Geographic Information Systems Professor Intern,Computer and Mathematical Occupations,True,True,True,False,2026-01-18,2026-03-08
-341,24,94,Golf Cart Mechanic Intern,Business and Financial Operations Occupations,True,False,False,False,2026-01-06,2026-02-28
-342,24,34,Mining Shovel Operator Intern,Legal Occupations,False,True,True,True,2027-01-06,2027-02-27
-343,24,49,Spraying Machine Operator Intern,Management Occupations,True,True,False,False,2027-01-04,2027-03-03
-344,24,70,Stallion Manager Intern,Healthcare Support Occupations,False,False,False,False,2027-01-02,2027-02-19
-345,24,79,Charter Pilot (Commercial Pilot Certificate Required) Intern,Production Occupations,False,False,False,False,2028-01-29,2028-03-31
-346,24,43,Professional Poker Player Intern,Sales and Related Occupations,False,False,False,False,2028-01-10,2028-03-04
-347,24,79,Antenna Engineer Intern,Transportation and Material Moving Occupations,True,False,False,False,2029-01-04,2029-03-18
-348,24,39,Marine Firefighter Intern,Food Preparation and Serving Related Occupations,False,False,False,False,2030-01-14,2030-04-06
-349,24,75,"Air Defense Command, Control, Communications, Computers And Intelligence Tactical Operations Center Enhanced Operator/Maintainer Intern",Community and Social Service Occupations,False,True,True,True,2030-01-20,2030-04-08
-350,24,17,Bean Roaster Intern,Architecture and Engineering Occupations,True,False,False,False,2031-01-23,2031-03-26
-351,24,57,Tobacco Drier Operator Intern,Community and Social Service Occupations,False,True,True,True,2031-01-03,2031-03-06
-352,25,82,Juke Box Mechanic Intern,Healthcare Practitioners and Technical Occupations,False,False,False,False,2026-01-13,2026-02-16
-353,25,34,Etymology Professor Intern,Building and Grounds Cleaning and Maintenance Occupations,True,False,False,False,2026-01-21,2026-04-08
-354,25,91,Petroleum Plant Operator Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",False,False,False,False,2026-01-03,2026-03-06
-355,25,31,Spooler Operator Intern,Personal Care and Service Occupations,True,False,False,False,2027-01-29,2027-04-05
-356,25,47,Pharmaceutical Manufacturing Machine Operator Intern,Community and Social Service Occupations,True,True,True,False,2028-01-14,2028-02-16
-357,25,65,Front Desk Receptionist Intern,Transportation and Material Moving Occupations,False,True,False,False,2028-01-15,2028-02-18
-358,25,59,Toy Designer Intern,Personal Care and Service Occupations,True,True,False,False,2028-01-18,2028-04-04
-359,25,69,Spinning Doffer Intern,Military Specific Occupations,False,False,False,False,2028-01-20,2028-04-13
-360,25,8,Aoc Plans - Master Air Attack Planning Chief Intern,Business and Financial Operations Occupations,False,False,False,False,2029-01-18,2029-03-15
-361,25,1,Flight Operations Coordinator Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,True,True,True,2029-01-05,2029-03-28
-362,25,95,Plaster Mixer Intern,Transportation and Material Moving Occupations,False,True,False,False,2029-01-15,2029-03-22
-363,25,31,Publicity Agent Intern,Management Occupations,True,False,False,False,2029-01-16,2029-03-03
-364,25,8,Visual Merchandiser Intern,Architecture and Engineering Occupations,False,True,True,False,2030-01-02,2030-02-16
-365,25,98,Emergency Medical Service Rotary Wing Pilot Intern,Healthcare Practitioners and Technical Occupations,True,True,False,False,2030-01-30,2030-03-13
-366,25,84,Soldering Machine Setter and Setup Operator Intern,Community and Social Service Occupations,False,True,False,False,2030-01-19,2030-03-22
-367,25,15,Cop Intern,Management Occupations,False,True,True,False,2031-01-25,2031-04-14
-368,25,48,Employee Development Manager Intern,Business and Financial Operations Occupations,True,True,False,False,2031-01-12,2031-03-07
-369,25,17,University Dean Intern,"Life, Physical, and Social Science Occupations",True,False,False,False,2031-01-10,2031-03-19
-370,25,41,Engineering Manager Intern,Food Preparation and Serving Related Occupations,False,False,False,False,2032-01-16,2032-02-24
-371,25,46,Internal Medicine Physician Intern,Personal Care and Service Occupations,True,True,True,True,2032-01-15,2032-03-08
-372,26,73,Pine Straw Gatherer Intern,Computer and Mathematical Occupations,False,False,False,False,2026-01-02,2026-02-13
-373,26,5,Forming Roll Operator Intern,Military Specific Occupations,False,False,False,False,2026-01-07,2026-03-07
-374,26,10,Food Counter Worker Intern,"Life, Physical, and Social Science Occupations",True,True,True,False,2027-01-21,2027-04-20
-375,26,89,Collection Development Librarian Intern,Transportation and Material Moving Occupations,True,False,False,False,2028-01-05,2028-03-17
-376,26,93,Highway Traffic Control Technician Intern,Educational Instruction and Library Occupations,True,False,False,False,2028-01-10,2028-02-17
-377,26,14,Biomedical Engineering Technician Intern,Protective Service Occupations,True,False,False,False,2028-01-22,2028-04-19
-378,26,22,"Aerospace Control And Warning Systems, Manuel Systems Intern","Arts, Design, Entertainment, Sports, and Media Occupations",True,False,False,False,2029-01-09,2029-02-21
-379,26,37,Provost Intern,Healthcare Practitioners and Technical Occupations,True,False,False,False,2029-01-24,2029-03-11
-380,26,57,Java Programming Professor Intern,Construction and Extraction Occupations,False,False,False,False,2030-01-14,2030-03-11
-381,26,99,Wheat Inspector Intern,Healthcare Support Occupations,True,True,True,True,2030-01-18,2030-04-08
-382,26,94,Loom Fixer Intern,Educational Instruction and Library Occupations,False,False,False,False,2031-01-04,2031-03-04
-383,26,83,Mannequin Mold Maker Intern,Community and Social Service Occupations,True,True,True,False,2031-01-26,2031-03-10
-384,26,18,German Professor Intern,Military Specific Occupations,False,True,False,False,2031-01-10,2031-03-04
-385,26,92,Land Sales Agent Intern,"Farming, Fishing, and Forestry Occupations",True,False,False,False,2032-01-26,2032-03-22
-386,26,15,Cosmetologist Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,False,False,False,2032-01-24,2032-03-12
-387,27,93,Horse Show Judge Intern,"Installation, Maintenance, and Repair Occupations",True,True,True,True,2026-01-13,2026-04-11
-388,27,22,Airline Flight Attendant Intern,Transportation and Material Moving Occupations,False,False,False,False,2026-01-28,2026-04-16
-389,27,80,Clinical Psychology Professor Intern,Business and Financial Operations Occupations,False,True,True,True,2027-01-12,2027-03-08
-390,27,21,Charter Pilot (Commercial Pilot Certificate Required) Intern,Architecture and Engineering Occupations,False,True,False,False,2027-01-20,2027-03-30
-391,27,76,Range Ecologist Intern,Office and Administrative Support Occupations,True,True,False,False,2027-01-13,2027-03-30
-392,27,27,Fire Ranger Intern,Building and Grounds Cleaning and Maintenance Occupations,True,True,True,False,2028-01-11,2028-03-25
-393,27,24,Fur Trapper Intern,Educational Instruction and Library Occupations,True,True,False,False,2028-01-28,2028-04-18
-394,27,57,Cupola Repairer Intern,Educational Instruction and Library Occupations,False,False,False,False,2029-01-12,2029-03-16
-395,27,57,Gas Station Attendant Intern,Military Specific Occupations,True,True,True,False,2029-01-28,2029-03-05
-396,27,18,Lighting Engineering Technician Intern,Transportation and Material Moving Occupations,True,True,True,True,2030-01-14,2030-03-29
-397,27,66,Photographic Equipment Technician Intern,"Installation, Maintenance, and Repair Occupations",True,False,False,False,2030-01-20,2030-02-25
-398,27,73,International Relations Professor Intern,Legal Occupations,True,True,True,True,2031-01-24,2031-03-15
-399,27,74,Helicopter Pilot Intern,Sales and Related Occupations,False,True,True,True,2032-01-15,2032-04-10
-400,27,70,Insole Beveler Intern,Building and Grounds Cleaning and Maintenance Occupations,True,True,False,False,2032-01-26,2032-03-07
-401,27,11,Human Performance Professor Intern,Food Preparation and Serving Related Occupations,False,False,False,False,2032-01-26,2032-03-13
-402,28,63,Meteorology Professor Intern,Management Occupations,True,True,True,True,2027-01-20,2027-03-27
-403,28,30,Central Sterile Supply Technician Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,False,False,False,2027-01-16,2027-03-09
-404,28,24,Service Order Clerk Intern,Office and Administrative Support Occupations,False,False,False,False,2027-01-09,2027-03-21
-405,28,37,Provost Intern,Healthcare Support Occupations,False,False,False,False,2028-01-14,2028-02-22
-406,28,41,Private Chef Intern,Architecture and Engineering Occupations,True,False,False,False,2028-01-28,2028-04-16
-407,28,62,Bank Note Designer Intern,Healthcare Support Occupations,True,False,False,False,2028-01-09,2028-03-24
-408,28,92,Battery Builder Intern,"Life, Physical, and Social Science Occupations",False,True,True,True,2029-01-11,2029-03-30
-409,28,96,Hot Tar Roofer Intern,Healthcare Support Occupations,True,False,False,False,2029-01-18,2029-03-27
-410,28,75,Demographer Intern,Architecture and Engineering Occupations,False,True,True,False,2030-01-30,2030-04-07
-411,28,71,Fuel Truck Driver Intern,Construction and Extraction Occupations,True,False,False,False,2030-01-27,2030-04-24
-412,28,71,Lithograph Press Operator Intern,Community and Social Service Occupations,True,False,False,False,2030-01-21,2030-03-09
-413,28,67,Violin Repairer Intern,Food Preparation and Serving Related Occupations,True,True,False,False,2030-01-30,2030-04-20
-414,28,58,Erecting Crane Operator Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,False,False,False,2031-01-12,2031-03-30
-415,28,22,Aoc Operations - Special Operations Chief Intern,Computer and Mathematical Occupations,False,True,True,True,2031-01-20,2031-04-19
-416,28,95,Floriculture Professor Intern,Food Preparation and Serving Related Occupations,True,False,False,False,2032-01-06,2032-03-07
-417,28,47,Armament Weapons Support Equipment Technician Intern,Production Occupations,False,True,True,True,2032-01-21,2032-04-17
-418,28,80,Geriatric Personal Care Aide Intern,Personal Care and Service Occupations,False,True,True,False,2033-01-24,2033-04-08
-419,28,12,Dairy Scientist Intern,Production Occupations,True,True,False,False,2033-01-27,2033-04-23
-420,28,29,Expeditionary Airfield Systems Technician Intern,Building and Grounds Cleaning and Maintenance Occupations,False,False,False,False,2033-01-19,2033-02-23
-421,28,47,Neurosurgical Nurse Practitioner Intern,"Life, Physical, and Social Science Occupations",True,True,False,False,2033-01-24,2033-03-18
-422,29,38,Environmental Scientist Intern,Management Occupations,False,False,False,False,2027-01-25,2027-03-31
-423,29,58,Mobile Service Recreational Vehicle Technician Intern,Legal Occupations,True,False,False,False,2027-01-13,2027-02-24
-424,29,44,Attending Anesthesiologist Intern,Office and Administrative Support Occupations,True,False,False,False,2027-01-03,2027-03-06
-425,29,13,Auto Phone Installer Intern,Legal Occupations,False,False,False,False,2028-01-28,2028-04-01
-426,29,42,Electronic Signals Intelligence Exploitation Manager Intern,Building and Grounds Cleaning and Maintenance Occupations,False,False,False,False,2028-01-29,2028-03-10
-427,30,76,Guest Service Supervisor Intern,Architecture and Engineering Occupations,False,False,False,False,2027-01-12,2027-03-29
-428,30,69,Parquet Floor Layer's Helper Intern,Architecture and Engineering Occupations,True,True,True,True,2027-01-08,2027-03-28
-429,30,70,Hebrew Cantor Intern,Transportation and Material Moving Occupations,False,False,False,False,2028-01-04,2028-03-28
-430,30,10,Structural Engineering Technician Intern,Building and Grounds Cleaning and Maintenance Occupations,True,False,False,False,2028-01-25,2028-03-10
-431,30,48,Mechanical Design Drafter Intern,Computer and Mathematical Occupations,True,False,False,False,2029-01-02,2029-03-29
-432,30,100,Communication Manager Intern,Office and Administrative Support Occupations,False,True,True,False,2029-01-04,2029-02-28
-433,30,81,Termite Technician Intern,"Farming, Fishing, and Forestry Occupations",True,False,False,False,2030-01-23,2030-03-09
-434,30,42,Paper Machine Supervisor Intern,Building and Grounds Cleaning and Maintenance Occupations,False,True,True,True,2030-01-10,2030-03-20
+1,1,1,Oil Well Pumper Intern,"Life, Physical, and Social Science Occupations",True,False,False,False,2018-01-27,2018-03-02
+2,1,30,Podiatric Technician Intern,Computer and Mathematical Occupations,False,True,True,False,2018-01-07,2018-02-27
+3,1,54,Financial Director Intern,Healthcare Practitioners and Technical Occupations,False,True,False,False,2018-01-17,2018-03-10
+4,1,58,Furniture Refinisher Intern,Architecture and Engineering Occupations,False,False,False,False,2018-01-19,2018-03-17
+5,1,85,Optical Astronomer Intern,"Farming, Fishing, and Forestry Occupations",True,False,False,False,2019-01-24,2019-04-14
+6,1,51,Accounting Professor Intern,"Farming, Fishing, and Forestry Occupations",True,True,True,False,2019-01-30,2019-03-04
+7,1,7,Paper Cone Machine Tender Intern,Food Preparation and Serving Related Occupations,False,True,False,False,2019-01-06,2019-03-08
+8,1,30,Water Quality Analyst Intern,Personal Care and Service Occupations,True,False,False,False,2020-01-14,2020-02-28
+9,1,60,Metallurgical Engineering Technologist Intern,Military Specific Occupations,False,False,False,False,2020-01-11,2020-02-22
+10,1,43,Clinical Informatics Analyst Intern,Office and Administrative Support Occupations,False,False,False,False,2020-01-10,2020-03-24
+11,1,94,Signals Intelligence Analysis Manager Intern,Computer and Mathematical Occupations,False,False,False,False,2020-01-20,2020-02-22
+12,1,76,Potato Sorter Intern,Legal Occupations,False,True,True,False,2021-01-09,2021-03-05
+13,1,39,Aoc Operations - Air Mobility / Logistics Officer Intern,Building and Grounds Cleaning and Maintenance Occupations,False,False,False,False,2021-01-28,2021-04-06
+14,1,1,Medical Scientist Intern,Personal Care and Service Occupations,False,False,False,False,2021-01-14,2021-03-29
+15,1,47,Apparel Designer Intern,Office and Administrative Support Occupations,True,True,True,True,2022-01-18,2022-02-23
+16,1,76,Pharmacy Assistant Intern,Protective Service Occupations,True,False,False,False,2022-01-02,2022-03-14
+17,1,48,Credit Analyst Intern,Legal Occupations,False,True,False,False,2022-01-14,2022-04-02
+18,1,11,Conservation Technician Intern,"Farming, Fishing, and Forestry Occupations",True,False,False,False,2022-01-19,2022-03-09
+19,1,59,Geropsychologists Intern,"Installation, Maintenance, and Repair Occupations",True,False,False,False,2023-01-11,2023-02-18
+20,1,39,Chiller Tender Intern,Healthcare Practitioners and Technical Occupations,False,True,True,False,2023-01-25,2023-03-04
+21,1,77,Radio Operator Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,False,False,False,2023-01-22,2023-04-12
+22,1,77,Mining Back Hoe Operator Intern,Community and Social Service Occupations,True,True,True,True,2024-01-23,2024-03-02
+23,1,13,Long Wall Plow Operator Intern,Community and Social Service Occupations,False,True,False,False,2024-01-29,2024-04-25
+24,2,69,Plastic Straightening Roll Operator Intern,Sales and Related Occupations,False,True,True,True,2018-01-24,2018-03-03
+25,2,41,Brain Surgeon Intern,Food Preparation and Serving Related Occupations,False,True,False,False,2018-01-29,2018-04-10
+26,2,74,Junior High School Teacher Intern,Legal Occupations,False,True,True,True,2019-01-09,2019-03-25
+27,2,79,Printing Machine Operator Intern,Business and Financial Operations Occupations,False,False,False,False,2019-01-13,2019-04-10
+28,2,85,Combatant Diver Officer Intern,Management Occupations,False,False,False,False,2019-01-14,2019-02-18
+29,2,23,Nursing Home Manager Intern,Transportation and Material Moving Occupations,True,True,True,True,2020-01-27,2020-03-25
+30,2,8,Correctional Sergeant Intern,Educational Instruction and Library Occupations,True,False,False,False,2020-01-22,2020-03-28
+31,2,50,411 Directory Assistance Operator Intern,Educational Instruction and Library Occupations,False,True,False,False,2020-01-16,2020-02-26
+32,2,12,Reconsignment Clerk Intern,Food Preparation and Serving Related Occupations,True,False,False,False,2020-01-06,2020-02-27
+33,2,65,Office Secretary Intern,Military Specific Occupations,False,False,False,False,2021-01-18,2021-03-23
+34,2,62,Watercolor Artist Intern,Sales and Related Occupations,False,True,True,False,2021-01-06,2021-03-14
+35,2,63,Swedish Masseuse Intern,Healthcare Support Occupations,True,True,True,False,2022-01-15,2022-02-20
+36,2,96,Atomic Physics Professor Intern,Construction and Extraction Occupations,False,False,False,False,2022-01-03,2022-02-14
+37,2,92,Snowboard Designer Intern,Office and Administrative Support Occupations,False,True,False,False,2022-01-20,2022-04-05
+38,2,31,Crew Chief Intern,Production Occupations,False,True,True,True,2023-01-15,2023-03-22
+39,2,81,Gastroenterology Nurse Practitioner Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",False,False,False,False,2023-01-22,2023-03-10
+40,2,30,Rock Drill Operator Intern,Production Occupations,True,False,False,False,2023-01-12,2023-03-14
+41,2,91,Broadcast Engineer Intern,Community and Social Service Occupations,False,True,True,False,2024-01-17,2024-03-31
+42,2,85,WAN Systems Administrator Intern,Healthcare Support Occupations,True,False,False,False,2024-01-08,2024-03-13
+43,2,94,Personal Property Assessor Intern,Healthcare Practitioners and Technical Occupations,True,False,False,False,2024-01-13,2024-04-07
+44,3,85,Car Stereo Installer Intern,Protective Service Occupations,False,False,False,False,2018-01-12,2018-02-27
+45,3,71,Mechanical Engineering Director Intern,Management Occupations,False,True,True,False,2018-01-29,2018-03-02
+46,3,66,Book Critic Intern,Office and Administrative Support Occupations,False,True,True,False,2019-01-09,2019-02-18
+47,3,84,Cotton Picker Intern,"Farming, Fishing, and Forestry Occupations",True,True,False,False,2019-01-11,2019-03-19
+48,3,79,Oil Exploration Engineer Intern,"Installation, Maintenance, and Repair Occupations",True,False,False,False,2019-01-27,2019-04-23
+49,3,94,Cab Driver Intern,Personal Care and Service Occupations,False,False,False,False,2020-01-25,2020-03-25
+50,3,31,Commercial Lender Intern,Protective Service Occupations,True,True,True,False,2020-01-23,2020-04-11
+51,3,55,Mine Geologist Intern,Military Specific Occupations,True,True,True,True,2021-01-29,2021-03-30
+52,3,38,General Superintendent Intern,Educational Instruction and Library Occupations,True,True,True,True,2022-01-16,2022-03-19
+53,3,59,Motorboat Mechanic Intern,Healthcare Support Occupations,True,True,False,False,2022-01-24,2022-04-04
+54,3,87,Cartographic Technician Intern,Healthcare Support Occupations,True,True,True,False,2023-01-15,2023-04-07
+55,3,90,District Attorney Intern,"Installation, Maintenance, and Repair Occupations",False,True,True,True,2024-01-29,2024-03-26
+56,3,84,City Council Member Intern,Legal Occupations,True,False,False,False,2024-01-02,2024-03-02
+57,4,100,Chain Link Fence Installer Intern,Military Specific Occupations,False,False,False,False,2019-01-30,2019-03-12
+58,4,82,Concrete Pavement Installer Intern,"Farming, Fishing, and Forestry Occupations",False,False,False,False,2019-01-29,2019-03-15
+59,4,87,Information Systems Planner Intern,Military Specific Occupations,True,False,False,False,2019-01-06,2019-02-27
+60,4,60,Space Operations Intern,"Farming, Fishing, and Forestry Occupations",False,True,True,True,2020-01-30,2020-04-20
+61,4,54,Embryology Professor Intern,Protective Service Occupations,True,True,False,False,2020-01-30,2020-04-07
+62,4,20,Court Bailiff Intern,Transportation and Material Moving Occupations,True,True,True,True,2021-01-30,2021-04-23
+63,4,95,Cafeteria Director Intern,Building and Grounds Cleaning and Maintenance Occupations,False,False,False,False,2021-01-21,2021-03-16
+64,4,58,Title Checker Intern,Personal Care and Service Occupations,False,False,False,False,2022-01-23,2022-03-29
+65,4,38,Train Conductor Intern,Business and Financial Operations Occupations,False,True,True,True,2022-01-02,2022-03-08
+66,4,60,Wind Turbine Mechanic Intern,Healthcare Practitioners and Technical Occupations,False,True,False,False,2022-01-28,2022-03-02
+67,4,61,Swimming Professor Intern,Management Occupations,True,True,True,False,2023-01-09,2023-03-29
+68,4,47,Flight Deck Officer Intern,"Farming, Fishing, and Forestry Occupations",False,False,False,False,2023-01-18,2023-03-12
+69,4,28,Doughnut Machine Operator Intern,"Farming, Fishing, and Forestry Occupations",True,False,False,False,2024-01-29,2024-04-23
+70,4,38,Parachute Repairer Intern,Military Specific Occupations,False,True,True,True,2024-01-23,2024-03-02
+71,4,53,Postmaster Intern,Legal Occupations,False,True,True,True,2025-01-29,2025-03-13
+72,4,85,Probate Judge Intern,Healthcare Support Occupations,True,True,False,False,2025-01-18,2025-04-13
+73,4,61,Special Education Bus Driver Intern,Protective Service Occupations,False,False,False,False,2025-01-12,2025-04-10
+74,5,66,Computer-Aided Drafting and Design Instructor Intern,Sales and Related Occupations,False,True,True,True,2019-01-22,2019-03-07
+75,5,9,Automotive Service Writer Intern,Community and Social Service Occupations,True,False,False,False,2019-01-19,2019-02-25
+76,5,3,High Rigger Intern,Legal Occupations,False,False,False,False,2019-01-08,2019-02-09
+77,5,22,Electric Sign Assembler Intern,Business and Financial Operations Occupations,False,True,False,False,2019-01-23,2019-03-05
+78,5,1,Irrigation Equipment Mechanic Intern,Community and Social Service Occupations,False,True,True,True,2020-01-17,2020-03-03
+79,5,70,Application Integration Engineer Intern,Office and Administrative Support Occupations,False,False,False,False,2020-01-05,2020-02-18
+80,5,26,Laboratory Chemist Intern,Construction and Extraction Occupations,True,False,False,False,2021-01-22,2021-03-31
+81,5,45,Video Tape Transferrer Intern,Food Preparation and Serving Related Occupations,False,True,True,False,2021-01-10,2021-03-22
+82,5,30,Environmental Compliance Inspector Intern,Office and Administrative Support Occupations,False,True,False,False,2021-01-09,2021-04-04
+83,5,18,Kiln Door Builder Intern,Architecture and Engineering Occupations,False,False,False,False,2022-01-06,2022-02-11
+84,5,49,Fence Builder Intern,Production Occupations,False,False,False,False,2022-01-13,2022-03-04
+85,5,42,Computer Repairer Intern,Office and Administrative Support Occupations,False,True,True,False,2022-01-20,2022-04-11
+86,5,14,Loan Interviewer Intern,Community and Social Service Occupations,False,False,False,False,2022-01-28,2022-03-30
+87,5,24,Art Handler Intern,Business and Financial Operations Occupations,True,True,True,True,2023-01-14,2023-03-05
+88,5,74,Tennis Club Manager Intern,Management Occupations,False,False,False,False,2023-01-24,2023-03-19
+89,5,99,Window Decorator Intern,Production Occupations,False,False,False,False,2023-01-18,2023-03-18
+90,5,22,Assembly Line Tender Intern,Food Preparation and Serving Related Occupations,False,True,True,False,2024-01-28,2024-03-21
+91,5,54,Postal Clerk Intern,Healthcare Support Occupations,True,True,False,False,2024-01-27,2024-02-28
+92,5,66,Deep Tissue Massage Therapist Intern,Building and Grounds Cleaning and Maintenance Occupations,False,True,False,False,2024-01-19,2024-03-30
+93,5,66,Military Science Instructor Intern,Educational Instruction and Library Occupations,False,True,True,False,2025-01-28,2025-03-22
+94,5,26,Bore Mill Operator for Plastic Intern,Healthcare Practitioners and Technical Occupations,True,True,False,False,2025-01-23,2025-04-14
+95,5,4,Lobby Attendant Intern,Protective Service Occupations,False,False,False,False,2025-01-18,2025-03-10
+96,6,48,"Environmental Science, Management and Policy Professor Intern",Business and Financial Operations Occupations,False,True,True,False,2019-01-17,2019-04-11
+97,6,67,Textile Designer Intern,Community and Social Service Occupations,True,False,False,False,2019-01-06,2019-03-08
+98,6,83,Parking Meter Attendant Intern,Healthcare Practitioners and Technical Occupations,False,True,False,False,2019-01-02,2019-03-10
+99,6,81,Crane Crew Supervisor Intern,Healthcare Support Occupations,False,True,True,False,2020-01-17,2020-03-05
+100,6,87,Automobile Club Membership Sales Agent Intern,Protective Service Occupations,True,False,False,False,2020-01-11,2020-02-17
+101,6,7,Impersonator Intern,Construction and Extraction Occupations,False,False,False,False,2021-01-14,2021-02-19
+102,6,39,Taproom Attendant Intern,Military Specific Occupations,True,False,False,False,2021-01-26,2021-03-01
+103,6,87,Weapons Officer (Fleet Ballistic Missiles) Intern,Personal Care and Service Occupations,True,True,True,True,2022-01-22,2022-04-07
+104,6,22,Viticulturist Intern,Military Specific Occupations,False,False,False,False,2023-01-04,2023-02-21
+105,6,68,Materials Engineering Technologist Intern,"Life, Physical, and Social Science Occupations",False,False,False,False,2023-01-08,2023-03-28
+106,6,30,Motor Vehicle Representative Intern,Building and Grounds Cleaning and Maintenance Occupations,True,True,True,True,2024-01-20,2024-03-28
+107,6,47,Equine Breeder Intern,Management Occupations,True,False,False,False,2024-01-22,2024-03-13
+108,6,13,Electrical Engineering Technician Intern,Sales and Related Occupations,False,False,False,False,2025-01-05,2025-02-21
+109,6,36,Radio Frequency Technician Intern,Educational Instruction and Library Occupations,False,True,True,True,2025-01-08,2025-03-15
+110,7,61,Mutual Fund Sales Agent Intern,Food Preparation and Serving Related Occupations,False,False,False,False,2020-01-22,2020-04-08
+111,7,71,Railroad Design Consultant Intern,"Life, Physical, and Social Science Occupations",True,False,False,False,2020-01-21,2020-04-07
+112,7,60,Metal Die Finisher Intern,Business and Financial Operations Occupations,False,True,True,True,2020-01-27,2020-03-09
+113,7,75,Marine Oil Terminal Superintendent Intern,Protective Service Occupations,True,True,True,True,2021-01-04,2021-03-21
+114,7,55,Historical Records Administrator Intern,"Farming, Fishing, and Forestry Occupations",True,True,False,False,2021-01-29,2021-04-25
+115,7,50,VP Marketing Intern,Management Occupations,False,True,False,False,2021-01-11,2021-03-30
+116,7,97,Choir Member Intern,"Farming, Fishing, and Forestry Occupations",True,True,False,False,2021-01-11,2021-03-18
+117,7,75,Aircraft Quality Control Inspector Intern,"Farming, Fishing, and Forestry Occupations",False,False,False,False,2022-01-19,2022-04-06
+118,7,38,Copy Writer Intern,Computer and Mathematical Occupations,True,True,True,True,2022-01-14,2022-04-09
+119,7,30,Gambling Surveillance Observer Intern,Business and Financial Operations Occupations,True,False,False,False,2022-01-07,2022-03-14
+120,7,67,Registered Veterinary Technician Intern,Healthcare Practitioners and Technical Occupations,False,False,False,False,2023-01-29,2023-04-03
+121,7,33,Renal Social Worker Intern,Transportation and Material Moving Occupations,False,True,True,False,2024-01-25,2024-03-16
+122,7,41,Sportsbook Ticket Writer Intern,Computer and Mathematical Occupations,False,True,False,False,2024-01-06,2024-02-12
+123,7,40,Certified Surgical Technologist Intern,Production Occupations,False,False,False,False,2024-01-19,2024-02-20
+124,7,86,PACU Nurse Intern,Educational Instruction and Library Occupations,False,False,False,False,2024-01-16,2024-03-22
+125,7,76,Hydraulic Lift Driver Intern,"Installation, Maintenance, and Repair Occupations",True,True,False,False,2024-01-15,2024-02-22
+126,7,35,Kindergarten Special Education Teacher Intern,Healthcare Support Occupations,True,False,False,False,2025-01-09,2025-03-05
+127,7,78,Geriatric Personal Care Aide Intern,Management Occupations,True,True,True,True,2025-01-09,2025-02-22
+128,7,40,Equipment Cleaner Intern,Business and Financial Operations Occupations,False,True,False,False,2025-01-23,2025-03-08
+129,7,60,Hydraulic Lift Driver Intern,Sales and Related Occupations,True,True,True,False,2026-01-02,2026-03-17
+130,7,96,Able Seaman Intern,Transportation and Material Moving Occupations,True,False,False,False,2026-01-16,2026-04-15
+131,7,29,Dining Car Steward Intern,Business and Financial Operations Occupations,False,False,False,False,2026-01-17,2026-03-12
+132,8,58,Barber Apprentice Intern,Healthcare Practitioners and Technical Occupations,False,False,False,False,2020-01-04,2020-02-13
+133,8,59,Automobile Body Painter Intern,Transportation and Material Moving Occupations,False,True,True,False,2020-01-02,2020-03-06
+134,8,45,Professional Skier Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",False,True,True,False,2021-01-06,2021-03-10
+135,8,60,Chemical Sales Representative Intern,Healthcare Practitioners and Technical Occupations,True,True,False,False,2021-01-30,2021-03-11
+136,8,73,Animal Pathologist Intern,Protective Service Occupations,False,True,True,False,2022-01-04,2022-02-28
+137,8,59,Chemical Process Equipment Operator Intern,Legal Occupations,True,False,False,False,2022-01-06,2022-03-25
+138,8,7,Concrete Sculptor Intern,Personal Care and Service Occupations,False,True,True,False,2023-01-05,2023-02-16
+139,8,51,Labor Relations Director Intern,Production Occupations,False,True,False,False,2023-01-28,2023-04-20
+140,8,20,Electrical Sign Wirer Intern,Construction and Extraction Occupations,True,True,False,False,2023-01-12,2023-03-27
+141,8,57,Environmental Remediation Engineer Intern,Production Occupations,False,True,True,False,2024-01-26,2024-03-17
+142,8,44,Equipment Cleaner Intern,Sales and Related Occupations,False,True,True,False,2025-01-02,2025-03-04
+143,8,33,Casino Floor Runner Intern,Building and Grounds Cleaning and Maintenance Occupations,False,False,False,False,2025-01-06,2025-02-18
+144,8,1,Crude Tester Intern,Management Occupations,True,False,False,False,2025-01-15,2025-04-03
+145,8,96,Garage Door Technician Intern,Personal Care and Service Occupations,True,True,True,False,2026-01-17,2026-03-04
+146,8,10,Mining End Loader Operator Intern,Protective Service Occupations,True,False,False,False,2026-01-10,2026-02-21
+147,8,52,Sports Complex Attendant Intern,Building and Grounds Cleaning and Maintenance Occupations,True,False,False,False,2026-01-10,2026-02-18
+148,8,6,Toxicologist Intern,Legal Occupations,True,False,False,False,2026-01-26,2026-04-17
+149,9,29,Aircraft Design Engineer Intern,Office and Administrative Support Occupations,False,False,False,False,2020-01-12,2020-03-03
+150,9,91,Special Technical Operations Officer Intern,Sales and Related Occupations,True,False,False,False,2020-01-29,2020-03-24
+151,9,5,Acrobat Intern,Construction and Extraction Occupations,True,False,False,False,2020-01-14,2020-03-09
+152,9,2,Bulk Cooler Installer Intern,Food Preparation and Serving Related Occupations,True,True,True,False,2021-01-05,2021-03-14
+153,9,28,IT Risk Specialist Intern,Food Preparation and Serving Related Occupations,False,False,False,False,2021-01-25,2021-02-28
+154,9,20,Ringmaster Intern,"Farming, Fishing, and Forestry Occupations",True,False,False,False,2022-01-24,2022-04-17
+155,9,70,"Naval Flight Officer, Radar Intercept Officer Intern",Educational Instruction and Library Occupations,False,False,False,False,2022-01-14,2022-04-11
+156,9,13,Licensed Audiologist Intern,Office and Administrative Support Occupations,True,True,True,True,2022-01-29,2022-03-24
+157,9,79,Electric Sewer Cleaning Machine Operator Intern,Food Preparation and Serving Related Occupations,True,False,False,False,2023-01-15,2023-02-16
+158,9,81,Continuous Miner Operator Helper Intern,Legal Occupations,True,True,True,False,2023-01-12,2023-03-24
+159,9,27,Surgical Appliance Fitter Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,True,True,True,2024-01-28,2024-03-03
+160,9,73,Political Cartoonist Intern,Transportation and Material Moving Occupations,True,False,False,False,2024-01-29,2024-04-21
+161,9,56,Medicare Interviewer Intern,Architecture and Engineering Occupations,True,False,False,False,2024-01-04,2024-03-23
+162,9,71,News Commentator Intern,Healthcare Practitioners and Technical Occupations,False,True,False,False,2024-01-24,2024-03-12
+163,9,23,Pipe Organ Technician Intern,Office and Administrative Support Occupations,False,False,False,False,2024-01-03,2024-02-24
+164,9,5,Fire Controlman Intern,Business and Financial Operations Occupations,True,False,False,False,2025-01-24,2025-03-15
+165,9,24,Computer Operations Manager Intern,Community and Social Service Occupations,False,False,False,False,2026-01-03,2026-02-15
+166,11,41,"Command, Control, Communications, Computers And Intelligence (C4i) Officer Intern",Community and Social Service Occupations,True,False,False,False,2021-01-11,2021-03-05
+167,11,87,IT Support Specialist Intern,Personal Care and Service Occupations,True,False,False,False,2021-01-16,2021-03-26
+168,11,53,Beveller Operator Intern,Computer and Mathematical Occupations,False,False,False,False,2022-01-19,2022-04-03
+169,11,55,Non Destructive Testing Underwater Welder Intern,Sales and Related Occupations,False,True,True,True,2022-01-12,2022-03-28
+170,11,21,Tourist Escort Intern,Food Preparation and Serving Related Occupations,True,False,False,False,2022-01-24,2022-03-02
+171,11,40,Clown Intern,Production Occupations,True,False,False,False,2023-01-29,2023-03-28
+172,11,68,Wildlife Veterinarian Intern,Healthcare Support Occupations,True,True,True,True,2024-01-06,2024-03-20
+173,11,23,Records Management Director Intern,"Farming, Fishing, and Forestry Occupations",True,True,False,False,2024-01-14,2024-03-28
+174,11,79,Naturopathic Physician Intern,Construction and Extraction Occupations,False,False,False,False,2024-01-24,2024-04-05
+175,11,69,Stinger Anti-Terrorist Weapon (Atw) Operator Maintenanceman Intern,Healthcare Support Occupations,False,True,True,False,2025-01-20,2025-04-19
+176,11,15,Social Organization Professor Intern,"Installation, Maintenance, and Repair Occupations",True,False,False,False,2025-01-23,2025-03-31
+177,11,57,Coping Machine Assembler Intern,Office and Administrative Support Occupations,True,True,False,False,2025-01-23,2025-04-17
+178,11,21,Macroeconomics Professor Intern,"Life, Physical, and Social Science Occupations",True,False,False,False,2026-01-03,2026-04-02
+179,11,28,Large Animal Veterinarian Intern,Sales and Related Occupations,True,True,True,False,2026-01-27,2026-04-04
+180,11,31,Metal Sheet Roller Operator Intern,Construction and Extraction Occupations,False,False,False,False,2026-01-09,2026-02-28
+181,11,46,High School Teacher Intern,Management Occupations,False,True,True,False,2027-01-08,2027-03-06
+182,11,44,Women's Studies Professor Intern,Office and Administrative Support Occupations,False,False,False,False,2027-01-07,2027-02-13
+183,11,12,Electronic Warfare Technician (Advanced Application) Intern,Architecture and Engineering Occupations,False,False,False,False,2027-01-12,2027-03-22
+184,12,48,C++ Professor Intern,"Life, Physical, and Social Science Occupations",True,False,False,False,2021-01-07,2021-02-14
+185,12,67,Marine Rigger Intern,Military Specific Occupations,False,False,False,False,2022-01-19,2022-03-30
+186,12,82,Poker Prop Player Intern,"Life, Physical, and Social Science Occupations",True,False,False,False,2022-01-10,2022-02-18
+187,12,59,Format Proofreader Intern,Construction and Extraction Occupations,True,False,False,False,2023-01-26,2023-04-12
+188,12,72,Electrical Discharge Machine Setup Operator Intern,Food Preparation and Serving Related Occupations,False,False,False,False,2024-01-29,2024-04-22
+189,12,57,Highway Engineer Intern,Management Occupations,True,True,True,True,2024-01-25,2024-03-28
+190,12,61,Bag Machine Adjuster Intern,"Life, Physical, and Social Science Occupations",True,True,False,False,2024-01-26,2024-03-20
+191,12,10,Fire Fighter Intern,Protective Service Occupations,True,False,False,False,2025-01-02,2025-02-13
+192,12,25,Real Estate Attorney Intern,"Farming, Fishing, and Forestry Occupations",True,True,True,False,2025-01-02,2025-03-08
+193,12,49,Mathematical Physicist Intern,Healthcare Support Occupations,False,False,False,False,2025-01-16,2025-03-06
+194,12,16,Command And Control Systems Integrator Intern,"Life, Physical, and Social Science Occupations",False,False,False,False,2026-01-26,2026-04-14
+195,12,1,Keypunch Operator Intern,Building and Grounds Cleaning and Maintenance Occupations,False,True,True,True,2027-01-22,2027-04-06
+196,13,25,Marine Engineering Technologist Intern,"Farming, Fishing, and Forestry Occupations",False,False,False,False,2022-01-06,2022-04-04
+197,13,70,Aircraft De-Icer Intern,Healthcare Support Occupations,True,False,False,False,2023-01-04,2023-04-03
+198,13,59,Marine Electronics Technician Intern,Educational Instruction and Library Occupations,False,False,False,False,2023-01-21,2023-04-12
+199,13,65,Melt Room Operator Intern,Legal Occupations,True,False,False,False,2024-01-21,2024-04-03
+200,13,19,Isotope Technologist Intern,"Farming, Fishing, and Forestry Occupations",False,False,False,False,2025-01-14,2025-03-23
+201,13,98,Target Aircraft Controller Intern,"Installation, Maintenance, and Repair Occupations",True,False,False,False,2026-01-25,2026-03-20
+202,13,65,Sales Director Intern,Food Preparation and Serving Related Occupations,False,False,False,False,2027-01-25,2027-04-02
+203,13,31,Construction Ironworker Helper Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",False,False,False,False,2027-01-18,2027-03-14
+204,13,69,Electronic Design Automation Engineer Intern,Food Preparation and Serving Related Occupations,True,True,True,False,2027-01-12,2027-04-07
+205,13,14,Professional Poker Player Intern,Military Specific Occupations,False,False,False,False,2028-01-18,2028-02-29
+206,13,31,Pianist Intern,Educational Instruction and Library Occupations,True,True,True,True,2028-01-06,2028-02-27
+207,14,29,Aoc Plans - Intelligence Officer Chief Intern,Legal Occupations,True,False,False,False,2022-01-29,2022-03-25
+208,14,38,Steel Fabricator Intern,Food Preparation and Serving Related Occupations,True,True,True,True,2022-01-14,2022-04-11
+209,14,99,Membership Solicitor Intern,Management Occupations,True,True,True,False,2023-01-11,2023-04-01
+210,14,86,Air Conditioning Service Technician Intern,Protective Service Occupations,False,True,False,False,2023-01-22,2023-04-14
+211,14,87,Tactical Vehicle Painter Intern,"Farming, Fishing, and Forestry Occupations",True,False,False,False,2024-01-02,2024-02-22
+212,14,56,Navy Command And Control System (Nccs) Ashore System/Operator Intern,Healthcare Support Occupations,True,True,True,True,2024-01-30,2024-03-10
+213,14,38,Certified Social Workers In Health Care Intern,Computer and Mathematical Occupations,False,False,False,False,2025-01-27,2025-03-02
+214,14,72,Brick Carrier Intern,Production Occupations,True,False,False,False,2025-01-09,2025-02-17
+215,14,12,Tie Buyer Intern,Architecture and Engineering Occupations,True,False,False,False,2026-01-02,2026-03-24
+216,14,73,Engine Lathe Operator Intern,"Life, Physical, and Social Science Occupations",True,True,True,False,2026-01-14,2026-03-31
+217,14,43,Chop Saw Operator Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",False,True,True,True,2027-01-03,2027-03-21
+218,14,92,Joint Terminal Attack Controller Instructor (Jtac-I) Intern,Legal Occupations,False,True,False,False,2027-01-15,2027-03-09
+219,14,66,Prompter Intern,"Life, Physical, and Social Science Occupations",False,True,True,True,2028-01-21,2028-03-29
+220,14,98,Ecological Modeler Intern,Transportation and Material Moving Occupations,True,True,False,False,2028-01-18,2028-03-29
+221,14,7,Oil Rig Driller Intern,Educational Instruction and Library Occupations,False,False,False,False,2028-01-18,2028-04-08
+222,15,61,Hair Colorist Intern,Educational Instruction and Library Occupations,True,True,True,False,2022-01-02,2022-03-16
+223,15,49,Airborne Mission Systems Intern,Community and Social Service Occupations,True,False,False,False,2022-01-08,2022-04-06
+224,15,22,Electronic Parts Designer Intern,Personal Care and Service Occupations,True,False,False,False,2023-01-20,2023-03-21
+225,15,56,Copper Plater Intern,Personal Care and Service Occupations,True,True,True,True,2023-01-27,2023-03-24
+226,15,24,Automatic Pilot Mechanic Intern,Educational Instruction and Library Occupations,True,True,True,True,2024-01-13,2024-02-29
+227,15,68,Log Processor Operator Intern,Protective Service Occupations,False,True,True,True,2025-01-05,2025-03-26
+228,15,29,Dramatic Reader Intern,Office and Administrative Support Occupations,False,False,False,False,2025-01-02,2025-02-16
+229,15,56,Air Cargo Supervisor Intern,Building and Grounds Cleaning and Maintenance Occupations,False,False,False,False,2025-01-10,2025-03-20
+230,15,57,Helicopter Utility Aircrewman Intern,Transportation and Material Moving Occupations,False,True,True,True,2026-01-21,2026-02-26
+231,15,14,Automotive Brake Technician Intern,Healthcare Support Occupations,False,False,False,False,2026-01-12,2026-03-12
+232,15,6,Aluminum Polisher Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",False,True,True,False,2027-01-09,2027-02-18
+233,15,87,Mandolin Repairer Intern,Sales and Related Occupations,True,True,False,False,2027-01-27,2027-04-10
+234,15,92,Aoc Aadc Chief Of Operations Staff Officer Intern,Construction and Extraction Occupations,False,True,False,False,2027-01-11,2027-02-16
+235,15,49,Commercial Artist Intern,Community and Social Service Occupations,False,False,False,False,2028-01-02,2028-03-10
+236,15,31,Team Automobile Assembler Intern,"Farming, Fishing, and Forestry Occupations",True,False,False,False,2028-01-17,2028-02-18
+237,16,17,Cafeteria Cook Intern,Protective Service Occupations,True,True,True,True,2023-01-25,2023-04-23
+238,16,30,Fight Manager Intern,Production Occupations,False,True,False,False,2023-01-07,2023-03-17
+239,16,35,Sedimentationist Intern,Management Occupations,True,False,False,False,2023-01-23,2023-04-19
+240,16,47,Software Test Engineer Intern,"Installation, Maintenance, and Repair Occupations",False,False,False,False,2023-01-06,2023-02-23
+241,16,16,Play Back Operator Intern,Architecture and Engineering Occupations,True,True,True,True,2024-01-10,2024-03-01
+242,16,25,Stave Saw Operator Intern,Computer and Mathematical Occupations,True,False,False,False,2025-01-20,2025-04-01
+243,16,32,Electronic Warfare Technician Intern,"Installation, Maintenance, and Repair Occupations",False,True,True,False,2025-01-07,2025-03-27
+244,16,45,Youth Pastor Intern,Protective Service Occupations,False,False,False,False,2025-01-14,2025-03-31
+245,16,11,Mayor Intern,Business and Financial Operations Occupations,False,False,False,False,2026-01-07,2026-03-20
+246,16,40,Residence Life Coordinator Intern,Computer and Mathematical Occupations,False,False,False,False,2026-01-09,2026-02-22
+247,16,62,Sheet Rock Installer Intern,"Farming, Fishing, and Forestry Occupations",False,False,False,False,2027-01-19,2027-04-05
+248,16,48,Milk Pasteurizer Intern,Community and Social Service Occupations,True,False,False,False,2027-01-06,2027-02-13
+249,16,79,Police Detective Intern,"Life, Physical, and Social Science Occupations",True,True,True,False,2027-01-13,2027-04-12
+250,16,64,Lithographing Machine Operator Intern,Educational Instruction and Library Occupations,True,False,False,False,2028-01-18,2028-02-22
+251,16,56,Word Processor Intern,Computer and Mathematical Occupations,True,False,False,False,2028-01-08,2028-03-18
+252,16,77,Rug Dyer Intern,Construction and Extraction Occupations,True,False,False,False,2029-01-09,2029-03-08
+253,16,66,Utilities Manager Intern,Military Specific Occupations,False,False,False,False,2029-01-13,2029-03-26
+254,16,23,Community Service Organization Director Intern,"Farming, Fishing, and Forestry Occupations",False,True,True,True,2029-01-04,2029-02-05
+255,17,5,Survey Research Professor Intern,Protective Service Occupations,True,True,True,True,2023-01-14,2023-03-22
+256,17,78,Cotton Picker Intern,Protective Service Occupations,True,True,False,False,2023-01-28,2023-04-11
+257,17,45,Pedicurist Intern,Healthcare Practitioners and Technical Occupations,True,False,False,False,2023-01-12,2023-03-01
+258,17,37,Correspondent Intern,Military Specific Occupations,False,False,False,False,2024-01-29,2024-03-12
+259,17,20,Auto Clutch Specialist Intern,Management Occupations,False,True,True,True,2024-01-18,2024-03-21
+260,17,17,Display Artist Intern,"Life, Physical, and Social Science Occupations",True,True,False,False,2024-01-11,2024-04-03
+261,17,57,Mortarman Intern,"Farming, Fishing, and Forestry Occupations",False,False,False,False,2024-01-07,2024-03-19
+262,17,35,Earth Auger Operator Intern,Military Specific Occupations,True,True,True,True,2025-01-27,2025-03-26
+263,17,17,Log Stacker Operator Intern,"Life, Physical, and Social Science Occupations",True,True,False,False,2025-01-06,2025-03-28
+264,17,96,Sandstone Splitter Intern,Construction and Extraction Occupations,False,True,True,True,2026-01-27,2026-04-06
+265,17,76,Band Scroll Saw Operator Intern,Healthcare Practitioners and Technical Occupations,True,True,False,False,2026-01-16,2026-04-11
+266,17,79,Certified Financial Planner Intern,Food Preparation and Serving Related Occupations,True,True,False,False,2026-01-12,2026-03-05
+267,17,59,Command Post Craftsman Intern,Legal Occupations,True,False,False,False,2026-01-26,2026-03-29
+268,17,18,Environmental Analyst Intern,Sales and Related Occupations,True,False,False,False,2026-01-29,2026-04-20
+269,17,36,Acute Care Nurse Practitioner Intern,Healthcare Practitioners and Technical Occupations,True,True,True,True,2027-01-14,2027-02-19
+270,17,14,Acoustical Ceiling Installer Intern,Educational Instruction and Library Occupations,True,True,False,False,2027-01-30,2027-03-07
+271,17,25,An/Ssn-2 (V) 4 Operator Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,True,False,False,2027-01-18,2027-04-17
+272,17,8,Circulation Clerk Intern,Healthcare Support Occupations,False,False,False,False,2028-01-10,2028-03-12
+273,17,86,Immunohematologist Intern,Food Preparation and Serving Related Occupations,False,False,False,False,2028-01-11,2028-03-12
+274,17,49,Forging Roll Operator Intern,"Farming, Fishing, and Forestry Occupations",True,True,True,False,2029-01-28,2029-04-07
+275,17,77,Greenskeeper Laborer Intern,Transportation and Material Moving Occupations,False,False,False,False,2029-01-19,2029-03-15
+276,18,74,Driver's License Examiner Intern,Computer and Mathematical Occupations,True,True,True,False,2023-01-14,2023-04-04
+277,18,40,Brewery Pumper Intern,Healthcare Support Occupations,False,True,False,False,2023-01-11,2023-02-17
+278,18,27,Job Specification Writer Intern,Protective Service Occupations,True,False,False,False,2024-01-14,2024-04-05
+279,18,62,Welding Instructor Intern,Production Occupations,False,True,True,False,2024-01-09,2024-04-07
+280,18,66,Family Dentist Intern,"Farming, Fishing, and Forestry Occupations",False,True,False,False,2024-01-10,2024-04-02
+281,18,24,Rail Signal Mechanic Intern,Office and Administrative Support Occupations,True,False,False,False,2025-01-07,2025-02-10
+282,18,9,Orthopedic Podiatrist Intern,Building and Grounds Cleaning and Maintenance Occupations,False,True,True,True,2025-01-26,2025-03-13
+283,18,40,Terrazzo Layer Helper Intern,Educational Instruction and Library Occupations,True,False,False,False,2025-01-22,2025-03-12
+284,18,77,Work Ticket Distributor Intern,Business and Financial Operations Occupations,False,True,True,True,2026-01-10,2026-03-03
+285,18,3,Offset Lithographic Press Setter and Set-Up Operator Intern,"Installation, Maintenance, and Repair Occupations",True,True,False,False,2026-01-16,2026-02-27
+286,18,65,Sales Account Manager Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",True,False,False,False,2027-01-23,2027-02-24
+287,18,64,Gas Meter Mechanic Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",False,False,False,False,2028-01-26,2028-02-29
+288,18,31,Coal Tower Operator Intern,Educational Instruction and Library Occupations,True,True,True,True,2029-01-17,2029-02-22
+289,18,72,Flight Service Manager Intern,Legal Occupations,True,True,False,False,2029-01-08,2029-03-13
+290,18,43,Airport Apron Bus Driver Intern,Protective Service Occupations,False,True,False,False,2029-01-23,2029-03-09
+291,20,6,Long Wall Mining Machine Tender Intern,Community and Social Service Occupations,False,False,False,False,2024-01-19,2024-03-04
+292,20,49,Boiler Setter Intern,Production Occupations,False,True,True,False,2024-01-17,2024-03-09
+293,20,98,Head Greenskeeper Intern,Protective Service Occupations,False,True,True,True,2025-01-19,2025-04-05
+294,20,14,Field Map Technician Intern,Educational Instruction and Library Occupations,False,True,False,False,2025-01-13,2025-03-06
+295,20,21,Automobile Designer Intern,"Life, Physical, and Social Science Occupations",True,False,False,False,2025-01-16,2025-03-30
+296,20,65,Labor Relations Director Intern,Food Preparation and Serving Related Occupations,True,False,False,False,2027-01-21,2027-04-13
+297,20,30,Telecommunications Line Installer Intern,Transportation and Material Moving Occupations,False,False,False,False,2027-01-26,2027-03-28
+298,20,55,Mechanical Engineering Professor Intern,"Farming, Fishing, and Forestry Occupations",True,False,False,False,2027-01-04,2027-02-21
+299,20,16,Web Content Developer Intern,Educational Instruction and Library Occupations,True,False,False,False,2028-01-22,2028-03-05
+300,20,87,Crop Picker Intern,Legal Occupations,True,True,True,False,2028-01-21,2028-03-08
+301,20,67,Sports Cartoonist Intern,Legal Occupations,True,False,False,False,2028-01-05,2028-02-19
+302,20,22,Airset Caster Intern,Construction and Extraction Occupations,False,True,True,True,2029-01-03,2029-02-12
+303,20,83,Shrimp Pond Laborer Intern,Sales and Related Occupations,True,False,False,False,2029-01-30,2029-04-10
+304,20,81,Insurance Employee Trainer Intern,Management Occupations,False,True,True,False,2030-01-19,2030-04-08
+305,20,87,Hearing Examiner Intern,"Farming, Fishing, and Forestry Occupations",False,True,False,False,2030-01-22,2030-02-24
+306,21,59,Central Sterile Supply Technician Intern,"Life, Physical, and Social Science Occupations",False,True,True,False,2024-01-14,2024-02-16
+307,21,92,Bagger Intern,Food Preparation and Serving Related Occupations,False,True,False,False,2024-01-16,2024-03-30
+308,21,1,Strawberry Sorter Intern,Community and Social Service Occupations,False,True,True,False,2025-01-05,2025-02-06
+309,21,15,Viticulturist Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",False,False,False,False,2026-01-29,2026-04-26
+310,21,84,Line Dancer Intern,Transportation and Material Moving Occupations,False,True,True,True,2026-01-19,2026-02-25
+311,21,30,Quality Inspector Intern,Community and Social Service Occupations,False,True,False,False,2026-01-09,2026-04-02
+312,21,72,"Reconnaissance Man, Parachute And Combatant Diver Qualified Intern",Healthcare Practitioners and Technical Occupations,True,False,False,False,2026-01-25,2026-03-08
+313,22,72,Copper Plater Intern,Architecture and Engineering Occupations,False,False,False,False,2025-01-24,2025-03-16
+314,22,44,Smoke Jumper Intern,Sales and Related Occupations,True,True,True,False,2025-01-28,2025-03-01
+315,22,82,Employee Placement Specialist Intern,Protective Service Occupations,True,True,False,False,2025-01-30,2025-03-27
+316,22,81,Aircraft Painter Intern,Office and Administrative Support Occupations,True,False,False,False,2026-01-24,2026-03-03
+317,22,69,Predatory Animal Trapper Intern,Computer and Mathematical Occupations,False,True,True,True,2026-01-17,2026-03-10
+318,22,17,License Clerk Intern,Computer and Mathematical Occupations,True,False,False,False,2026-01-07,2026-03-10
+319,22,44,Employee Relations Manager Intern,Architecture and Engineering Occupations,True,False,False,False,2026-01-16,2026-03-11
+320,22,92,PACU Nurse Intern,"Installation, Maintenance, and Repair Occupations",False,False,False,False,2027-01-23,2027-03-02
+321,22,22,Geological Sample Tester Intern,Legal Occupations,False,True,True,True,2027-01-09,2027-03-16
+322,22,7,Electronic Musical Instrument Repairer Intern,Healthcare Practitioners and Technical Occupations,True,False,False,False,2028-01-02,2028-02-25
+323,22,91,Correctional Supervisor Intern,Healthcare Practitioners and Technical Occupations,False,True,True,True,2028-01-11,2028-03-30
+324,22,16,Nickel Plater Intern,"Installation, Maintenance, and Repair Occupations",False,True,True,True,2029-01-11,2029-03-04
+325,22,83,Victorian Literature Professor Intern,Personal Care and Service Occupations,False,False,False,False,2030-01-26,2030-04-05
+326,22,42,Transformer Assembler Intern,"Installation, Maintenance, and Repair Occupations",False,False,False,False,2031-01-17,2031-03-20
+327,23,43,Travel Service Consultant Intern,"Installation, Maintenance, and Repair Occupations",False,False,False,False,2025-01-27,2025-04-08
+328,23,16,Farm Supervisor Intern,Legal Occupations,True,False,False,False,2026-01-21,2026-03-08
+329,23,41,Chemical Processor Intern,"Life, Physical, and Social Science Occupations",False,False,False,False,2026-01-16,2026-03-26
+330,23,18,Submarine Element Coordinator Intern,"Installation, Maintenance, and Repair Occupations",False,False,False,False,2027-01-23,2027-04-09
+331,23,35,Trace Evidence Technician Intern,Management Occupations,True,False,False,False,2027-01-18,2027-03-12
+332,23,94,Swimming Pool Plasterer Helper Intern,Sales and Related Occupations,True,True,True,False,2027-01-09,2027-03-04
+333,23,15,Animal Groomer Intern,Office and Administrative Support Occupations,True,False,False,False,2028-01-12,2028-03-26
+334,23,76,Employment Clerk Intern,"Life, Physical, and Social Science Occupations",False,True,True,True,2028-01-30,2028-03-02
+335,23,70,Special Effects Makeup Artist Intern,Office and Administrative Support Occupations,True,False,False,False,2028-01-02,2028-02-19
+336,23,99,Veterinarian Assistant Intern,"Farming, Fishing, and Forestry Occupations",True,True,True,True,2029-01-19,2029-03-05
+337,23,93,Subway Conductor Intern,Community and Social Service Occupations,False,False,False,False,2029-01-16,2029-04-03
+338,23,29,Car Stereo Installer Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",False,True,False,False,2029-01-11,2029-03-20
+339,23,35,Game Show Host Intern,Food Preparation and Serving Related Occupations,True,False,False,False,2030-01-10,2030-03-07
+340,23,32,Title Officer Intern,Healthcare Support Occupations,True,True,True,True,2030-01-18,2030-03-01
+341,23,74,Terra Cotta Roofer Helper Intern,"Installation, Maintenance, and Repair Occupations",True,False,False,False,2030-01-13,2030-04-06
+342,23,45,Oil Driller Intern,"Farming, Fishing, and Forestry Occupations",False,True,False,False,2030-01-15,2030-04-03
+343,23,51,Paint Line Operator Intern,Computer and Mathematical Occupations,False,True,True,False,2031-01-11,2031-04-08
+344,23,53,Iron Guardrail Installer Intern,Transportation and Material Moving Occupations,False,False,False,False,2031-01-30,2031-04-15
+345,24,88,Personnel Clerk Intern,"Life, Physical, and Social Science Occupations",False,True,True,True,2025-01-21,2025-04-10
+346,24,47,Air Cargo Supervisor Intern,"Life, Physical, and Social Science Occupations",True,False,False,False,2025-01-28,2025-03-13
+347,24,88,Respiratory Therapist Intern,Healthcare Support Occupations,True,False,False,False,2026-01-28,2026-04-24
+348,24,62,Assistant Store Manager Intern,Educational Instruction and Library Occupations,False,True,True,True,2026-01-04,2026-02-05
+349,24,94,Forklift Mechanic Intern,Protective Service Occupations,True,True,False,False,2026-01-24,2026-04-03
+350,24,42,Electronic News Gathering Editor Intern,Office and Administrative Support Occupations,True,False,False,False,2026-01-29,2026-04-15
+351,24,78,MRI Technologist Intern,Food Preparation and Serving Related Occupations,False,True,True,False,2027-01-17,2027-04-11
+352,24,36,Sheet Metal Roofer Intern,Military Specific Occupations,True,False,False,False,2027-01-12,2027-02-23
+353,24,76,Township Clerk Intern,"Farming, Fishing, and Forestry Occupations",False,False,False,False,2028-01-29,2028-04-02
+354,24,34,Sewer Cleaner Intern,Healthcare Practitioners and Technical Occupations,True,False,False,False,2028-01-29,2028-03-15
+355,24,2,Crematory Operator Intern,Transportation and Material Moving Occupations,True,True,True,True,2029-01-29,2029-03-22
+356,24,6,Pharmacist Assistant Intern,Architecture and Engineering Occupations,True,False,False,False,2029-01-07,2029-03-25
+357,24,31,Paintings Conservator Intern,Business and Financial Operations Occupations,True,True,False,False,2029-01-11,2029-03-16
+358,24,47,Aoc Operations - Special Operations Officer Intern,Production Occupations,False,False,False,False,2029-01-27,2029-03-11
+359,24,77,Building Code Inspector Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",False,False,False,False,2030-01-19,2030-03-05
+360,24,37,Pit Boss Intern,Sales and Related Occupations,False,True,True,False,2030-01-25,2030-04-16
+361,24,61,Wildland Firefighter Intern,Community and Social Service Occupations,False,True,False,False,2030-01-06,2030-02-23
+362,24,95,Stucco Worker Intern,Healthcare Practitioners and Technical Occupations,True,True,False,False,2030-01-12,2030-02-22
+363,24,25,Paralegal Intern,Food Preparation and Serving Related Occupations,True,False,False,False,2031-01-04,2031-02-05
+364,24,93,Hand Fabric Cutter Intern,Sales and Related Occupations,False,True,True,False,2031-01-23,2031-04-04
+365,24,95,Arboreal Scientist Intern,Protective Service Occupations,False,True,False,False,2031-01-14,2031-03-22
+366,25,44,Certified Alcohol and Drug Counselor Intern,Construction and Extraction Occupations,True,True,True,False,2026-01-17,2026-04-09
+367,25,18,Equine Breeder Intern,Legal Occupations,False,False,False,False,2026-01-29,2026-04-19
+368,25,80,Dredger Intern,Educational Instruction and Library Occupations,False,False,False,False,2027-01-04,2027-03-24
+369,25,76,Ocean Program Administrator Intern,Healthcare Practitioners and Technical Occupations,False,False,False,False,2027-01-23,2027-04-04
+370,25,71,Automobile Club Membership Sales Agent Intern,Construction and Extraction Occupations,True,True,True,False,2028-01-06,2028-02-19
+371,25,24,Rifleman Intern,Transportation and Material Moving Occupations,True,False,False,False,2028-01-07,2028-04-04
+372,25,32,Barge Loader Intern,Architecture and Engineering Occupations,True,True,False,False,2028-01-20,2028-04-12
+373,25,11,Hearing Examiner Intern,Military Specific Occupations,True,True,True,True,2029-01-23,2029-03-21
+374,25,24,Marionette Performer Intern,Computer and Mathematical Occupations,True,True,False,False,2029-01-30,2029-04-15
+375,25,14,Leather Lacer Intern,Sales and Related Occupations,False,True,False,False,2029-01-27,2029-04-05
+376,25,16,Anatomy Professor Intern,Business and Financial Operations Occupations,True,False,False,False,2030-01-22,2030-04-14
+377,25,93,Parachute Rigger Intern,Building and Grounds Cleaning and Maintenance Occupations,False,True,True,False,2030-01-30,2030-04-07
+378,25,55,Gambling Cage Cashier Intern,Healthcare Practitioners and Technical Occupations,True,False,False,False,2030-01-30,2030-03-27
+379,25,16,Corsage Maker Intern,Healthcare Support Occupations,False,True,False,False,2030-01-12,2030-03-28
+380,25,5,Inorganic Chemical Technician Intern,Production Occupations,True,False,False,False,2031-01-27,2031-03-11
+381,25,37,Pageant Director Intern,Legal Occupations,True,True,True,True,2031-01-19,2031-04-10
+382,25,71,Oil Rig Roughneck Intern,"Installation, Maintenance, and Repair Occupations",False,False,False,False,2031-01-02,2031-02-09
+383,25,72,Leaflet Distributor Intern,Transportation and Material Moving Occupations,False,False,False,False,2032-01-19,2032-02-29
+384,26,68,Head Butler Intern,Building and Grounds Cleaning and Maintenance Occupations,True,True,True,False,2026-01-17,2026-04-02
+385,26,53,Floral Arranger Intern,Educational Instruction and Library Occupations,True,True,False,False,2026-01-29,2026-04-18
+386,26,51,Tree-Shear Operator Intern,Business and Financial Operations Occupations,False,False,False,False,2026-01-30,2026-03-16
+387,26,35,Air Intercept Controller Supervisor Intern,Community and Social Service Occupations,False,False,False,False,2027-01-03,2027-03-22
+388,26,82,Certified Pharmacist Assistant Intern,"Installation, Maintenance, and Repair Occupations",True,True,True,False,2027-01-25,2027-03-09
+389,26,21,Radio Artist Intern,Protective Service Occupations,True,True,False,False,2027-01-22,2027-04-10
+390,26,88,Expeditionary Fighting Vehicle  (Efv) Crewman Intern,Office and Administrative Support Occupations,False,False,False,False,2027-01-22,2027-03-23
+391,26,43,Marine Propulsion Technician Intern,Military Specific Occupations,True,True,True,True,2028-01-07,2028-03-08
+392,26,97,Pierogi Maker Intern,Military Specific Occupations,True,False,False,False,2028-01-17,2028-03-14
+393,26,33,Aerial Gunner Intern,Personal Care and Service Occupations,False,False,False,False,2029-01-15,2029-03-11
+394,26,39,Ordinary Seaman Intern,Personal Care and Service Occupations,False,True,True,False,2029-01-12,2029-03-26
+395,26,75,Forest Ecologist Intern,Personal Care and Service Occupations,True,True,True,True,2030-01-28,2030-04-21
+396,26,45,Log Loader Operator Intern,Office and Administrative Support Occupations,True,True,False,False,2030-01-20,2030-04-04
+397,26,5,Administrative Clerk Intern,Production Occupations,True,False,False,False,2031-01-29,2031-03-11
+398,26,85,Emergency Room Orderly Intern,Food Preparation and Serving Related Occupations,False,True,True,True,2031-01-22,2031-04-13
+399,26,16,Courtesy Car Driver Intern,Computer and Mathematical Occupations,True,True,False,False,2031-01-08,2031-02-23
+400,26,47,Clinical Nurse Specialist Intern,"Arts, Design, Entertainment, Sports, and Media Occupations",False,True,False,False,2031-01-02,2031-03-07
+401,26,57,Chief Medical Technologist Intern,Educational Instruction and Library Occupations,True,True,True,True,2032-01-11,2032-02-24
+402,26,61,Oil Derrick Operator Intern,Business and Financial Operations Occupations,True,True,False,False,2032-01-16,2032-03-26
+403,27,91,Dumpling Machine Operator Intern,Military Specific Occupations,False,True,True,False,2026-01-15,2026-02-16
+404,27,33,Reference Archivist Intern,"Installation, Maintenance, and Repair Occupations",False,True,False,False,2026-01-03,2026-03-11
+405,27,62,Corporate Counsel Intern,Construction and Extraction Occupations,True,False,False,False,2027-01-23,2027-03-24
+406,27,10,Advertising Photographer Intern,"Installation, Maintenance, and Repair Occupations",False,False,False,False,2027-01-06,2027-03-15
+407,27,14,Tile Installer Intern,Management Occupations,True,True,True,False,2027-01-02,2027-03-05
+408,27,91,Impersonator Intern,Computer and Mathematical Occupations,False,False,False,False,2028-01-18,2028-02-26
+409,27,18,GIS Mapping Technician Intern,Legal Occupations,False,True,True,True,2028-01-29,2028-04-27
+410,28,84,Paper Cutter Intern,Transportation and Material Moving Occupations,False,False,False,False,2027-01-27,2027-04-18
+411,28,15,Reforestation Worker Intern,"Installation, Maintenance, and Repair Occupations",True,True,True,False,2027-01-14,2027-02-28
+412,28,8,Building Carpenter Intern,Business and Financial Operations Occupations,False,False,False,False,2027-01-09,2027-03-14
+413,28,44,Funeral Home Associate Intern,"Installation, Maintenance, and Repair Occupations",True,True,True,False,2028-01-15,2028-04-05
+414,28,46,Aviation Boatswain's Mate Intern,Sales and Related Occupations,False,True,False,False,2028-01-16,2028-04-08
+415,28,60,Surgical Scrub Technologist Intern,Educational Instruction and Library Occupations,True,True,True,True,2029-01-23,2029-03-28
+416,28,28,Printing Supervisor Intern,"Life, Physical, and Social Science Occupations",False,False,False,False,2029-01-17,2029-03-05
+417,28,53,Airplane Charter Clerk Intern,Computer and Mathematical Occupations,False,False,False,False,2030-01-12,2030-03-18
+418,28,32,Firebrick Layer Helper Intern,Protective Service Occupations,True,False,False,False,2030-01-30,2030-04-19
+419,28,17,Aviation Electronic Warfare Operator Intern,Healthcare Support Occupations,True,True,True,True,2030-01-21,2030-04-03
+420,28,44,Electrical Drafter Intern,Business and Financial Operations Occupations,True,False,False,False,2030-01-26,2030-04-21
+421,28,18,Metal Patternmaker Intern,Architecture and Engineering Occupations,False,False,False,False,2031-01-15,2031-04-08
+422,28,71,Mayor Intern,Management Occupations,False,True,True,False,2031-01-08,2031-03-01
+423,28,75,Gambling Monitor Intern,Legal Occupations,True,True,True,False,2032-01-02,2032-02-26
+424,28,69,Auto Parts Salesperson Intern,Personal Care and Service Occupations,True,True,False,False,2032-01-10,2032-03-25
+425,28,17,Toolmaker Intern,"Installation, Maintenance, and Repair Occupations",True,False,False,False,2032-01-19,2032-02-29
+426,28,21,Census Taker Intern,Healthcare Practitioners and Technical Occupations,True,True,False,False,2032-01-12,2032-03-05
+427,28,38,Non-Representational Metal Sculptor Intern,Community and Social Service Occupations,False,False,False,False,2033-01-13,2033-03-27
+428,28,49,Key Punch Operator Intern,"Farming, Fishing, and Forestry Occupations",True,True,True,False,2033-01-02,2033-02-24
+429,29,42,Events Manager Intern,Healthcare Practitioners and Technical Occupations,False,False,False,False,2027-01-30,2027-04-07
+430,29,61,Courtesy Car Driver Intern,Business and Financial Operations Occupations,False,True,True,True,2027-01-13,2027-03-18
+431,29,34,Knitter Operator Intern,Management Occupations,False,True,False,False,2027-01-24,2027-04-10
+432,29,3,Underground Bolting Machine Operator Intern,"Life, Physical, and Social Science Occupations",True,True,False,False,2027-01-22,2027-04-11
+433,29,50,Long Wall Mining Machine Tender Intern,"Installation, Maintenance, and Repair Occupations",False,True,False,False,2027-01-22,2027-02-23
+434,29,43,Mess Cook Intern,Office and Administrative Support Occupations,False,False,False,False,2028-01-08,2028-02-25
+435,29,87,Refractory Tile Helper Intern,Military Specific Occupations,False,True,True,True,2028-01-14,2028-04-02
+436,29,82,Ballast Cleaning Machine Operator Intern,Architecture and Engineering Occupations,True,True,False,False,2028-01-28,2028-04-25
+437,29,72,Human Resources Generalist Intern,Educational Instruction and Library Occupations,True,False,False,False,2028-01-18,2028-03-17
+438,29,74,CHST Intern,Healthcare Practitioners and Technical Occupations,True,True,True,True,2029-01-18,2029-04-01
+439,30,78,Geodetic Surveyor Intern,Military Specific Occupations,True,True,True,False,2027-01-21,2027-03-01
+440,30,76,Aerial Photographer Intern,Military Specific Occupations,False,False,False,False,2028-01-29,2028-03-20
+441,30,11,Swager Operator Intern,"Farming, Fishing, and Forestry Occupations",False,False,False,False,2028-01-14,2028-03-29
+442,30,62,Hearing Aid Repair Technician Intern,Sales and Related Occupations,False,True,True,False,2029-01-29,2029-04-25
+443,30,80,Agronomy Professor Intern,Healthcare Support Occupations,True,False,False,False,2029-01-24,2029-03-01
+444,30,60,Software Quality Assurance Technician Intern,Healthcare Practitioners and Technical Occupations,False,True,False,False,2029-01-11,2029-03-31
