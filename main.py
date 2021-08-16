@@ -9,21 +9,39 @@ import json
 
 
 
-def generate_permrecs(number_of_cohorts, cohort_size, starting_year):
+def generate_permrecs():
+    # VARIABLE PARAMETERS FOR GENERATION
+    
+    # Variable paramters - One cohort is admitted per year, this is the total number of cohorts to accept.
+    # starting_year + number of cohorts will equal the largest/most recent year a cohort was admitted.
+    number_of_cohorts = 3
 
+    # Variable paramters - Number of students in each cohort
+    cohort_size = 10
+
+    # Variable paramters - The year in which the first cohort was admitted
+    starting_year = 2002
+
+    # Variable paramters - For convenience, total number of students in the program
     number_of_students = number_of_cohorts * cohort_size
 
-    # Lists of data to be generated then converted to pandas DF
+
+    # PREPARE LOOKUPS, SOURCES OF DATA, AND CONTAINERS
+
+    # Prepare - Lists of data to be generated then converted to pandas DF
     list_of_ids = []
     list_of_first_names = []
     list_of_last_names = []
     list_of_cohorts = []
     list_of_dobs = []
 
-    # Data for Generators
+    # Prepare - Data for Generators
     list_of_ids = [x for x in range(1,number_of_students+1)]
 
-    # Generate first names with data in text files
+
+    # GENERATE DATA
+
+    # Generate data - Generate first names with data in text files
     with open('data/first_names.txt') as f:
         lines = f.readlines()
         list_of_first_names = [
@@ -31,7 +49,7 @@ def generate_permrecs(number_of_cohorts, cohort_size, starting_year):
     random.shuffle(list_of_first_names)
     list_of_first_names = list_of_first_names[:number_of_students]
 
-    # Generate last names with data in text files
+    # Generate data - Generate last names with data in text files
     with open('data/last_names.txt') as f:
         lines = f.readlines()
         list_of_last_names = [
@@ -39,17 +57,20 @@ def generate_permrecs(number_of_cohorts, cohort_size, starting_year):
     random.shuffle(list_of_last_names)
     list_of_last_names = list_of_last_names[:number_of_students]
 
-    # Generate cohort numbers
+    # Generate data - Generate cohort numbers
     list_of_cohorts = [i+1 for i in range(cohort_size)
                        for x in range(number_of_cohorts)]
 
-    # Generate dobs based on the starting year
+    # Generate data - Generate dobs based on the starting year
     for i in list_of_cohorts:
         start_date = datetime.date(starting_year + i - 1, 1, 1)
         list_of_dobs.append(
             start_date + datetime.timedelta(days=random.randrange(364)))
 
-    # Create data frame
+
+    # EXPORT AS DATAFRAME AND CSV
+
+    # Export - Create data frame
     data = {
         "Student ID": list_of_ids,
         "First Name": list_of_first_names,
@@ -59,18 +80,41 @@ def generate_permrecs(number_of_cohorts, cohort_size, starting_year):
     }
     df = pd.DataFrame(data)
 
-    # Export
+    # Export - Export CSV and return DataFrame
     df.to_csv('output/permrecs.csv', index=False)
     return df
-    # print(df)
 
 
-def generate_enrollment(permrecs_df, starting_grade, rate_of_attrition):
+def generate_enrollment(permrecs_df):
+    # VARIABLE PARAMETERS FOR GENERATION
+    
+    # Variable paramters - The grade a student should be in in their first year
+    starting_grade = 5
 
-    # Before generating data, define several lookup tables and methods 
-    # for pseudorandomly choosing data options.
+    # Variable paramters - Rate at which students should leave the program fro randomly selected reasons
+    rate_of_attrition = 0.03
 
-    # A simple grade to age lookup
+
+    # PREPARE LOOKUPS, SOURCES OF DATA, AND CONTAINERS
+
+    # Prepare - Lists of data to be generated then converted to pandas DF
+    list_of_enrollment_ids = []
+    list_of_student_ids = []
+    list_of_academic_years = []
+    list_of_grades = []
+    list_of_school_names = []
+    list_of_school_districts = []
+    list_of_exited_this_years = []
+    list_of_exit_reasons = []
+    list_of_exit_types = []
+
+    # Prepare - Lists of options that will be randomly chosen for data
+    list_of_elementary_school_options = []
+    list_of_middle_school_options = []
+    list_of_high_school_options = []
+    list_of_higher_ed_school_options = []
+
+    # Prepare - Grade number to age lookup
     grade_age_lookup = {
         1: 6,
         2: 7,
@@ -91,7 +135,7 @@ def generate_enrollment(permrecs_df, starting_grade, rate_of_attrition):
         17: 22,
     }
 
-    # A simple grade to age lookup
+    # Prepare - Grade number to grade name lookup
     grade_name_lookup = {
         1: "1",
         2: "2",
@@ -112,13 +156,7 @@ def generate_enrollment(permrecs_df, starting_grade, rate_of_attrition):
         17: "C5",
     }
 
-    # Exit types
-    list_of_exit_type_options = [
-        "withdrawn",
-        "graduated",
-    ]
-
-    # Exit Reasons
+    # Prepare - Exit Reasons
     list_of_exit_reason_options = [
         "Academic Performance",
         "Integrity",
@@ -129,11 +167,7 @@ def generate_enrollment(permrecs_df, starting_grade, rate_of_attrition):
         "Moved Away",
     ]
 
-    # Lists of data used for randomly selecting schools
-    list_of_elementary_school_options = []
-    list_of_middle_school_options = []
-    list_of_high_school_options = []
-
+    # Prepare - Make lists of elementary, middle, and high school options
     with open('data/lower_schools.csv') as f:
         lines = csv.reader(f, delimiter=',', quotechar='"')
         for line in lines:
@@ -159,12 +193,13 @@ def generate_enrollment(permrecs_df, starting_grade, rate_of_attrition):
                 elif line[1].find("High") > 0:
                     list_of_high_school_options.append(("Renton", line[1]))
    
-    list_of_higher_ed_school_options = []
+    # Prepare - Make list of higher ed school options
     with open('data/higher_ed_schools.txt') as f:
         lines = f.readlines()
         list_of_higher_ed_school_options = [ line[:len(line)-1] for line in lines]
     random.shuffle(list_of_higher_ed_school_options)
     
+    # Prepare - Method for randomly getting a school based on a grade
     def get_random_school(grade):
         if grade >= 1 and grade <= 5:
             return list_of_elementary_school_options[random.randrange(0,len(list_of_elementary_school_options))]
@@ -177,26 +212,14 @@ def generate_enrollment(permrecs_df, starting_grade, rate_of_attrition):
         else:
             return ("grade out of bounds error", "grade should be between 1 and 17")
 
-    # For each student, make enrollment records
-    #   Determine year based on grade by adding to student's DOB the looked up age from grade 
-    #   All students get at least one enrollment record with a randomly chosen school
-    #   After each enrollment record, there is a change the student does not continue
-    #   If the student does continue, make another record
 
-    # Lists of data to be generated then converted to pandas DF
-    list_of_enrollment_ids = []
-    list_of_student_ids = []
-    list_of_academic_years = []
-    list_of_grades = []
-    list_of_school_names = []
-    list_of_school_districts = []
-    list_of_exited_this_years = []
-    list_of_exit_reasons = []
-    list_of_exit_types = []
+    # GENERATE DATA
 
+    # Generate data - For each student, create enrollment records starting in starting_grade up through "C5" with the same potential attrition each year
     with open('output/permrecs.csv') as f:
         csvreader_of_students = csv.reader(f, delimiter=',', quotechar='"')
         next(csvreader_of_students) # skip header
+
         for row_in_csvreader_of_students in csvreader_of_students:
             grade = starting_grade
             random_number_determining_attrition = 1
@@ -206,7 +229,7 @@ def generate_enrollment(permrecs_df, starting_grade, rate_of_attrition):
                 list_of_student_ids.append(row_in_csvreader_of_students[0])
 
                 # Set Academic Year
-                academic_year_start = int(int(row_in_csvreader_of_students[4][:4]) + int(grade_age_lookup[grade]))
+                academic_year_start = int(row_in_csvreader_of_students[4][:4]) + int(grade_age_lookup[grade])
                 academic_year_end = academic_year_start + 1
                 list_of_academic_years.append(str(academic_year_start) + "-" + str(academic_year_end))
 
@@ -251,9 +274,13 @@ def generate_enrollment(permrecs_df, starting_grade, rate_of_attrition):
                 # Prep for next grade
                 grade += 1
 
+    # Generate data - Create primary keys based on the number of records
     list_of_enrollment_ids = [x+1 for x in range(len(list_of_student_ids))]
 
-    # Create data frame
+
+    # EXPORT AS DATAFRAME AND CSV
+
+    # Export - Create data frame
     data = {
         "Enrollment ID": list_of_enrollment_ids,
         "Student ID": list_of_student_ids,
@@ -267,48 +294,68 @@ def generate_enrollment(permrecs_df, starting_grade, rate_of_attrition):
     }
     df = pd.DataFrame(data)
 
+    # Export - Export CSV and return DataFrame
     df.to_csv('output/enrollment.csv', index=False)
     return df
 
 
 def generate_organizations():
 
-    list_of_organization_ids = []
-    list_of_organizations = []
+    # VARIABLE PARAMETERS FOR GENERATION
+    shuffle_organizations = False
+    
+    # PREPARE LOOKUPS, SOURCES OF DATA, AND CONTAINERS
 
+    # Prepare - Lists of data to be generated then converted to pandas DF
+    list_of_organization_ids = []
+    list_of_organization_names = []
+
+
+    # GENERATE DATA
+
+    # Generate Data - List of organization names
     with open('data/organization_names.txt') as f:
         lines = f.readlines()
-        list_of_organizations = [ line[:len(line)-1] for line in lines]
-    random.shuffle(list_of_organizations)
+        list_of_organization_names = [ line[:len(line)-1] for line in lines]
+    if shuffle_organizations:
+        random.shuffle(list_of_organization_names)
 
-    list_of_organization_ids = [x+1 for x in range(len(list_of_organizations))]
-    
-    # Create data frame
+    # Generate Data - List of organization ids based on number of names
+    list_of_organization_ids = [x+1 for x in range(len(list_of_organization_names))]
+
+
+    # EXPORT AS DATAFRAME AND CSV
+
+    # Export - Create data frame
     data = {
         "Organization ID": list_of_organization_ids,
-        "Organization Name": list_of_organizations,
+        "Organization Name": list_of_organization_names,
     }
     df = pd.DataFrame(data)
+
+    # Export - Export CSV and return DataFrame
     df.to_csv('output/organizations.csv', index=False)
     return df
 
 
-def generate_internships(enrollment_records, organization_records, avg_number_of_applications_per_student, apps_per_student_stdv, rate_of_interviewed, rate_of_completion, rate_of_desired_career_path):
+def generate_internships(enrollment_records, organization_records):
+    # VARIABLE PARAMETERS FOR GENERATION
     
-    # Before generating data, define lookups and filter dfs that will be used.
+    # Variable paramters - Average and standard deviation of number of applications a student should have each year
+    avg_number_of_applications_per_student = 3
+    apps_per_student_stdv = 1
 
-    # Generates internships for HS 3rd and 4th years, and all college years at the rates provided.
-    list_of_grades_for_internships = ["11", "12", "C1", "C2", "C3", "C4", "C5"]
+    # Variable paramters - Rates at which students should interview and complete internships they applied for
+    rate_of_interviewed = 0.5
+    rate_of_completion = 0.5
 
-    careers_df = pd.read_csv('data/job_titles_and_career_paths.csv', header=0)  
-    careers_df["2018 SOC Direct Match Title Intern"] = careers_df["2018 SOC Direct Match Title"] + " Intern"
-    list_of_career_fields = careers_df["2018 SOC Major Group"].unique().tolist()
-    list_of_internships = careers_df["2018 SOC Direct Match Title Intern"].unique().tolist()
-    list_of_org_ids_from_organizations = organization_records["Organization ID"].tolist()
+    # Variable paramters - Rate at which an internship is a student's desired career path
+    rate_of_desired_career_path = 0.5
 
-    enrollment_records_eligible_for_internships = enrollment_records[enrollment_records["Grade"].isin(list_of_grades_for_internships)]
 
-    # Lists of data to be generated then converted to pandas DF
+    # PREPARE LOOKUPS, SOURCES OF DATA, AND CONTAINERS
+
+    # Prepare - Lists of data to be generated then converted to pandas DF
     list_of_internship_ids = []
     list_of_student_ids = []
     list_of_org_ids = []
@@ -321,21 +368,39 @@ def generate_internships(enrollment_records, organization_records, avg_number_of
     list_of_start_dates = []
     list_of_end_dates = []
 
-    # To avoid iterrowing over the df, function creates some number of internships given a student-year (one row in df)
-    # This is preemptively optimizing, but an interesting thing to try
+    # Prepare - Grades during which students apply for internships
+    list_of_grades_for_internships = ["11", "12", "C1", "C2", "C3", "C4", "C5"]
+
+    # Prepare - Create possible internships and career fields using the career options data
+    careers_df = pd.read_csv('data/job_titles_and_career_paths.csv', header=0)  
+    careers_df["2018 SOC Direct Match Title Intern"] = careers_df["2018 SOC Direct Match Title"] + " Intern"
+    list_of_career_field_options = careers_df["2018 SOC Major Group"].unique().tolist()
+    list_of_internship_options = careers_df["2018 SOC Direct Match Title Intern"].unique().tolist()
+
+    # Prepare - List of organization IDs from previously generated data
+    list_of_org_id_options = organization_records["Organization ID"].tolist()
+
+    # Prepare - Subset of enrollment records including only grades during which students apply for internships
+    enrollment_records_eligible_for_internships = enrollment_records[enrollment_records["Grade"].isin(list_of_grades_for_internships)]
+
+
+    # GENERATE DATA
+
+    # Generate Data - Method that handles creation of internship records given a student and year
+    # Method approach was used to avoid iterrowing over the df
     def generate_internships_for_one_student_year(student_id, academic_year):
 
         number_of_internships = max(0, int(random.gauss(avg_number_of_applications_per_student, apps_per_student_stdv)))
         if number_of_internships != 0: 
             index_of_completed_internship = random.randrange(0, number_of_internships)
-        
+
         has_accepted_one_internship = False
 
         for i in range(number_of_internships):
             list_of_student_ids.append(student_id)
-            list_of_org_ids.append(list_of_org_ids_from_organizations[random.randrange(0,len(list_of_org_ids_from_organizations))])
-            list_of_internship_names.append(list_of_internships[random.randrange(0,len(list_of_internships))])
-            list_of_career_paths.append(list_of_career_fields[random.randrange(0,len(list_of_career_fields))])
+            list_of_org_ids.append(list_of_org_id_options[random.randrange(0,len(list_of_org_id_options))])
+            list_of_internship_names.append(list_of_internship_options[random.randrange(0,len(list_of_internship_options))])
+            list_of_career_paths.append(list_of_career_field_options[random.randrange(0,len(list_of_career_field_options))])
             
             is_desired_career_path = random.random()
             if is_desired_career_path <= rate_of_desired_career_path:
@@ -363,18 +428,24 @@ def generate_internships(enrollment_records, organization_records, avg_number_of
 
             random_day_interval_start = random.randrange(1,30)
             start_date_base = datetime.date( int(academic_year[:4]), 1, 1)
-            start_date = str(start_date_base + datetime.timedelta(days=random_day_interval_start))
-            list_of_start_dates.append(start_date)
+            start_date = start_date_base + datetime.timedelta(days=random_day_interval_start)
+            list_of_start_dates.append(str(start_date))
 
             random_day_interval_end = random.randrange(32,90)
-            end_date_base = datetime.date( int(start_date[:4]), int(start_date[5:7]), int(start_date[8:10]))
+            end_date_base = datetime.date( start_date.year, start_date.month, start_date.day)
             end_date = str(end_date_base + datetime.timedelta(days=random_day_interval_end))
             list_of_end_dates.append(end_date)
 
+    # Generate Data - Use list comprehension to call the method with student IDs and academic years
     [generate_internships_for_one_student_year(x, y) for x, y in zip(enrollment_records_eligible_for_internships['Student ID'], enrollment_records_eligible_for_internships['Academic Year'])]
 
+    # Generate Data - Create primary keys using number of records created
     list_of_internship_ids = [x+1 for x in range(len(list_of_student_ids))]
+    
+    
+    # EXPORT AS DATAFRAME AND CSV
 
+    # Export - Create data frame
     data = {
         "Internship ID": list_of_internship_ids,
         "Student ID": list_of_student_ids,
@@ -388,39 +459,31 @@ def generate_internships(enrollment_records, organization_records, avg_number_of
         "Start Date": list_of_start_dates,
         "End Date": list_of_end_dates,
     }
-    
     df = pd.DataFrame(data)
+
+    # Export - Export CSV and return DataFrame
     df.to_csv('output/internships.csv', index=False)
     return df
 
-    # print(enrollment_records_eligible_for_internships.head())
 
-# This method assumes we are finding and collecting data about students even after they leave the program
 def generate_career_experiences(enrollment_records, organization_records):
 
-    # Parameters for data generation:
+    # VARIABLE PARAMETERS FOR GENERATION
+    
+    # Variable paramters - Average and standard deviation of how long a student should stay in any one career experience
     career_experience_tenure_average_years = 2
     career_experience_tenure_stddev_years = 2
+
+    # Variable paramters - Rate at which any particular career experience should be a student's desired career path
     rate_of_desired_career_paths = 0.5
+
+    # Variable paramters - Grade in which students should start having career experiences
     grade_first_eligible_for_career_experience = "9"
-    max_year = int(enrollment_records["Academic Year"].max()[:4])
+    
 
-    # Prepare lookups and sources of data
+    # PREPARE LOOKUPS, SOURCES OF DATA, AND CONTAINERS
 
-    # Prepare data - Enrollment records
-    enrollment_records_of_students_first_career_eligible_year = enrollment_records[enrollment_records["Grade"] == grade_first_eligible_for_career_experience]
-
-    # Prepare data - Organization IDs
-    list_of_org_ids_from_organizations = organization_records["Organization ID"].tolist()
-
-    # Prepare data - Career Experience Names
-    careers_df = pd.read_csv('data/job_titles_and_career_paths.csv', header=0)  
-    list_of_career_experience_options = careers_df["2018 SOC Direct Match Title"].unique().tolist()
-
-    # Prepare data - Career fields
-    list_of_career_fields = careers_df["2018 SOC Major Group"].unique().tolist()
-
-    # Lists of data to be generated then converted to pandas df
+    # Prepare - Lists of data to be generated then converted to pandas DF
     list_of_career_experience_ids = []
     list_of_student_ids = []
     list_of_org_ids = []
@@ -430,18 +493,35 @@ def generate_career_experiences(enrollment_records, organization_records):
     list_of_start_dates = []
     list_of_end_dates = []
 
-    # Generate data
+    # Prepare data - Enrollment records
+    enrollment_records_of_students_first_career_eligible_year = enrollment_records[enrollment_records["Grade"] == grade_first_eligible_for_career_experience]
 
-    # To avoid iterrowing over the df, this function generates a career experience given a student id and academic year
-    # Method should eventually be called using only each student's first eligible enrollment record (by year)
+    # Prepare - Max year is the "current" year after which we should not have info for students
+    max_year = int(enrollment_records["Academic Year"].max()[:4])
+
+    # Prepare data - Organization IDs
+    list_of_org_id_options = organization_records["Organization ID"].tolist()
+
+    # Prepare data - Career Experience Names
+    careers_df = pd.read_csv('data/job_titles_and_career_paths.csv', header=0)  
+    list_of_career_experience_options = careers_df["2018 SOC Direct Match Title"].unique().tolist()
+
+    # Prepare data - Career fields
+    list_of_career_fields = careers_df["2018 SOC Major Group"].unique().tolist()
+
+
+    # GENERATE DATA
+
+    # Generate Data - Method that handles creation of career experiences given a student id, their first academic year, and the final year we should have data for
+    # Method approach was used to avoid iterrowing over the df
     def generate_career_experiences_for_one_student_year(student_id, academic_year, max_year):
         
-        # max year in enrollments record is assumed to be "current" year
+        # max year in enrollments record is assumed to be "current" year after which we should not have data
         # Given a student id and a year, jobs are generated with some number of days as the tenure (minimum of 365)
         # until "current year" is reached or exceeded for which "present" is used as end date.
         
         # Generate data - Max end date 
-        max_date = datetime.date( int(max_year), 1, 1)
+        max_date = datetime.date( max_year, 1, 1)
 
         # Set minimum start date based on student's first eligible academic year
         end_date = datetime.date( int(academic_year[:4]), random.randrange(1,12), 1)
@@ -453,7 +533,7 @@ def generate_career_experiences(enrollment_records, organization_records):
             list_of_student_ids.append(student_id)
 
             # Generate data - Organization ID
-            list_of_org_ids.append(list_of_org_ids_from_organizations[random.randrange(0,len(list_of_org_ids_from_organizations))])
+            list_of_org_ids.append(list_of_org_id_options[random.randrange(0,len(list_of_org_id_options))])
 
             # Generate data - Career Experience Name
             career_experience_name = list_of_career_experience_options[random.randrange(0,len(list_of_career_experience_options))] # will be used again
@@ -462,10 +542,6 @@ def generate_career_experiences(enrollment_records, organization_records):
             # Generate data - Career field
             # filter by direct match title, get career field
             this_career_experience_df = careers_df[careers_df["2018 SOC Direct Match Title"] == career_experience_name]
-            # print()
-            # print(career_experience_name)
-            # print(this_career_experience_df)
-            # print(this_career_experience_df.index.tolist()[0])
             career_field_of_this_experience = this_career_experience_df.at[this_career_experience_df.index.tolist()[0],"2018 SOC Major Group"]
             list_of_career_paths.append(career_field_of_this_experience)
 
@@ -499,7 +575,9 @@ def generate_career_experiences(enrollment_records, organization_records):
     list_of_career_experience_ids = [x+1 for x in range(len(list_of_student_ids))]
 
 
-    # Convert lists to data frame and export
+    # EXPORT AS DATAFRAME AND CSV
+
+    # Export - Create data frame
     data = {
         "Career Experience ID": list_of_career_experience_ids,
         "Student ID": list_of_student_ids,
@@ -510,55 +588,61 @@ def generate_career_experiences(enrollment_records, organization_records):
         "Start Date": list_of_start_dates,
         "End Date": list_of_end_dates,
     }
-
     df = pd.DataFrame(data)
+
+    # Export - Export CSV and return DataFrame
     df.to_csv('output/careers.csv', index=False)
     return df
 
 
-def generate_activities(permanent_records, enrollment_records):
-    # For each student, generate activities that cover the time they are in the program.
-    # Some students tend to have more, some tend to have less
-    # Given a student, get the number of years they are in the program
-    #   - Choose how many activities we are going to give them
-    #   - Each year, give them that many activities +- 1
-    #   - If they need to gain or lose an activity, pick one at random
-    #   - Set grade boundaries for completely redoing activities
+def generate_activities(permanent_records, enrollment_records):    
+    # VARIABLE PARAMETERS FOR GENERATION
     
-    # On average, most student will have 3 activities at a time
+    # Variable paramters - On average, most student will have 3 activities at a time
     avg_activities_at_a_time = 3
     stddev_activities = 2
 
+    # Variable paramters - Grades that are typically school thresholds during which a student would get all new activities
     grades_that_trigger_activity_rerolling = ["9", "C1"]
 
+
+    # PREPARE LOOKUPS, SOURCES OF DATA, AND CONTAINERS
+
+    # Prepare - Lists of data to be generated then converted to pandas DF
     list_of_student_ids = []
     list_of_activity_ids = []
     list_of_activity_names = []
     list_of_activity_types = []
     list_of_grades_participated = []
 
-    # Load dictionary of activity options
+    # Prepare - During data generation, a student will have a set of "current" activities that may change slightly year to year
+    list_of_students_current_activities = []
+
+    # Prepare - Load activity options
     dataframe_of_activity_options = pd.read_csv('data/student_organizations.csv')
     list_of_tuples_of_activity_type_and_name = [(x,y) for x, y in zip(dataframe_of_activity_options["Type"], dataframe_of_activity_options["Name"])]
 
-    # Get student ID's from permrecs
+    # Prepare - Get student ID's from permrecs
     list_of_studentids_from_permrecs = permanent_records["Student ID"].tolist()
 
-    # For each ID, subset enrollment records for each student
+    # Prepare - For each ID, subset enrollment records for each student and create a tuple to later be used
     list_of_studentID_grade_tuples = []
-
     for id in list_of_studentids_from_permrecs:
         this_students_enrollment_records = enrollment_records[enrollment_records["Student ID"] == str(id)]
         this_students_grades = this_students_enrollment_records["Grade"].tolist()
         list_of_studentID_grade_tuples.append((id, this_students_grades))
 
-    # Set this student's number of activities (this student will always have that number plus or minus 1)
-    base_number_of_activities = int(random.gauss(avg_activities_at_a_time, stddev_activities))
 
-    # For each grade we have about the student, choose a number of activities and make that many records for the student
-    list_of_students_current_activities = []
+    # GENERATE DATA
 
+    # Generate Data - Loop through students ang generate activity records
+    # Each student will have their own base number of activities (some students tend to have more activities and some less)
+    # For each grade we have about the student, make sure they have within 1 or the base number of activities
     for studentid_grade in list_of_studentID_grade_tuples:
+
+        # Set this student's number of activities (this student will always have that number plus or minus 1)
+        base_number_of_activities = int(random.gauss(avg_activities_at_a_time, stddev_activities))
+
         for grade in studentid_grade[1]:
             modifier = random.randint(-1,1)
             number_of_activities_for_this_student_this_year = max(0, base_number_of_activities + modifier)
@@ -591,10 +675,13 @@ def generate_activities(permanent_records, enrollment_records):
                 list_of_activity_types.append(activity[0])
                 list_of_grades_participated.append(grade)
 
-    # Generate data - Career experience IDs
+    # Generate data - Primary keys based on number of records
     list_of_activity_ids = [x+1 for x in range(len(list_of_student_ids))]
 
-    # Convert lists to data frame and export
+
+    # EXPORT AS DATAFRAME AND CSV
+
+    # Export - Create data frame
     data = {
         "Activity ID": list_of_activity_ids,
         "Student ID": list_of_student_ids,
@@ -602,25 +689,44 @@ def generate_activities(permanent_records, enrollment_records):
         "Activity Type": list_of_activity_types,
         "grades_participated": list_of_grades_participated,
     }
-
     df = pd.DataFrame(data)
+
+    # Export - Export CSV and return DataFrame
     df.to_csv('output/activities.csv', index=False)
     return df
 
 
 
-
 if __name__ == "__main__":
-    permrecs = generate_permrecs(3, 10, 2002)
-    enrollment = generate_enrollment(permrecs, 5, 0.03)
+    permrecs = generate_permrecs()
+    enrollment = generate_enrollment(permrecs)
     organizations = generate_organizations()
-    internships = generate_internships(enrollment, organizations, 3, 1, 0.5, 0.5, 0.5)
+    internships = generate_internships(enrollment, organizations)
     careers = generate_career_experiences(enrollment, organizations)
     activities = generate_activities(permrecs, enrollment)
 
+
 # TO DO
-# Move all parameters to beginning of methods
 # Add more comments
-# Move str out of variables and into the list appends
-# Rename source lists as "options"
 # Change career field selector for internships to match career experience generator
+# Make enrollments use existing df and not the csv
+# Each activites entry should have a list of grades participated instead of multiple records for the same activity per student
+
+
+# Notes to move to readme
+
+# Enrollment 
+    # For each student, make enrollment records
+    #   Determine year based on grade by adding to student's DOB the looked up age from grade 
+    #   All students get at least one enrollment record with a randomly chosen school
+    #   After each enrollment record, there is a change the student does not continue
+    #   If the student does continue, make another record
+
+# Activities
+    # For each student, generate activities that cover the time they are in the program.
+    # Some students tend to have more, some tend to have less
+    # Given a student, get the number of years they are in the program
+    #   - Choose how many activities we are going to give them
+    #   - Each year, give them that many activities +- 1
+    #   - If they need to gain or lose an activity, pick one at random
+    #   - Set grade boundaries for completely redoing activities

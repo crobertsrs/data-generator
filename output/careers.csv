@@ -1,181 +1,197 @@
 Career Experience ID,Student ID,Organization ID,Career Experience Name,Career Path,Is Desired Career Path,Start Date,End Date
-1,1,44,Lcac Operator,Military Specific Occupations,False,2016-08-26,2019-08-01
-2,1,59,Deputy United States Marshal,Protective Service Occupations,True,2019-08-10,2022-07-31
-3,1,9,Resource Conservationist,"Life, Physical, and Social Science Occupations",False,2022-08-17,2025-07-30
-4,1,67,Drywall Hanger,Construction and Extraction Occupations,False,2025-08-20,2026-07-30
-5,1,91,Coil Winder,Production Occupations,False,2026-08-17,2030-07-29
-6,1,35,Wood Carver,Production Occupations,False,2030-08-10,2031-07-29
-7,1,91,Computer Programmer,Computer and Mathematical Occupations,False,2031-08-02,present
-8,2,14,Steam and Power Panel Operator,Production Occupations,True,2016-02-25,2017-01-31
-9,2,72,Shoe Shiner,Personal Care and Service Occupations,True,2017-02-13,2020-01-31
-10,2,49,Geoscientist,"Life, Physical, and Social Science Occupations",False,2020-02-04,2023-01-30
-11,2,95,Corporate Tax Preparer,Business and Financial Operations Occupations,True,2023-02-21,2024-01-30
-12,2,87,Child Protective Services Specialist,Community and Social Service Occupations,True,2024-02-17,2025-01-29
-13,2,39,Geriatric Social Work Professor,Educational Instruction and Library Occupations,True,2025-02-02,2030-01-28
-14,2,89,Helicopter Utility Aircrewman,Military Specific Occupations,False,2030-02-21,2032-01-28
-15,2,64,Maintenance Mechanic,"Installation, Maintenance, and Repair Occupations",False,2032-01-30,present
-16,3,34,Gas Main Fitter Helper,Construction and Extraction Occupations,False,2016-03-06,2018-03-01
-17,3,55,"Space And Missile Operations, Space Warning",Military Specific Occupations,True,2018-03-22,2019-03-01
-18,3,41,Home Lighting Adviser,"Arts, Design, Entertainment, Sports, and Media Occupations",True,2019-03-12,2020-02-29
-19,3,18,Naval Engineer,Architecture and Engineering Occupations,False,2020-03-18,2023-02-28
-20,3,46,Dental Mold Maker,Production Occupations,False,2023-03-13,2024-02-28
-21,3,46,Licensed Massage Practitioner,Healthcare Support Occupations,False,2024-03-11,2026-02-27
-22,3,91,Concrete Pump Operator,Transportation and Material Moving Occupations,False,2026-03-08,2029-02-26
-23,3,69,Curriculum and Instruction Director,Educational Instruction and Library Occupations,True,2029-03-21,2030-02-26
-24,3,45,Salad Maker,Food Preparation and Serving Related Occupations,False,2030-03-20,2031-02-26
-25,3,9,Gas Controller,Production Occupations,False,2031-03-01,present
-26,4,99,Aviation Tactical Readiness Officer,Military Specific Occupations,True,2017-05-17,2018-05-01
-27,4,5,Bulldozer Operator,Transportation and Material Moving Occupations,False,2018-05-12,2019-05-01
-28,4,55,Clinical Laboratory Science Professor,Educational Instruction and Library Occupations,True,2019-05-21,2023-04-30
-29,4,98,Afloat Cryptologic Manager,Military Specific Occupations,False,2023-05-28,2026-04-29
-30,4,52,Orthotic Finish Grinding Technician,Production Occupations,False,2026-05-10,2027-04-29
-31,4,84,Pediatric Neurosurgeon,Healthcare Practitioners and Technical Occupations,True,2027-05-02,2028-04-28
-32,4,14,Traveling Missionary,Community and Social Service Occupations,False,2028-04-29,2031-04-28
-33,4,34,Landing Signal Officer,Military Specific Occupations,False,2031-05-16,2032-04-27
-34,4,94,Auto Parker,Transportation and Material Moving Occupations,False,2032-05-05,present
-35,5,40,Certified Dental Assistant,Healthcare Support Occupations,True,2017-08-06,2021-07-31
-36,5,64,Podiatric Aide,Healthcare Support Occupations,True,2021-08-15,2022-07-31
-37,5,84,Plant Manager,Management Occupations,False,2022-08-18,2023-07-31
-38,5,24,Registered Respiratory Therapist,Healthcare Practitioners and Technical Occupations,False,2023-08-23,2026-07-30
-39,5,96,Vascular Surgeon,Healthcare Practitioners and Technical Occupations,False,2026-08-13,2028-07-29
-40,5,91,Manuscript Editor,"Arts, Design, Entertainment, Sports, and Media Occupations",True,2028-08-20,2029-07-29
-41,5,53,Travel Agency Manager,Management Occupations,True,2029-08-20,2031-07-29
-42,5,20,Petroleum Plant Operator,Production Occupations,True,2031-08-05,2032-07-28
-43,5,21,Computer Laboratory Technician,Computer and Mathematical Occupations,True,2032-08-07,present
-44,6,24,Digital Press Operator,Production Occupations,False,2017-06-14,2018-06-01
-45,6,62,Psychological Operations Officer,Military Specific Occupations,False,2018-06-16,2021-05-31
-46,6,55,Snack Bar Cashier,Sales and Related Occupations,True,2021-06-24,2022-05-31
-47,6,57,Title Checker,Legal Occupations,True,2022-06-03,2023-05-31
-48,6,66,PC Support Specialist,Computer and Mathematical Occupations,False,2023-06-05,2025-05-30
-49,6,55,Choirmaster,"Arts, Design, Entertainment, Sports, and Media Occupations",False,2025-06-05,2027-05-30
-50,6,83,Airman,Military Specific Occupations,False,2027-06-09,2028-05-29
-51,6,29,Helicopter Utility Aircrewman,Military Specific Occupations,True,2028-06-24,2030-05-29
-52,6,47,Pet Stylist,Personal Care and Service Occupations,True,2030-05-31,2031-05-29
-53,6,5,Oil Well Cable Tool Operator,Construction and Extraction Occupations,True,2031-06-01,2032-05-28
-54,6,11,Author,"Arts, Design, Entertainment, Sports, and Media Occupations",False,2032-06-25,present
-55,7,6,Television Writer,"Arts, Design, Entertainment, Sports, and Media Occupations",False,2018-10-13,2020-09-30
-56,7,58,Automotive Sheet Metal Engineer,Architecture and Engineering Occupations,True,2020-10-08,2022-09-30
-57,7,89,Telephone Cable Splicer,"Installation, Maintenance, and Repair Occupations",True,2022-10-15,2029-09-28
-58,7,33,Beam Builder Helper,Construction and Extraction Occupations,True,2029-10-05,present
-59,8,37,Councilor,Management Occupations,True,2018-09-30,2019-09-01
-60,8,58,Veterinary Medicine Scientist,Healthcare Practitioners and Technical Occupations,False,2019-09-28,2020-08-31
-61,8,10,Newstand Vendor,Sales and Related Occupations,True,2020-09-09,2021-08-31
-62,8,15,Parish Priest,Community and Social Service Occupations,True,2021-09-16,2027-08-30
-63,8,2,Agricultural Chemist,"Life, Physical, and Social Science Occupations",False,2027-09-08,2030-08-29
-64,8,34,Intelligence,Military Specific Occupations,True,2030-09-09,2031-08-29
-65,8,39,Stock Trader,Sales and Related Occupations,True,2031-09-23,2032-08-28
-66,8,43,Multiple Launch Rocket System (Mlrs) Operations/Fire Direction Specialist,Military Specific Occupations,True,2032-09-11,present
-67,9,27,Doctor of Nurse Anesthesia Practice,Healthcare Practitioners and Technical Occupations,False,2018-03-02,2024-02-28
-68,9,18,Camp Counselor,Personal Care and Service Occupations,False,2024-03-09,2028-02-27
-69,9,42,Rapper,"Arts, Design, Entertainment, Sports, and Media Occupations",False,2028-03-12,2030-02-26
-70,9,86,Refuse Collector,Transportation and Material Moving Occupations,True,2030-03-23,present
-71,10,14,Legal Technician,Legal Occupations,True,2019-05-17,2020-04-30
-72,10,5,Track Repair Worker,Construction and Extraction Occupations,False,2020-05-05,2022-04-30
-73,10,73,Switchboard Wirer,"Installation, Maintenance, and Repair Occupations",False,2022-05-29,2023-04-30
-74,10,95,Skiagrapher,Healthcare Practitioners and Technical Occupations,True,2023-05-06,2025-04-29
-75,10,73,Linoleum Layer Helper,Construction and Extraction Occupations,False,2025-05-28,2026-04-29
-76,10,42,Flight Data Technician,Architecture and Engineering Occupations,True,2026-05-14,2029-04-28
-77,10,22,Fiber Machine Tender,Production Occupations,False,2029-05-16,2030-04-28
-78,10,72,Non-Morse Intercept Technician,Military Specific Occupations,True,2030-05-23,2032-04-27
-79,10,85,Petrologist,"Life, Physical, and Social Science Occupations",True,2032-05-14,present
-80,11,64,Cable Splicer Helper,"Installation, Maintenance, and Repair Occupations",False,2019-07-27,2020-06-30
-81,11,86,Genealogist,"Life, Physical, and Social Science Occupations",True,2020-07-01,2024-06-29
-82,11,18,Opera Singer,"Arts, Design, Entertainment, Sports, and Media Occupations",True,2024-07-04,2027-06-29
-83,11,58,Film Librarian,Educational Instruction and Library Occupations,False,2027-07-19,2029-06-28
-84,11,50,Podiatry Professor,Educational Instruction and Library Occupations,True,2029-07-04,2030-06-28
-85,11,66,Combine Mechanic,"Installation, Maintenance, and Repair Occupations",True,2030-07-07,2031-06-28
-86,11,8,OT Aide,Healthcare Support Occupations,True,2031-07-18,present
-87,12,39,Banking and Finance Instructor,Educational Instruction and Library Occupations,False,2019-07-12,2023-06-30
-88,12,84,Scanning Equipment Operators,Office and Administrative Support Occupations,True,2023-07-25,2025-06-29
-89,12,98,Professional Bass Fisher,"Arts, Design, Entertainment, Sports, and Media Occupations",False,2025-07-27,2028-06-28
-90,12,13,Stockroom Attendant,Office and Administrative Support Occupations,True,2028-07-18,2029-06-28
-91,12,15,Trace Evidence Technician,"Life, Physical, and Social Science Occupations",True,2029-07-11,present
-92,13,55,Operations Manager,Management Occupations,True,2020-11-30,2021-11-01
-93,13,38,Sales Route Driver,Transportation and Material Moving Occupations,True,2021-11-29,2025-10-31
-94,13,5,Airplane Flight Attendant,Transportation and Material Moving Occupations,False,2025-11-27,2027-10-31
-95,13,99,Real Estate Assessor,Business and Financial Operations Occupations,False,2027-11-08,2029-10-30
-96,13,1,Water Meter Installer,"Installation, Maintenance, and Repair Occupations",False,2029-11-10,2031-10-30
-97,13,35,Music Professor,Educational Instruction and Library Occupations,True,2031-11-17,2032-10-29
-98,13,67,Pedicurist,Personal Care and Service Occupations,False,2032-11-12,present
-99,14,53,Helicopter Specialist,Military Specific Occupations,True,2020-02-05,2021-01-31
-100,14,76,Botany Professor,Educational Instruction and Library Occupations,True,2021-02-22,2024-01-31
-101,14,46,Aviation Operations Specialist,Transportation and Material Moving Occupations,False,2024-02-19,2026-01-30
-102,14,42,Continuing Education Director,Management Occupations,False,2026-02-28,2027-01-30
-103,14,68,Ultrasound Technician,Healthcare Practitioners and Technical Occupations,False,2027-02-28,2028-01-30
-104,14,53,Keno Runner,Personal Care and Service Occupations,True,2028-02-25,2029-01-29
-105,14,98,Set Decorator,"Arts, Design, Entertainment, Sports, and Media Occupations",True,2029-02-21,2030-01-29
-106,14,15,Gambling Department Head,Management Occupations,True,2030-02-07,2032-01-29
-107,14,25,Railway Signal Technician,"Installation, Maintenance, and Repair Occupations",False,2032-02-17,present
-108,15,38,Navy Command And Control System (Nccs) Ashore System/Operator,Military Specific Occupations,False,2020-08-05,2023-08-01
-109,15,41,PT,Healthcare Practitioners and Technical Occupations,True,2023-08-09,2024-07-31
-110,15,88,Corrections Sergeant,Protective Service Occupations,False,2024-08-23,2027-07-31
-111,15,88,"Astronaut, Mission Specialist",Military Specific Occupations,False,2027-08-21,2030-07-30
-112,15,32,Marine Engineering Technologist,Architecture and Engineering Occupations,False,2030-08-10,present
-113,16,96,Airborne Radio Operator/In-Flight Refueling Observer/Loadmaster,Military Specific Occupations,True,2021-05-20,2022-05-01
-114,16,98,High School Teacher,Educational Instruction and Library Occupations,False,2022-05-17,2023-05-01
-115,16,77,Cremation Arranger,Personal Care and Service Occupations,False,2023-05-28,2024-04-30
-116,16,34,Ultrasound Technologist,Healthcare Practitioners and Technical Occupations,False,2024-05-23,2025-04-30
-117,16,45,Semiconductor Development Technician,Architecture and Engineering Occupations,False,2025-05-10,2029-04-29
-118,16,79,Data Processing Clerk,Office and Administrative Support Occupations,False,2029-05-11,2032-04-28
-119,16,18,Conference Services Director,Business and Financial Operations Occupations,True,2032-05-04,present
-120,17,68,Ski Lift Attendant,Personal Care and Service Occupations,True,2021-01-16,2022-01-01
-121,17,72,Women's Studies Professor,Educational Instruction and Library Occupations,True,2022-01-15,2023-01-01
-122,17,20,Newscast Producer,"Arts, Design, Entertainment, Sports, and Media Occupations",True,2023-01-02,2028-12-30
-123,17,91,Astronautical Engineer,Architecture and Engineering Occupations,True,2029-01-21,2031-12-30
-124,17,74,Social Services Director,Management Occupations,False,2032-01-15,present
-125,18,90,Oil Field Equipment Mechanic Supervisor,"Installation, Maintenance, and Repair Occupations",False,2021-06-06,2023-06-01
-126,18,87,Fruit Buyer,Business and Financial Operations Occupations,False,2023-06-30,2024-05-31
-127,18,59,Interventional Cardiologist,Healthcare Practitioners and Technical Occupations,True,2024-06-13,2025-05-31
-128,18,6,Milk Pasteurizer,Production Occupations,True,2025-06-10,2026-05-31
-129,18,61,Cigarette Stamper,Production Occupations,False,2026-06-26,2027-05-31
-130,18,57,Slot Key Person,Personal Care and Service Occupations,True,2027-06-28,2032-05-29
-131,18,4,Facialist,Personal Care and Service Occupations,False,2032-06-14,present
-132,20,84,Ornamental Ironworker,Construction and Extraction Occupations,False,2022-10-09,2024-09-30
-133,20,95,Keg Filler,Production Occupations,False,2024-10-06,2025-09-30
-134,20,76,Paleology Professor,Educational Instruction and Library Occupations,False,2025-10-09,2030-09-29
-135,20,1,Fingernail Sculptor,Personal Care and Service Occupations,True,2030-10-27,present
-136,21,54,Highway Maintenance Crew Worker,Construction and Extraction Occupations,False,2022-02-19,2023-02-01
-137,21,96,Pickle House Operator,Production Occupations,True,2023-02-15,2024-02-01
-138,21,73,Deboner,Production Occupations,True,2024-02-16,2025-01-31
-139,21,4,GPS Car Navigation Installer,"Installation, Maintenance, and Repair Occupations",True,2025-02-24,2026-01-31
-140,21,5,Medical Librarian,Educational Instruction and Library Occupations,True,2026-02-06,2030-01-30
-141,21,70,Professor of Rhetoric,Educational Instruction and Library Occupations,False,2030-02-02,present
-142,22,97,House Sitter,Personal Care and Service Occupations,True,2023-10-18,2026-09-30
-143,22,36,In-Store Demonstrator,Sales and Related Occupations,False,2026-10-02,2027-09-30
-144,22,95,Chair Upholsterer,Production Occupations,False,2027-10-06,2029-09-29
-145,22,67,Airborne And Air Delivery Specialist,Military Specific Occupations,False,2029-10-20,2031-09-29
-146,22,19,Meteorology Professor,Educational Instruction and Library Occupations,True,2031-10-21,present
-147,23,19,Wheat Inspector,"Farming, Fishing, and Forestry Occupations",False,2023-05-21,2028-04-29
-148,23,43,Fire Protection Engineer,Architecture and Engineering Occupations,True,2028-05-08,2031-04-29
-149,23,68,Psychiatric Nurse,Healthcare Practitioners and Technical Occupations,False,2031-05-17,2032-04-28
-150,23,57,Sewer and Drain Technician,Construction and Extraction Occupations,True,2032-05-04,present
-151,24,10,Fur Tailor,Production Occupations,True,2023-01-13,2024-12-31
-152,24,61,Russian History Professor,Educational Instruction and Library Occupations,True,2025-01-08,2025-12-31
-153,24,39,Bank Examiner,Business and Financial Operations Occupations,False,2026-01-17,2026-12-31
-154,24,74,Help Desk Technician,Computer and Mathematical Occupations,False,2027-01-03,2030-12-30
-155,24,72,Institutional Commodity Analyst,Business and Financial Operations Occupations,True,2031-01-24,2032-12-29
-156,24,87,Machine Tool Technician Instructor,Educational Instruction and Library Occupations,False,2032-12-30,present
-157,25,26,Warehouse Checker,Office and Administrative Support Occupations,True,2024-11-13,2030-10-31
-158,25,35,Corporate Attorney,Legal Occupations,False,2030-11-20,2031-10-31
-159,25,11,Registered Dental Assistant,Healthcare Support Occupations,False,2031-11-29,present
-160,26,98,Precision Lens Centerer and Edger,Production Occupations,False,2024-09-06,2028-08-31
-161,26,29,Checkroom Attendant,Personal Care and Service Occupations,True,2028-09-03,2031-08-31
-162,26,17,Rail Car Mechanic,"Installation, Maintenance, and Repair Occupations",True,2031-09-05,2032-08-30
-163,26,75,Grassland Conservationist,"Life, Physical, and Social Science Occupations",False,2032-09-06,present
-164,27,33,Public Relations Manager,Management Occupations,False,2024-02-10,2025-01-31
-165,27,25,Asw/Asuw Tactical Air Controller (Astac),Military Specific Occupations,True,2025-02-02,2028-01-31
-166,27,21,Emergency Telecommunications Dispatcher,Office and Administrative Support Occupations,True,2028-02-08,2030-01-30
-167,27,14,Credit Reference Clerk,Office and Administrative Support Occupations,True,2030-02-14,2031-01-30
-168,27,19,Circuit Court Clerk,Office and Administrative Support Occupations,False,2031-02-22,2032-01-30
-169,27,41,Life Guard,Protective Service Occupations,False,2032-02-19,present
-170,28,45,Chemical Process Engineer,Architecture and Engineering Occupations,True,2025-06-08,2028-05-31
-171,28,26,Search Marketing Strategist,Business and Financial Operations Occupations,True,2028-06-19,2032-05-30
-172,28,84,Market Research Interviewer,Office and Administrative Support Occupations,True,2032-06-08,present
-173,29,83,Lunchroom Attendant,Food Preparation and Serving Related Occupations,False,2025-04-09,2027-04-01
-174,29,75,Food and Beverage Manager,Management Occupations,False,2027-04-08,2031-03-31
-175,29,71,Xm1 Tank Driver,Military Specific Occupations,True,2031-04-18,2032-03-30
-176,29,100,Shoe Sewing Machine Operator and Tender,Production Occupations,False,2032-04-09,present
-177,30,10,Boat Hop,Food Preparation and Serving Related Occupations,False,2025-03-05,2026-03-01
-178,30,3,Burlesque Dancer,"Arts, Design, Entertainment, Sports, and Media Occupations",False,2026-03-03,2029-02-28
-179,30,46,Auto Upholsterer,Production Occupations,False,2029-03-21,2030-02-28
-180,30,21,Naval Aircrewman (Special Assignment),Military Specific Occupations,False,2030-03-15,present
+1,1,68,Cargo Agent,Office and Administrative Support Occupations,False,2016-09-07,2018-09-01
+2,1,12,Logging Forwarder Operator,"Farming, Fishing, and Forestry Occupations",False,2018-09-03,2020-08-31
+3,1,70,Greenskeeper Laborer,Building and Grounds Cleaning and Maintenance Occupations,False,2020-09-12,2023-08-31
+4,1,51,Marine Biologist,"Life, Physical, and Social Science Occupations",False,2023-09-05,2024-08-30
+5,1,12,Print Retoucher,Production Occupations,False,2024-09-16,2025-08-30
+6,1,42,Dock Loader,Transportation and Material Moving Occupations,False,2025-09-04,2030-08-29
+7,1,33,Sandwich Maker,Food Preparation and Serving Related Occupations,False,2030-09-23,2031-08-29
+8,1,73,Amusement Park Manager,Management Occupations,True,2031-09-09,present
+9,2,20,Curtain Mender,"Installation, Maintenance, and Repair Occupations",True,2016-08-27,2017-08-01
+10,2,18,Radio Artist,"Arts, Design, Entertainment, Sports, and Media Occupations",False,2017-08-24,2018-08-01
+11,2,56,Food Scientist,"Life, Physical, and Social Science Occupations",True,2018-08-23,2024-07-30
+12,2,18,Dinkey Engine Firer,Transportation and Material Moving Occupations,True,2024-08-19,2029-07-29
+13,2,82,Jacquard Loom Weaver,Production Occupations,True,2029-08-27,2030-07-29
+14,2,69,Pediatric Social Worker,Community and Social Service Occupations,True,2030-08-19,2032-07-28
+15,2,62,Crown and Bridge Technician,Production Occupations,False,2032-07-29,present
+16,3,38,Taxicab Dispatcher,Office and Administrative Support Occupations,False,2016-01-28,2016-12-31
+17,3,6,Directory Assistance Operator,Office and Administrative Support Occupations,True,2017-01-03,2017-12-31
+18,3,44,Visual Merchandiser,"Arts, Design, Entertainment, Sports, and Media Occupations",False,2018-01-25,2018-12-31
+19,3,65,Air Analysis Engineering Technician,Architecture and Engineering Occupations,False,2019-01-09,2019-12-31
+20,3,12,Front-End Loader Operator,Transportation and Material Moving Occupations,False,2020-01-01,2020-12-30
+21,3,78,Load Haul Dump Operator,Construction and Extraction Occupations,False,2021-01-19,2021-12-30
+22,3,21,Wildlife and Game Protector,Protective Service Occupations,True,2022-01-08,2022-12-30
+23,3,85,Middle School Principal,Management Occupations,False,2023-01-17,2027-12-29
+24,3,8,Brewery Pumper,Transportation and Material Moving Occupations,False,2028-01-06,present
+25,4,24,Exploration Geologist,"Life, Physical, and Social Science Occupations",True,2017-07-24,2021-06-30
+26,4,74,Helicopter Utility Aircrewman,Military Specific Occupations,True,2021-07-17,2022-06-30
+27,4,96,Signals Intelligence/Electronic Warfare Chief,Military Specific Occupations,False,2022-07-13,2025-06-29
+28,4,32,Medieval English Literature Professor,Educational Instruction and Library Occupations,True,2025-07-28,2026-06-29
+29,4,45,Mechanical Design Drafter,Architecture and Engineering Occupations,True,2026-07-06,2027-06-29
+30,4,53,Veterinary Medicine Scientist,Healthcare Practitioners and Technical Occupations,True,2027-07-15,2028-06-28
+31,4,42,Launderer,Production Occupations,False,2028-06-29,2030-06-28
+32,4,46,Forestry Aide,"Life, Physical, and Social Science Occupations",False,2030-07-15,2031-06-28
+33,4,5,Prescription Eyeglass Maker,Production Occupations,True,2031-07-01,2032-06-27
+34,4,70,Occupational Therapy Professor,Educational Instruction and Library Occupations,False,2032-07-06,present
+35,5,78,Airline Captain,Transportation and Material Moving Occupations,True,2017-11-19,2018-11-01
+36,5,71,Boiler Installer,Construction and Extraction Occupations,True,2018-11-29,2020-10-31
+37,5,7,Radio Operator,Office and Administrative Support Occupations,False,2020-11-13,2021-10-31
+38,5,60,Gambling Surveillance Observer,Protective Service Occupations,False,2021-11-01,2023-10-31
+39,5,23,Staff Air Tactical Officer,Military Specific Occupations,False,2023-11-13,2024-10-30
+40,5,56,Conference Services Director,Business and Financial Operations Occupations,False,2024-11-23,2029-10-29
+41,5,85,Hospice Director,Management Occupations,True,2029-11-07,2030-10-29
+42,5,16,Brazing Machine Tender,Production Occupations,False,2030-11-07,2032-10-28
+43,5,75,Smoke Jumper,Protective Service Occupations,False,2032-11-06,present
+44,6,2,Barrel Straightener,Production Occupations,False,2017-11-10,2018-11-01
+45,6,52,Substation Operator,Production Occupations,True,2018-11-16,2020-10-31
+46,6,31,Glass Tube Bender,Production Occupations,False,2020-11-19,2025-10-30
+47,6,11,Unexploded Ordnance Quality Control Worker,Construction and Extraction Occupations,True,2025-11-24,2028-10-29
+48,6,85,Neuropsychologist,"Life, Physical, and Social Science Occupations",False,2028-11-12,2032-10-28
+49,6,62,Braille Transcriber,Office and Administrative Support Occupations,False,2032-11-16,present
+50,7,56,Rock Drill Operator,Construction and Extraction Occupations,False,2018-07-06,2019-07-01
+51,7,32,Truck Washer,Transportation and Material Moving Occupations,True,2019-07-29,2021-06-30
+52,7,69,Adult English as a Second Language (ESL) Teacher,Educational Instruction and Library Occupations,True,2021-07-26,2022-06-30
+53,7,20,Real Estate Loan Officer,Business and Financial Operations Occupations,False,2022-07-17,2025-06-29
+54,7,24,Plant Maintenance Technician,"Installation, Maintenance, and Repair Occupations",False,2025-07-11,2026-06-29
+55,7,44,Auto Body Technician,"Installation, Maintenance, and Repair Occupations",True,2026-07-23,2027-06-29
+56,7,34,Freight Engineer,Transportation and Material Moving Occupations,True,2027-07-27,present
+57,8,6,Orthodontic Technician,Production Occupations,True,2018-02-23,2022-01-31
+58,8,25,Rental Clerk,Sales and Related Occupations,False,2022-02-23,2023-01-31
+59,8,71,C++ Professor,Educational Instruction and Library Occupations,True,2023-02-26,2024-01-31
+60,8,43,Parachute Repairer,"Installation, Maintenance, and Repair Occupations",True,2024-02-27,2025-01-30
+61,8,11,Motorboat Mechanic,"Installation, Maintenance, and Repair Occupations",True,2025-01-31,2026-01-30
+62,8,57,House Painter,Construction and Extraction Occupations,False,2026-02-04,2029-01-29
+63,8,32,Suit Maker,Production Occupations,True,2029-02-20,2030-01-29
+64,8,66,Dish Room Worker,Food Preparation and Serving Related Occupations,True,2030-02-04,2031-01-29
+65,8,5,Toxicologist,"Life, Physical, and Social Science Occupations",True,2031-02-23,2032-01-29
+66,8,62,Club Concierge,Personal Care and Service Occupations,True,2032-01-31,present
+67,9,9,Hostess Party Sales Representative,Sales and Related Occupations,True,2018-01-05,2019-01-01
+68,9,8,Carpet Layer,Construction and Extraction Occupations,False,2019-01-20,2020-01-01
+69,9,38,Tile Mason,Construction and Extraction Occupations,True,2020-01-27,2020-12-31
+70,9,51,Outpatient Interviewing Clerk,Office and Administrative Support Occupations,True,2021-01-26,2021-12-31
+71,9,34,Agricultural Crop Farm Manager,Management Occupations,False,2022-01-06,2022-12-31
+72,9,57,Fire Fighter,Protective Service Occupations,False,2023-01-13,2023-12-31
+73,9,32,Kitchen Steward,Food Preparation and Serving Related Occupations,True,2024-01-11,2024-12-30
+74,9,72,Deck Officer,Transportation and Material Moving Occupations,True,2025-01-16,2026-12-30
+75,9,64,Headache Specialist,Healthcare Practitioners and Technical Occupations,True,2027-01-21,2027-12-30
+76,9,53,Coat Maker,Production Occupations,True,2028-01-01,2028-12-29
+77,9,57,Secondary School Principal,Management Occupations,True,2029-01-16,2029-12-29
+78,9,39,Topographer,Architecture and Engineering Occupations,True,2030-01-09,2031-12-29
+79,9,29,Scalp Treatment Specialist,Personal Care and Service Occupations,False,2032-01-24,present
+80,10,21,Census Clerk,Office and Administrative Support Occupations,False,2019-02-05,2020-02-01
+81,10,22,Cardiovascular Interventional Technologist,Healthcare Practitioners and Technical Occupations,False,2020-02-29,2021-01-31
+82,10,29,Warehouse Clerk,Office and Administrative Support Occupations,True,2021-02-22,2024-01-31
+83,10,57,Mathematics Technician,Computer and Mathematical Occupations,True,2024-02-24,2027-01-30
+84,10,74,Ship Harbor Pilot,Transportation and Material Moving Occupations,True,2027-02-17,2029-01-29
+85,10,40,Atmospheric Scientist,"Life, Physical, and Social Science Occupations",False,2029-02-14,2030-01-29
+86,10,40,Licensed Prosthetist,Healthcare Practitioners and Technical Occupations,False,2030-02-05,2032-01-29
+87,10,80,Photographic Intelligence Officer,Military Specific Occupations,True,2032-02-01,present
+88,11,25,Pediatrist,Healthcare Practitioners and Technical Occupations,True,2019-05-14,2021-04-30
+89,11,23,Health Equipment Servicer,Healthcare Support Occupations,False,2021-05-03,2023-04-30
+90,11,4,Tree Trimmer Helper,Building and Grounds Cleaning and Maintenance Occupations,True,2023-05-01,2025-04-29
+91,11,27,Assembly Line Driver,Transportation and Material Moving Occupations,True,2025-05-21,2026-04-29
+92,11,21,Equal Employment Opportunity Investigator,Business and Financial Operations Occupations,True,2026-05-16,2028-04-28
+93,11,14,Time Study Technologist,Architecture and Engineering Occupations,False,2028-05-11,2030-04-28
+94,11,30,Viteroretinal Disease Physician,Healthcare Practitioners and Technical Occupations,False,2030-05-07,2031-04-28
+95,11,15,County Commissioner,Management Occupations,True,2031-05-21,2032-04-27
+96,11,85,Fire Hazard Inspector,Protective Service Occupations,False,2032-05-20,present
+97,12,66,High Mobility Artillery Rocket System (Himars) Operator,Military Specific Occupations,True,2019-07-02,2020-06-30
+98,12,61,Biomedical Electronics Technician,"Installation, Maintenance, and Repair Occupations",True,2020-07-24,2024-06-29
+99,12,65,Database Administration Manager,Computer and Mathematical Occupations,True,2024-06-30,2025-06-29
+100,12,10,Senior Naval Parachutist,Military Specific Occupations,False,2025-07-01,2028-06-28
+101,12,49,Building Cleaning Supervisor,Building and Grounds Cleaning and Maintenance Occupations,True,2028-07-04,2030-06-28
+102,12,45,Diesel Engine Fitter,"Installation, Maintenance, and Repair Occupations",False,2030-07-02,present
+103,13,69,Wind Energy Technician,"Installation, Maintenance, and Repair Occupations",False,2020-01-19,2020-12-31
+104,13,81,Custom Furrier,"Arts, Design, Entertainment, Sports, and Media Occupations",False,2021-01-22,2021-12-31
+105,13,36,Dentofacial Orthopedics Dentist,Healthcare Practitioners and Technical Occupations,True,2022-01-08,2022-12-31
+106,13,6,Sociology Research Assistant,"Life, Physical, and Social Science Occupations",False,2023-01-16,2027-12-30
+107,13,73,Welfare Interviewer,Office and Administrative Support Occupations,False,2028-01-06,2028-12-29
+108,13,97,Airplane Rigger,"Installation, Maintenance, and Repair Occupations",False,2029-01-25,2029-12-29
+109,13,77,Aoc Director Combat Plans Officer,Military Specific Occupations,True,2030-01-05,2031-12-29
+110,13,85,New Car Salesperson,Sales and Related Occupations,False,2032-01-14,present
+111,14,34,Water Colorist,"Arts, Design, Entertainment, Sports, and Media Occupations",True,2020-07-06,2023-07-01
+112,14,58,Residential Fee Appraiser,Business and Financial Operations Occupations,True,2023-07-07,2024-06-30
+113,14,94,Chorus Master,"Arts, Design, Entertainment, Sports, and Media Occupations",True,2024-07-07,2025-06-30
+114,14,92,Asian Studies Professor,Educational Instruction and Library Occupations,True,2025-07-18,2026-06-30
+115,14,72,Hearing Officer,Legal Occupations,True,2026-07-09,2029-06-29
+116,14,94,Biblical Studies Professor,Educational Instruction and Library Occupations,False,2029-07-01,2030-06-29
+117,14,69,Electro Plater,Production Occupations,True,2030-07-02,present
+118,15,10,Interior Design Professor,Educational Instruction and Library Occupations,True,2020-10-27,2022-10-01
+119,15,1,Force Deployment Planning And Execution Officer,Military Specific Occupations,False,2022-10-10,2023-10-01
+120,15,10,Blackjack Supervisor,Personal Care and Service Occupations,True,2023-10-23,2024-09-30
+121,15,67,Format Proofreader,Office and Administrative Support Occupations,True,2024-10-15,2025-09-30
+122,15,98,Nuclear Physics Professor,Educational Instruction and Library Occupations,False,2025-10-23,2029-09-29
+123,15,27,Floor Sanding Machine Operator,Construction and Extraction Occupations,False,2029-10-13,2030-09-29
+124,15,46,Radio Host,"Arts, Design, Entertainment, Sports, and Media Occupations",True,2030-10-18,present
+125,16,22,Airdrop Systems Technician,Military Specific Occupations,False,2021-08-22,2029-07-30
+126,16,51,Curriculum and Instruction Director,Educational Instruction and Library Occupations,True,2029-08-25,2030-07-30
+127,16,19,Aerospace Products Sales Engineer,Sales and Related Occupations,True,2030-08-15,2031-07-30
+128,16,60,Surgical Nurse Practitioner,Healthcare Practitioners and Technical Occupations,False,2031-08-24,2032-07-29
+129,16,39,"Space And Missile Operations, Tactical Airlift",Military Specific Occupations,True,2032-08-23,present
+130,17,76,Heating and Cooling Systems Engineer,Architecture and Engineering Occupations,False,2021-06-20,2025-05-31
+131,17,69,Resource Forester,"Life, Physical, and Social Science Occupations",True,2025-06-17,2026-05-31
+132,17,71,Veterinarian Helper,Healthcare Support Occupations,True,2026-06-01,2027-05-31
+133,17,53,Automotive Refinish Technician,Production Occupations,True,2027-06-13,2028-05-30
+134,17,33,Metallurgist,Architecture and Engineering Occupations,False,2028-06-27,2029-05-30
+135,17,98,Professional Bicycle Racer,"Arts, Design, Entertainment, Sports, and Media Occupations",False,2029-06-25,present
+136,18,13,Hand Model,Sales and Related Occupations,True,2021-09-29,2022-09-01
+137,18,66,Prepress Stripper,Production Occupations,False,2022-09-20,2023-09-01
+138,18,15,Elevator Repair and Maintenance Technician,Construction and Extraction Occupations,False,2023-09-08,2024-08-31
+139,18,96,Bicycle Rental Clerk,Sales and Related Occupations,False,2024-09-04,2028-08-30
+140,18,87,Hotel Registration Clerk,Office and Administrative Support Occupations,False,2028-09-12,2029-08-30
+141,18,61,Customs Appraiser,Business and Financial Operations Occupations,False,2029-09-16,2030-08-30
+142,18,68,Electrolysist,Personal Care and Service Occupations,False,2030-09-13,2031-08-30
+143,18,8,Staff Antisubmarine Officer,Military Specific Occupations,True,2031-09-02,2032-08-29
+144,18,22,Front-End Loader Operator,Transportation and Material Moving Occupations,False,2032-08-30,present
+145,19,88,Sheet Rock Worker,Construction and Extraction Occupations,True,2022-04-12,2023-04-01
+146,19,89,Process Engineering Manager,Management Occupations,True,2023-04-15,2024-03-31
+147,19,65,Directory Assistance Operator,Office and Administrative Support Occupations,True,2024-04-28,2028-03-30
+148,19,58,Bicycle Designer,"Arts, Design, Entertainment, Sports, and Media Occupations",False,2028-04-12,present
+149,20,27,Clay Mine Cutting Machine Operator,Construction and Extraction Occupations,True,2022-05-23,2029-04-29
+150,20,98,Mine Car Mechanic,"Installation, Maintenance, and Repair Occupations",False,2029-05-24,present
+151,21,68,Jig Bore Tool Maker,Production Occupations,True,2022-04-24,2023-04-01
+152,21,55,Applied Statistician,Computer and Mathematical Occupations,True,2023-04-28,2026-03-31
+153,21,41,Over The Horizon-Targeting (Oth-T) Supervisor,Military Specific Occupations,True,2026-04-03,2029-03-30
+154,21,90,Logging Swamper,"Farming, Fishing, and Forestry Occupations",True,2029-04-03,2030-03-30
+155,21,43,Nuclear Weapons Custodian,Military Specific Occupations,True,2030-04-02,present
+156,22,47,Voice-Over Artist,"Arts, Design, Entertainment, Sports, and Media Occupations",False,2023-09-30,2026-08-31
+157,22,36,Flower Arranger,"Arts, Design, Entertainment, Sports, and Media Occupations",True,2026-09-21,2028-08-30
+158,22,40,School Bus Mechanic,"Installation, Maintenance, and Repair Occupations",True,2028-09-08,2029-08-30
+159,22,46,House Wirer,Construction and Extraction Occupations,False,2029-09-26,2031-08-30
+160,22,79,Computer Scientist,Computer and Mathematical Occupations,False,2031-09-23,2032-08-29
+161,22,85,Tree Specialist,Building and Grounds Cleaning and Maintenance Occupations,False,2032-09-10,present
+162,23,60,Roustabout,Construction and Extraction Occupations,False,2023-02-05,2025-01-31
+163,23,30,Aircraft Engine Specialist,"Installation, Maintenance, and Repair Occupations",False,2025-02-11,2027-01-31
+164,23,81,Freight Inspector,Transportation and Material Moving Occupations,False,2027-02-11,2028-01-31
+165,23,87,Auto Damage Insurance Appraiser,Business and Financial Operations Occupations,True,2028-02-12,2032-01-30
+166,23,92,Childcare Center Director,Management Occupations,True,2032-02-15,present
+167,24,37,Materials Engineering Technician,Architecture and Engineering Occupations,True,2023-06-09,2024-05-31
+168,24,5,Funeral Home Manager,Management Occupations,True,2024-06-26,2028-05-30
+169,24,81,Publicity Writer,"Arts, Design, Entertainment, Sports, and Media Occupations",True,2028-06-02,2032-05-29
+170,24,29,Water Conservationist,"Life, Physical, and Social Science Occupations",False,2032-06-05,present
+171,25,23,Technical Services Librarian,Educational Instruction and Library Occupations,False,2024-06-02,2025-06-01
+172,25,59,Fingerprint Expert,"Life, Physical, and Social Science Occupations",False,2025-06-25,2028-05-31
+173,25,19,Window Trimmer,"Arts, Design, Entertainment, Sports, and Media Occupations",True,2028-06-15,2029-05-31
+174,25,54,Handicapper,"Arts, Design, Entertainment, Sports, and Media Occupations",True,2029-06-07,2031-05-31
+175,25,35,Assembly Line Supervisor,Production Occupations,True,2031-06-04,present
+176,26,8,Newspaper Correspondent,"Arts, Design, Entertainment, Sports, and Media Occupations",False,2024-04-17,2025-04-01
+177,26,91,Luthier,"Installation, Maintenance, and Repair Occupations",False,2025-04-28,2026-04-01
+178,26,33,Command And Control Officer,Military Specific Occupations,False,2026-04-18,2027-04-01
+179,26,92,Overhead Door Technician,"Installation, Maintenance, and Repair Occupations",False,2027-04-12,2028-03-31
+180,26,65,Joint Preservationist,Healthcare Practitioners and Technical Occupations,True,2028-04-12,2031-03-31
+181,26,62,Humane Officer,Protective Service Occupations,True,2031-04-17,present
+182,27,37,Time and Attendance Clerk,Office and Administrative Support Occupations,False,2024-10-07,2025-10-01
+183,27,94,Flight Communications Operator,Military Specific Occupations,False,2025-10-11,2028-09-30
+184,27,63,Tactical Air Control Party (Tacp) Manager,Military Specific Occupations,False,2028-10-26,2030-09-30
+185,27,16,Animal Science Professor,Educational Instruction and Library Occupations,True,2030-10-15,2031-09-30
+186,27,95,Bottle Washing Machine Operator,Production Occupations,False,2031-10-18,present
+187,29,84,Bottle Packer,Production Occupations,False,2025-08-21,2029-07-31
+188,29,49,Dental Receptionist,Office and Administrative Support Occupations,True,2029-08-22,2030-07-31
+189,29,95,Street Sweeper Operator,Transportation and Material Moving Occupations,True,2030-08-10,2031-07-31
+190,29,96,Chief Projectionist,Personal Care and Service Occupations,False,2031-08-11,2032-07-30
+191,29,25,Director of Strategic Sourcing,Management Occupations,False,2032-08-14,present
+192,30,83,"Chemical, Biological, Radiological, Nuclear (Cbrn)Specialist",Military Specific Occupations,False,2025-07-11,2026-07-01
+193,30,41,Environmental Economist,"Life, Physical, and Social Science Occupations",True,2026-07-16,2027-07-01
+194,30,99,Vessel Ordinary Seaman,Transportation and Material Moving Occupations,True,2027-07-16,2029-06-30
+195,30,37,Automotive Specialty Technician,"Installation, Maintenance, and Repair Occupations",True,2029-07-21,2030-06-30
+196,30,26,Locomotive Electrician,"Installation, Maintenance, and Repair Occupations",True,2030-07-11,present

@@ -1,1064 +1,989 @@
 Activity ID,Student ID,Activity Name,Activity Type,grades_participated
-1,1,Cognitive Science Community,Science/Technology/Engineering,5
-2,1,Women in Electrical and Computer Engineering,Science/Technology/Engineering,5
-3,1,La Casa,Activism,5
-4,1,Social Work Doctoral Student Organization,Graduate/Professional,5
-5,1,Cognitive Science Community,Science/Technology/Engineering,6
-6,1,Women in Electrical and Computer Engineering,Science/Technology/Engineering,6
-7,1,La Casa,Activism,6
-8,1,Social Work Doctoral Student Organization,Graduate/Professional,6
-9,1,Cognitive Science Community,Science/Technology/Engineering,7
-10,1,Women in Electrical and Computer Engineering,Science/Technology/Engineering,7
-11,1,Cognitive Science Community,Science/Technology/Engineering,8
-12,1,Women in Electrical and Computer Engineering,Science/Technology/Engineering,8
-13,1,Public Health Student Assembly,Governance,8
-14,1,Alpha Chi Omega,Social Fraternity/Sorority,8
-15,1,Building a Better Michigan,Service/Service Learning,9
-16,1,Cognitive Strength Organization at the University of Michigan,Health & Wellness,9
-17,1,Building a Better Michigan,Service/Service Learning,10
-18,1,Cognitive Strength Organization at the University of Michigan,Health & Wellness,10
-19,1,The Gentlemen,Creative & Performing Arts,10
-20,1,Building a Better Michigan,Service/Service Learning,11
-21,1,Cognitive Strength Organization at the University of Michigan,Health & Wellness,11
-22,1,The Gentlemen,Creative & Performing Arts,11
-23,1,Building a Better Michigan,Service/Service Learning,12
-24,1,Cognitive Strength Organization at the University of Michigan,Health & Wellness,12
-25,1,The Gentlemen,Creative & Performing Arts,12
-26,1,Gowns for Good at the University of Michigan a Member of Operation PROM National Network,Service/Service Learning,C1
-27,1,Earth Friendly Food,Health & Wellness,C1
-28,1,Gowns for Good at the University of Michigan a Member of Operation PROM National Network,Service/Service Learning,C2
-29,1,Earth Friendly Food,Health & Wellness,C2
-30,1,Gowns for Good at the University of Michigan a Member of Operation PROM National Network,Service/Service Learning,C3
-31,1,Earth Friendly Food,Health & Wellness,C3
-32,1,FISLL at UMICH,Business & Entrepreneurship,C3
-33,1,Gowns for Good at the University of Michigan a Member of Operation PROM National Network,Service/Service Learning,C4
-34,1,Earth Friendly Food,Health & Wellness,C4
-35,1,FISLL at UMICH,Business & Entrepreneurship,C4
-36,1,Michigan Model Congress,Activism,C4
-37,1,Gowns for Good at the University of Michigan a Member of Operation PROM National Network,Service/Service Learning,C5
-38,1,Earth Friendly Food,Health & Wellness,C5
-39,1,FISLL at UMICH,Business & Entrepreneurship,C5
-40,1,Michigan Model Congress,Activism,C5
-41,2,Gowns for Good at the University of Michigan a Member of Operation PROM National Network,Service/Service Learning,5
-42,2,Earth Friendly Food,Health & Wellness,5
-43,2,FISLL at UMICH,Business & Entrepreneurship,5
-44,2,Michigan Model Congress,Activism,5
-45,2,Gowns for Good at the University of Michigan a Member of Operation PROM National Network,Service/Service Learning,6
-46,2,Earth Friendly Food,Health & Wellness,6
-47,2,FISLL at UMICH,Business & Entrepreneurship,6
-48,2,Michigan Model Congress,Activism,6
-49,2,Gowns for Good at the University of Michigan a Member of Operation PROM National Network,Service/Service Learning,7
-50,2,Earth Friendly Food,Health & Wellness,7
-51,2,FISLL at UMICH,Business & Entrepreneurship,7
-52,2,Michigan Model Congress,Activism,7
-53,2,Gowns for Good at the University of Michigan a Member of Operation PROM National Network,Service/Service Learning,8
-54,2,Earth Friendly Food,Health & Wellness,8
-55,2,FISLL at UMICH,Business & Entrepreneurship,8
-56,2,Michigan Model Congress,Activism,8
-57,2,HackBlue,Science/Technology/Engineering,9
-58,2,Society of Hispanic Professional Engineers,Academic/Honor Societies,9
-59,2,"Sigma Gamma Rho Sorority, Inc.",Activism,9
-60,2,Iraqi Student Association,Activism,9
-61,2,HackBlue,Science/Technology/Engineering,10
-62,2,"Sigma Gamma Rho Sorority, Inc.",Activism,10
-63,2,HackBlue,Science/Technology/Engineering,11
-64,2,"Sigma Gamma Rho Sorority, Inc.",Activism,11
-65,2,HackBlue,Science/Technology/Engineering,12
-66,2,"Sigma Gamma Rho Sorority, Inc.",Activism,12
-67,2,The Rho Chi Society Alpha Chapter,Academic/Honor Societies,C1
-68,2,Student Association for Psychedelic Studies ,Activism,C1
-69,2,Michigan Journal of Asian Studies,Cultural/Ethnic,C1
-70,2,Alternate Reality Initiative,Media & Creative Writing,C1
-71,2,The Rho Chi Society Alpha Chapter,Academic/Honor Societies,C2
-72,2,Alternate Reality Initiative,Media & Creative Writing,C2
-73,2,The Rho Chi Society Alpha Chapter,Academic/Honor Societies,C3
-74,2,Alternate Reality Initiative,Media & Creative Writing,C3
-75,2,Theta Alpha Psi,Environmental,C3
-76,2,Citizens' Climate Lobby at the University of Michigan,Activism,C3
-77,2,Theta Alpha Psi,Environmental,C4
-78,2,Citizens' Climate Lobby at the University of Michigan,Activism,C4
-79,2,Theta Alpha Psi,Environmental,C5
-80,2,Citizens' Climate Lobby at the University of Michigan,Activism,C5
-81,3,Theta Alpha Psi,Environmental,5
-82,3,Citizens' Climate Lobby at the University of Michigan,Activism,5
-83,3,New Movement,Creative & Performing Arts,5
-84,3,Theta Alpha Psi,Environmental,6
-85,3,Citizens' Climate Lobby at the University of Michigan,Activism,6
-86,3,New Movement,Creative & Performing Arts,6
-87,3,Sling Health - Ann Arbor,Science/Technology/Engineering,6
-88,3,Theta Alpha Psi,Environmental,7
-89,3,Citizens' Climate Lobby at the University of Michigan,Activism,7
-90,3,New Movement,Creative & Performing Arts,7
-91,3,Sling Health - Ann Arbor,Science/Technology/Engineering,7
-92,3,Theta Alpha Psi,Environmental,8
-93,3,New Movement,Creative & Performing Arts,8
-94,3,Sling Health - Ann Arbor,Science/Technology/Engineering,8
-95,3,Association of Black Social Work Students,Activism,9
-96,3,Detroit Education Society at the University of Michigan Chapter,Academic/Honor Societies,9
-97,3,Association of Black Social Work Students,Activism,10
-98,3,Detroit Education Society at the University of Michigan Chapter,Academic/Honor Societies,10
-99,3,Association of Black Social Work Students,Activism,11
-100,3,Detroit Education Society at the University of Michigan Chapter,Academic/Honor Societies,11
-101,3,Pharmacy Christian Fellowship,Graduate/Professional,11
-102,3,Alternative Spring Break Chicago,Service/Service Learning,11
-103,3,Association of Black Social Work Students,Activism,12
-104,3,Detroit Education Society at the University of Michigan Chapter,Academic/Honor Societies,12
-105,3,Michigan Emergency Medical Services Club,Health & Wellness,C1
-106,3,Crohn's and Colitis Student Initiative,Graduate/Professional,C1
-107,3,Michigan Emergency Medical Services Club,Health & Wellness,C2
-108,3,Crohn's and Colitis Student Initiative,Graduate/Professional,C2
-109,3,Students for Clean Energy ,Science/Technology/Engineering,C2
-110,3,Black Undergraduate Law Association ,Cultural/Ethnic,C2
-111,3,Crohn's and Colitis Student Initiative,Graduate/Professional,C3
-112,3,Students for Clean Energy ,Science/Technology/Engineering,C3
-113,3,Black Undergraduate Law Association ,Cultural/Ethnic,C3
-114,3,Crohn's and Colitis Student Initiative,Graduate/Professional,C4
-115,3,Students for Clean Energy ,Science/Technology/Engineering,C4
-116,3,Black Undergraduate Law Association ,Cultural/Ethnic,C4
-117,3,Society for Advancement of Hispanics/Chicanos and Native Americans in Science at University of Michigan Chapter ,Science/Technology/Engineering,C4
-118,3,Crohn's and Colitis Student Initiative,Graduate/Professional,C5
-119,3,Black Undergraduate Law Association ,Cultural/Ethnic,C5
-120,3,Society for Advancement of Hispanics/Chicanos and Native Americans in Science at University of Michigan Chapter ,Science/Technology/Engineering,C5
-121,4,Crohn's and Colitis Student Initiative,Graduate/Professional,5
-122,4,Black Undergraduate Law Association ,Cultural/Ethnic,5
-123,4,Crohn's and Colitis Student Initiative,Graduate/Professional,6
-124,4,Black Undergraduate Law Association ,Cultural/Ethnic,6
-125,4,Crohn's and Colitis Student Initiative,Graduate/Professional,7
-126,4,Black Undergraduate Law Association ,Cultural/Ethnic,7
-127,4,Crohn's and Colitis Student Initiative,Graduate/Professional,8
-128,4,Black Undergraduate Law Association ,Cultural/Ethnic,8
-129,4,First They Scare You to Death: Law School Horror Club,Media & Creative Writing,8
-130,4,Undergraduate Hall of Phi Delta Phi at the University of Michigan  ,Graduate/Professional,8
-131,4,NOiR Runway Fashion,Activism,9
-132,4,Flint Justice Partnership,Service/Service Learning,9
-133,4,Women and Gender in Public Policy,Activism,9
-134,4,NOiR Runway Fashion,Activism,10
-135,4,Women and Gender in Public Policy,Activism,10
-136,4,NOiR Runway Fashion,Activism,11
-137,4,Women and Gender in Public Policy,Activism,11
-138,4,Program in the Environment Club,Academic/Honor Societies,11
-139,4,NOiR Runway Fashion,Activism,12
-140,4,Women and Gender in Public Policy,Activism,12
-141,4,Program in the Environment Club,Academic/Honor Societies,12
-142,4,National Council of Negro Women at The University of Michigan,Health & Wellness,C1
-143,4,Armchair Science League,Academic/Honor Societies,C1
-144,4,National Council of Negro Women at The University of Michigan,Health & Wellness,C2
-145,4,Armchair Science League,Academic/Honor Societies,C2
-146,4,Student American Dental Hygienist Association,Health & Wellness,C2
-147,4,Armchair Science League,Academic/Honor Societies,C3
-148,4,Student American Dental Hygienist Association,Health & Wellness,C3
-149,4,Armchair Science League,Academic/Honor Societies,C4
-150,4,Student American Dental Hygienist Association,Health & Wellness,C4
-151,4,Solar Chapter at UM,Health & Wellness,C4
-152,4,Urology Interest Group,Graduate/Professional,C4
-153,4,Armchair Science League,Academic/Honor Societies,C5
-154,4,Student American Dental Hygienist Association,Health & Wellness,C5
-155,5,Armchair Science League,Academic/Honor Societies,5
-156,5,Student American Dental Hygienist Association,Health & Wellness,5
-157,5,Kindness in Numbers,Activism,5
-158,5,Native American Law Students Association,Activism,5
-159,5,Armchair Science League,Academic/Honor Societies,6
-160,5,Student American Dental Hygienist Association,Health & Wellness,6
-161,5,Kindness in Numbers,Activism,6
-162,5,Native American Law Students Association,Activism,6
-163,5,Kindness in Numbers,Activism,7
-164,5,Native American Law Students Association,Activism,7
-165,5,Kindness in Numbers,Activism,8
-166,5,Native American Law Students Association,Activism,8
-167,5,Detroit Education Society at the University of Michigan Chapter,Academic/Honor Societies,9
-168,5,Master of Supply Chain Management Student Association,Governance,9
-169,5,Wolverine Capital Investments,Academic/Honor Societies,9
-170,5,Detroit Education Society at the University of Michigan Chapter,Academic/Honor Societies,10
-171,5,Master of Supply Chain Management Student Association,Governance,10
-172,5,Wolverine Capital Investments,Academic/Honor Societies,10
-173,5,Detroit Education Society at the University of Michigan Chapter,Academic/Honor Societies,11
-174,5,Master of Supply Chain Management Student Association,Governance,11
-175,5,Wolverine Capital Investments,Academic/Honor Societies,11
-176,5,Detroit Education Society at the University of Michigan Chapter,Academic/Honor Societies,12
-177,5,Master of Supply Chain Management Student Association,Governance,12
-178,5,Wolverine Capital Investments,Academic/Honor Societies,12
-179,5,Michigan Men's Volleyball,Sport Clubs & Recreation,12
-180,5,Students for Democracy,Governance,C1
-181,5,The Squirrel Club,Environmental,C1
-182,5,NORD Students for Rare,Activism,C1
-183,5,Bioinformatics Graduate Student Association,Graduate/Professional,C1
-184,5,NORD Students for Rare,Activism,C2
-185,5,Bioinformatics Graduate Student Association,Graduate/Professional,C2
-186,5,NORD Students for Rare,Activism,C3
-187,5,Bioinformatics Graduate Student Association,Graduate/Professional,C3
-188,5,NORD Students for Rare,Activism,C4
-189,5,Bioinformatics Graduate Student Association,Graduate/Professional,C4
-190,5,Michigan Muscle Club,Sport Clubs & Recreation,C4
-191,5,NORD Students for Rare,Activism,C5
-192,5,Bioinformatics Graduate Student Association,Graduate/Professional,C5
-193,5,Michigan Muscle Club,Sport Clubs & Recreation,C5
-194,6,Bioinformatics Graduate Student Association,Graduate/Professional,5
-195,6,Michigan Muscle Club,Sport Clubs & Recreation,5
-196,6,Bioinformatics Graduate Student Association,Graduate/Professional,6
-197,6,Michigan Muscle Club,Sport Clubs & Recreation,6
-198,6,Bioinformatics Graduate Student Association,Graduate/Professional,7
-199,6,Michigan Muscle Club,Sport Clubs & Recreation,7
-200,6,Project SOAR,Activism,7
-201,6,Michigan Muscle Club,Sport Clubs & Recreation,8
-202,6,Project SOAR,Activism,8
-203,6,Liberty in North Korea (LiNK),Activism,9
-204,6,African Graduate Students Association,Graduate/Professional,9
-205,6,Liberty in North Korea (LiNK),Activism,10
-206,6,African Graduate Students Association,Graduate/Professional,10
-207,6,Liberty in North Korea (LiNK),Activism,11
-208,6,African Graduate Students Association,Graduate/Professional,11
-209,6,Sport Business Association,Sport Clubs & Recreation,11
-210,6,Michigan Journal of Gender and Law,Graduate/Professional,11
-211,6,Liberty in North Korea (LiNK),Activism,12
-212,6,African Graduate Students Association,Graduate/Professional,12
-213,6,Michigan Journal of Gender and Law,Graduate/Professional,12
-214,6,Program in the Environment Club,Academic/Honor Societies,C1
-215,6,Visually Impaired Students Association,Service/Service Learning,C1
-216,6,Program in the Environment Club,Academic/Honor Societies,C2
-217,6,Visually Impaired Students Association,Service/Service Learning,C2
-218,6,Generation Asian Pacific American,Cultural/Ethnic,C2
-219,6,BBA Finance Club,Graduate/Professional,C2
-220,6,Program in the Environment Club,Academic/Honor Societies,C3
-221,6,Generation Asian Pacific American,Cultural/Ethnic,C3
-222,6,Program in the Environment Club,Academic/Honor Societies,C4
-223,6,Generation Asian Pacific American,Cultural/Ethnic,C4
-224,6,Rogel Scholars Society,Academic/Honor Societies,C4
-225,6,Program in the Environment Club,Academic/Honor Societies,C5
-226,6,Rogel Scholars Society,Academic/Honor Societies,C5
-227,7,Program in the Environment Club,Academic/Honor Societies,5
-228,7,Rogel Scholars Society,Academic/Honor Societies,5
-229,7,The Prison Creative Arts Project,Service/Service Learning,5
-230,7,Organization of Public Interest Students,Service/Service Learning,5
-231,7,Program in the Environment Club,Academic/Honor Societies,6
-232,7,Rogel Scholars Society,Academic/Honor Societies,6
-233,7,The Prison Creative Arts Project,Service/Service Learning,6
-234,7,Organization of Public Interest Students,Service/Service Learning,6
-235,7,Rogel Scholars Society,Academic/Honor Societies,7
-236,7,The Prison Creative Arts Project,Service/Service Learning,7
-237,7,Rogel Scholars Society,Academic/Honor Societies,8
-238,7,The Prison Creative Arts Project,Service/Service Learning,8
-239,7,Kinesiology Student Government,Governance,8
-240,7,Student Space Systems Fabrication Lab,Science/Technology/Engineering,8
-241,7,Compost Michigan,Activism,9
-242,7,Student Diversity Council ,Cultural/Ethnic,9
-243,7,Multiple Sclerosis Awareness Association,Science/Technology/Engineering,9
-244,7,Compost Michigan,Activism,10
-245,7,Student Diversity Council ,Cultural/Ethnic,10
-246,7,Multiple Sclerosis Awareness Association,Science/Technology/Engineering,10
-247,7,Compost Michigan,Activism,11
-248,7,Student Diversity Council ,Cultural/Ethnic,11
-249,7,Multiple Sclerosis Awareness Association,Science/Technology/Engineering,11
-250,7,Compost Michigan,Activism,12
-251,7,Student Diversity Council ,Cultural/Ethnic,12
-252,7,Multiple Sclerosis Awareness Association,Science/Technology/Engineering,12
-253,7,Asian Pacific American Law Students Association,Cultural/Ethnic,C1
-254,7,University of Michigan Permaculture Design Team,Environmental,C1
-255,7,Asian Pacific American Law Students Association,Cultural/Ethnic,C2
-256,7,University of Michigan Permaculture Design Team,Environmental,C2
-257,7,Asian Pacific American Law Students Association,Cultural/Ethnic,C3
-258,7,University of Michigan Permaculture Design Team,Environmental,C3
-259,7,FemForward Coalition,Gender/Sexuality,C3
-260,7,BRASA - Brazilian Business Student Association,Cultural/Ethnic,C3
-261,7,University of Michigan Permaculture Design Team,Environmental,C4
-262,7,FemForward Coalition,Gender/Sexuality,C4
-263,7,University of Michigan Permaculture Design Team,Environmental,C5
-264,7,FemForward Coalition,Gender/Sexuality,C5
-265,7,Botany Undergrads Doing Stuff,Academic/Honor Societies,C5
-266,7,Michigan Hillel,Service/Service Learning,C5
-267,8,University of Michigan Permaculture Design Team,Environmental,5
-268,8,Botany Undergrads Doing Stuff,Academic/Honor Societies,5
-269,8,Michigan Hillel,Service/Service Learning,5
-270,8,Botany Undergrads Doing Stuff,Academic/Honor Societies,6
-271,8,Michigan Hillel,Service/Service Learning,6
-272,8,Botany Undergrads Doing Stuff,Academic/Honor Societies,7
-273,8,Michigan Hillel,Service/Service Learning,7
-274,8,Botany Undergrads Doing Stuff,Academic/Honor Societies,8
-275,8,Michigan Hillel,Service/Service Learning,8
-276,8,Michigan Journal of Environmental and Administrative Law ,Graduate/Professional,9
-277,8,American Student Dental Association at the University of Michigan,Activism,9
-278,8,Michigan Journal of Environmental and Administrative Law ,Graduate/Professional,10
-279,8,American Student Dental Association at the University of Michigan,Activism,10
-280,8,Michigan Table Tennis Club,Sport Clubs & Recreation,10
-281,8,American Student Dental Association at the University of Michigan,Activism,11
-282,8,Michigan Table Tennis Club,Sport Clubs & Recreation,11
-283,8,American Student Dental Association at the University of Michigan,Activism,12
-284,8,Michigan Table Tennis Club,Sport Clubs & Recreation,12
-285,8,Multiple Sclerosis Awareness Association,Science/Technology/Engineering,12
-286,8,Sigma Alpha Omega,Religious/Spiritual,12
-287,8,Phi Sigma Rho - Eta Chapter,Service/Service Learning,C1
-288,8,Mindful Michigan ,Health & Wellness,C1
-289,8,Moli Performing Art Ensemble,Health & Wellness,C1
-290,8,WeListen,Governance,C1
-291,8,Phi Sigma Rho - Eta Chapter,Service/Service Learning,C2
-292,8,Mindful Michigan ,Health & Wellness,C2
-293,8,Moli Performing Art Ensemble,Health & Wellness,C2
-294,8,Phi Sigma Rho - Eta Chapter,Service/Service Learning,C3
-295,8,Mindful Michigan ,Health & Wellness,C3
-296,8,Moli Performing Art Ensemble,Health & Wellness,C3
-297,8,Phi Sigma Rho - Eta Chapter,Service/Service Learning,C4
-298,8,Moli Performing Art Ensemble,Health & Wellness,C4
-299,8,Phi Sigma Rho - Eta Chapter,Service/Service Learning,C5
-300,8,Moli Performing Art Ensemble,Health & Wellness,C5
-301,8,Michigan Journal of Medicine,Science/Technology/Engineering,C5
-302,9,Phi Sigma Rho - Eta Chapter,Service/Service Learning,5
-303,9,Moli Performing Art Ensemble,Health & Wellness,5
-304,9,Michigan Journal of Medicine,Science/Technology/Engineering,5
-305,9,Phi Sigma Rho - Eta Chapter,Service/Service Learning,6
-306,9,Moli Performing Art Ensemble,Health & Wellness,6
-307,9,Michigan Journal of Medicine,Science/Technology/Engineering,6
-308,9,BLUElab,Science/Technology/Engineering,6
-309,9,Phi Sigma Rho - Eta Chapter,Service/Service Learning,7
-310,9,Moli Performing Art Ensemble,Health & Wellness,7
-311,9,BLUElab,Science/Technology/Engineering,7
-312,9,Phi Sigma Rho - Eta Chapter,Service/Service Learning,8
-313,9,Moli Performing Art Ensemble,Health & Wellness,8
-314,9,BLUElab,Science/Technology/Engineering,8
-315,9,Beta Upsilon Chi,Religious/Spiritual,9
-316,9,Capital Consulting Group,Business & Entrepreneurship,9
-317,9,University of Michigan Journal of Law Reform,Media & Creative Writing,9
-318,9,Michigan Law Veterans Society,Graduate/Professional,9
-319,9,Beta Upsilon Chi,Religious/Spiritual,10
-320,9,Capital Consulting Group,Business & Entrepreneurship,10
-321,9,University of Michigan Journal of Law Reform,Media & Creative Writing,10
-322,9,Michigan Law Veterans Society,Graduate/Professional,10
-323,9,Beta Upsilon Chi,Religious/Spiritual,11
-324,9,Capital Consulting Group,Business & Entrepreneurship,11
-325,9,University of Michigan Journal of Law Reform,Media & Creative Writing,11
-326,9,Michigan Law Veterans Society,Graduate/Professional,11
-327,9,Beta Upsilon Chi,Religious/Spiritual,12
-328,9,Capital Consulting Group,Business & Entrepreneurship,12
-329,9,Michigan Law Veterans Society,Graduate/Professional,12
-330,9,Equitable Change Organization,Environmental,C1
-331,9,Frog Island Track Club Student Organization,Sport Clubs & Recreation,C1
-332,9,Statistics in the Community,Graduate/Professional,C1
-333,9,Turning Point USA at the University of Michigan,Gender/Sexuality,C1
-334,9,Statistics in the Community,Graduate/Professional,C2
-335,9,Turning Point USA at the University of Michigan,Gender/Sexuality,C2
-336,9,Statistics in the Community,Graduate/Professional,C3
-337,9,Turning Point USA at the University of Michigan,Gender/Sexuality,C3
-338,9,Statistics in the Community,Graduate/Professional,C4
-339,9,Turning Point USA at the University of Michigan,Gender/Sexuality,C4
-340,9,Environmental Health Student Association,Governance,C4
-341,9,Statistics in the Community,Graduate/Professional,C5
-342,9,Turning Point USA at the University of Michigan,Gender/Sexuality,C5
-343,9,Environmental Health Student Association,Governance,C5
-344,9,Hospital Elder Life Program at U of M,Health & Wellness,C5
-345,10,Statistics in the Community,Graduate/Professional,5
-346,10,Turning Point USA at the University of Michigan,Gender/Sexuality,5
-347,10,Environmental Health Student Association,Governance,5
-348,10,Hospital Elder Life Program at U of M,Health & Wellness,5
-349,10,Statistics in the Community,Graduate/Professional,6
-350,10,Turning Point USA at the University of Michigan,Gender/Sexuality,6
-351,10,Environmental Health Student Association,Governance,6
-352,10,Hospital Elder Life Program at U of M,Health & Wellness,6
-353,10,Turning Point USA at the University of Michigan,Gender/Sexuality,7
-354,10,Hospital Elder Life Program at U of M,Health & Wellness,7
-355,10,Turning Point USA at the University of Michigan,Gender/Sexuality,8
-356,10,Hospital Elder Life Program at U of M,Health & Wellness,8
-357,10,Color: Amplified,Gender/Sexuality,8
-358,10,Pre-Dental Association,Health & Wellness,9
-359,10,American Chemical Society Graduate Student Organization at the University of Michigan,Science/Technology/Engineering,9
-360,11,Pre-Dental Association,Health & Wellness,5
-361,11,American Chemical Society Graduate Student Organization at the University of Michigan,Science/Technology/Engineering,5
-362,11,Indian American Student Association,Service/Service Learning,5
-363,11,Kids' Kitchen,Health & Wellness,5
-364,11,Pre-Dental Association,Health & Wellness,6
-365,11,American Chemical Society Graduate Student Organization at the University of Michigan,Science/Technology/Engineering,6
-366,11,Indian American Student Association,Service/Service Learning,6
-367,11,Kids' Kitchen,Health & Wellness,6
-368,11,Pre-Dental Association,Health & Wellness,7
-369,11,American Chemical Society Graduate Student Organization at the University of Michigan,Science/Technology/Engineering,7
-370,11,Kids' Kitchen,Health & Wellness,7
-371,11,Pre-Dental Association,Health & Wellness,8
-372,11,American Chemical Society Graduate Student Organization at the University of Michigan,Science/Technology/Engineering,8
-373,11,Kids' Kitchen,Health & Wellness,8
-374,11,Tabletop Gaming Club,Sport Clubs & Recreation,9
-375,11,"The Beta-Theta Chapter of Omega Chi Epsilon, Chemical Engineering Honor Society",Service/Service Learning,9
-376,11,NOiR Runway Fashion,Media & Creative Writing,9
-377,11,Michigan Refugee Assistance Program ,Cultural/Ethnic,9
-378,11,NOiR Runway Fashion,Media & Creative Writing,10
-379,11,Michigan Refugee Assistance Program ,Cultural/Ethnic,10
-380,11,NOiR Runway Fashion,Media & Creative Writing,11
-381,11,Michigan Refugee Assistance Program ,Cultural/Ethnic,11
-382,11,NOiR Runway Fashion,Media & Creative Writing,12
-383,11,Michigan Refugee Assistance Program ,Cultural/Ethnic,12
-384,11,Medical Students for Choice,Health & Wellness,12
-385,11,Society of Asian Scientists and Engineers,Academic/Honor Societies,C1
-386,11,LSA Student Government,Activism,C1
-387,11,Society of Asian Scientists and Engineers,Academic/Honor Societies,C2
-388,11,LSA Student Government,Activism,C2
-389,11,Society of Asian Scientists and Engineers,Academic/Honor Societies,C3
-390,11,LSA Student Government,Activism,C3
-391,11,Society of Asian Scientists and Engineers,Academic/Honor Societies,C4
-392,11,LSA Student Government,Activism,C4
-393,11,Relay for Life at the College of Pharmacy,Graduate/Professional,C4
-394,11,SGI Buddhist Club,Cultural/Ethnic,C4
-395,11,Society of Asian Scientists and Engineers,Academic/Honor Societies,C5
-396,11,LSA Student Government,Activism,C5
-397,11,Relay for Life at the College of Pharmacy,Graduate/Professional,C5
-398,11,SGI Buddhist Club,Cultural/Ethnic,C5
-399,12,LSA Student Government,Activism,5
-400,12,Relay for Life at the College of Pharmacy,Graduate/Professional,5
-401,12,SGI Buddhist Club,Cultural/Ethnic,5
-402,12,LSA Student Government,Activism,6
-403,12,Relay for Life at the College of Pharmacy,Graduate/Professional,6
-404,12,SGI Buddhist Club,Cultural/Ethnic,6
-405,12,Camp Kesem,Health & Wellness,6
-406,12,LSA Student Government,Activism,7
-407,12,Relay for Life at the College of Pharmacy,Graduate/Professional,7
-408,12,SGI Buddhist Club,Cultural/Ethnic,7
-409,12,Camp Kesem,Health & Wellness,7
-410,12,LSA Student Government,Activism,8
-411,12,SGI Buddhist Club,Cultural/Ethnic,8
-412,12,Camp Kesem,Health & Wellness,8
-413,12,Kappa Kappa Psi / Tau Beta Sigma,Academic/Honor Societies,9
-414,12,Delta Phi Epsilon Sorority ,Social Fraternity/Sorority,9
-415,12,Pantanal Partnership,Environmental,9
-416,12,Uncover,Cultural/Ethnic,9
-417,12,Kappa Kappa Psi / Tau Beta Sigma,Academic/Honor Societies,10
-418,12,Pantanal Partnership,Environmental,10
-419,12,Kappa Kappa Psi / Tau Beta Sigma,Academic/Honor Societies,11
-420,12,Pantanal Partnership,Environmental,11
-421,12,Students for Diabetes Awareness,Activism,11
-422,12,Soccer Club at Ross,Sport Clubs & Recreation,11
-423,12,Kappa Kappa Psi / Tau Beta Sigma,Academic/Honor Societies,12
-424,12,Pantanal Partnership,Environmental,12
-425,12,Students for Diabetes Awareness,Activism,12
-426,12,Soccer Club at Ross,Sport Clubs & Recreation,12
-427,12,Michigan Taal,Cultural/Ethnic,C1
-428,12,Caring for Communities of Color Conference,Health & Wellness,C1
-429,12,Multicultural Greek Council,Activism,C1
-430,12,MI Spike,Health & Wellness,C1
-431,12,Michigan Taal,Cultural/Ethnic,C2
-432,12,Caring for Communities of Color Conference,Health & Wellness,C2
-433,12,Multicultural Greek Council,Activism,C2
-434,12,MI Spike,Health & Wellness,C2
-435,12,Multicultural Greek Council,Activism,C3
-436,12,MI Spike,Health & Wellness,C3
-437,12,Multicultural Greek Council,Activism,C4
-438,12,MI Spike,Health & Wellness,C4
-439,12,UNICEF at the University of Michigan,Environmental,C4
-440,12,National Security Law Society,Governance,C4
-441,12,Multicultural Greek Council,Activism,C5
-442,12,MI Spike,Health & Wellness,C5
-443,12,UNICEF at the University of Michigan,Environmental,C5
-444,12,National Security Law Society,Governance,C5
-445,13,Multicultural Greek Council,Activism,5
-446,13,National Security Law Society,Governance,5
-447,13,Multicultural Greek Council,Activism,6
-448,13,National Security Law Society,Governance,6
-449,13,Multicultural Greek Council,Activism,7
-450,13,National Security Law Society,Governance,7
-451,13,Michigan Robotic Submarine,Science/Technology/Engineering,7
-452,13,Nursing Student Government,Health & Wellness,7
-453,13,Multicultural Greek Council,Activism,8
-454,13,National Security Law Society,Governance,8
-455,13,Michigan Robotic Submarine,Science/Technology/Engineering,8
-456,13,Nursing Student Government,Health & Wellness,8
-457,13,hEARt Listens @ Michigan,Health & Wellness,9
-458,13,Pantanal Partnership,Environmental,9
-459,13,LatinX Social Work Coalition ,Health & Wellness,9
-460,13,hEARt Listens @ Michigan,Health & Wellness,10
-461,13,Pantanal Partnership,Environmental,10
-462,13,LatinX Social Work Coalition ,Health & Wellness,10
-463,13,hEARt Listens @ Michigan,Health & Wellness,11
-464,13,Pantanal Partnership,Environmental,11
-465,13,LatinX Social Work Coalition ,Health & Wellness,11
-466,13,hEARt Listens @ Michigan,Health & Wellness,12
-467,13,LatinX Social Work Coalition ,Health & Wellness,12
-468,13,Climate Blue,Environmental,C1
-469,13,Students for Diabetes Awareness,Activism,C1
-470,13,Ontaku,Creative & Performing Arts,C1
-471,13,Climate Blue,Environmental,C2
-472,13,Students for Diabetes Awareness,Activism,C2
-473,13,Ontaku,Creative & Performing Arts,C2
-474,13,Athletes in Action,Religious/Spiritual,C2
-475,13,Climate Blue,Environmental,C3
-476,13,Students for Diabetes Awareness,Activism,C3
-477,13,Athletes in Action,Religious/Spiritual,C3
-478,13,Climate Blue,Environmental,C4
-479,13,Students for Diabetes Awareness,Activism,C4
-480,13,Athletes in Action,Religious/Spiritual,C4
-481,13,1 Team Coding,Science/Technology/Engineering,C4
-482,13,Students for Diabetes Awareness,Activism,C5
-483,13,Athletes in Action,Religious/Spiritual,C5
-484,14,Students for Diabetes Awareness,Activism,5
-485,14,Athletes in Action,Religious/Spiritual,5
-486,14,Students for Diabetes Awareness,Activism,6
-487,14,Athletes in Action,Religious/Spiritual,6
-488,14,Students for Diabetes Awareness,Activism,7
-489,14,Athletes in Action,Religious/Spiritual,7
-490,14,Graduate Economics Society,Academic/Honor Societies,7
-491,14,Students for Diabetes Awareness,Activism,8
-492,14,Athletes in Action,Religious/Spiritual,8
-493,14,Graduate Economics Society,Academic/Honor Societies,8
-494,14,Roe v. Rape at the University of Michigan,Health & Wellness,8
-495,14,Jam Club,Media & Creative Writing,9
-496,14,Lunar Doula Support Network,Service/Service Learning,9
-497,14,Interprofessional Health Student Organization,Service/Service Learning,9
-498,14,Jam Club,Media & Creative Writing,10
-499,14,Lunar Doula Support Network,Service/Service Learning,10
-500,14,Interprofessional Health Student Organization,Service/Service Learning,10
-501,14,Jam Club,Media & Creative Writing,11
-502,14,Lunar Doula Support Network,Service/Service Learning,11
-503,14,Interprofessional Health Student Organization,Service/Service Learning,11
-504,14,Jam Club,Media & Creative Writing,12
-505,14,Lunar Doula Support Network,Service/Service Learning,12
-506,14,Interprofessional Health Student Organization,Service/Service Learning,12
-507,14,Pay It Forward!,Academic/Honor Societies,12
-508,14,LatinX Social Work Coalition ,Graduate/Professional,C1
-509,14,Social Tennis Club,Sport Clubs & Recreation,C1
-510,14,LatinX Social Work Coalition ,Graduate/Professional,C2
-511,14,Social Tennis Club,Sport Clubs & Recreation,C2
-512,14,Students Organize for Syria,Cultural/Ethnic,C2
-513,14,LatinX Social Work Coalition ,Graduate/Professional,C3
-514,14,Social Tennis Club,Sport Clubs & Recreation,C3
-515,14,Students Organize for Syria,Cultural/Ethnic,C3
-516,14,Asian Consortium for Economic Development,Cultural/Ethnic,C3
-517,14,LatinX Social Work Coalition ,Graduate/Professional,C4
-518,14,Social Tennis Club,Sport Clubs & Recreation,C4
-519,14,Students Organize for Syria,Cultural/Ethnic,C4
-520,14,Asian Consortium for Economic Development,Cultural/Ethnic,C4
-521,14,LatinX Social Work Coalition ,Graduate/Professional,C5
-522,14,Social Tennis Club,Sport Clubs & Recreation,C5
-523,14,Asian Consortium for Economic Development,Cultural/Ethnic,C5
-524,15,LatinX Social Work Coalition ,Graduate/Professional,5
-525,15,Social Tennis Club,Sport Clubs & Recreation,5
-526,15,Asian Consortium for Economic Development,Cultural/Ethnic,5
-527,15,Choose Sleep Interest Group,Science/Technology/Engineering,5
-528,15,LatinX Social Work Coalition ,Graduate/Professional,6
-529,15,Social Tennis Club,Sport Clubs & Recreation,6
-530,15,Asian Consortium for Economic Development,Cultural/Ethnic,6
-531,15,Choose Sleep Interest Group,Science/Technology/Engineering,6
-532,15,Social Tennis Club,Sport Clubs & Recreation,7
-533,15,Choose Sleep Interest Group,Science/Technology/Engineering,7
-534,15,Social Tennis Club,Sport Clubs & Recreation,8
-535,15,Choose Sleep Interest Group,Science/Technology/Engineering,8
-536,15,Michigan Business Women (BBA),Business & Entrepreneurship,8
-537,15,Black Student Psychological Association,Academic/Honor Societies,9
-538,15,SAE Michigan Baja Racing,Graduate/Professional,9
-539,15,Black Student Psychological Association,Academic/Honor Societies,10
-540,15,SAE Michigan Baja Racing,Graduate/Professional,10
-541,15,UM::Autonomy,Science/Technology/Engineering,10
-542,15,Black Student Psychological Association,Academic/Honor Societies,11
-543,15,SAE Michigan Baja Racing,Graduate/Professional,11
-544,15,UM::Autonomy,Science/Technology/Engineering,11
-545,15,Galens Medical Society Smoker,Media & Creative Writing,11
-546,15,Black Student Psychological Association,Academic/Honor Societies,12
-547,15,SAE Michigan Baja Racing,Graduate/Professional,12
-548,15,UM::Autonomy,Science/Technology/Engineering,12
-549,15,Galens Medical Society Smoker,Media & Creative Writing,12
-550,15,Hindu Students Council,Cultural/Ethnic,C1
-551,15,Indigenous Africa,Activism,C1
-552,15,Falun Dafa Student Association,Religious/Spiritual,C1
-553,15,Dermatology Interest Group,Science/Technology/Engineering,C1
-554,15,Hindu Students Council,Cultural/Ethnic,C2
-555,15,Indigenous Africa,Activism,C2
-556,15,Hindu Students Council,Cultural/Ethnic,C3
-557,15,Indigenous Africa,Activism,C3
-558,15,Michigan Advanced In-Space propulsion Engineers,Science/Technology/Engineering,C3
-559,15,Theme Park Engineering Group at the University of Michigan,Creative & Performing Arts,C3
-560,15,Hindu Students Council,Cultural/Ethnic,C4
-561,15,Michigan Advanced In-Space propulsion Engineers,Science/Technology/Engineering,C4
-562,15,Hindu Students Council,Cultural/Ethnic,C5
-563,15,Michigan Advanced In-Space propulsion Engineers,Science/Technology/Engineering,C5
-564,15,Climate Blue,Environmental,C5
-565,16,Hindu Students Council,Cultural/Ethnic,5
-566,16,Michigan Advanced In-Space propulsion Engineers,Science/Technology/Engineering,5
-567,16,Climate Blue,Environmental,5
-568,16,Hindu Students Council,Cultural/Ethnic,6
-569,16,Climate Blue,Environmental,6
-570,16,Hindu Students Council,Cultural/Ethnic,7
-571,16,Climate Blue,Environmental,7
-572,16,Nutritional Sciences Student Association,Health & Wellness,7
-573,16,Public Health Students of African Descent,Cultural/Ethnic,7
-574,16,Climate Blue,Environmental,8
-575,16,Nutritional Sciences Student Association,Health & Wellness,8
-576,16,Public Health Students of African Descent,Cultural/Ethnic,8
-577,16,Seven Mile,Science/Technology/Engineering,9
-578,16,One for the World Michigan,Service/Service Learning,9
-579,16,Seven Mile,Science/Technology/Engineering,10
-580,16,One for the World Michigan,Service/Service Learning,10
-581,16,Zouk Dance Club,Creative & Performing Arts,10
-582,16,Color: Amplified,Media & Creative Writing,10
-583,16,Seven Mile,Science/Technology/Engineering,11
-584,16,One for the World Michigan,Service/Service Learning,11
-585,16,Zouk Dance Club,Creative & Performing Arts,11
-586,16,Color: Amplified,Media & Creative Writing,11
-587,16,Zouk Dance Club,Creative & Performing Arts,12
-588,16,Color: Amplified,Media & Creative Writing,12
-589,16,Ahimsa Multicultural Council (Oxford),Activism,C1
-590,16,SGI Buddhist Club,Cultural/Ethnic,C1
-591,16,Creatives of Color,Cultural/Ethnic,C1
-592,16,Michigan Knitting ,Health & Wellness,C1
-593,16,Ahimsa Multicultural Council (Oxford),Activism,C2
-594,16,SGI Buddhist Club,Cultural/Ethnic,C2
-595,16,Creatives of Color,Cultural/Ethnic,C2
-596,16,Michigan Knitting ,Health & Wellness,C2
-597,16,Ahimsa Multicultural Council (Oxford),Activism,C3
-598,16,SGI Buddhist Club,Cultural/Ethnic,C3
-599,16,Creatives of Color,Cultural/Ethnic,C3
-600,16,Ahimsa Multicultural Council (Oxford),Activism,C4
-601,16,Creatives of Color,Cultural/Ethnic,C4
-602,16,Ahimsa Multicultural Council (Oxford),Activism,C5
-603,16,Creatives of Color,Cultural/Ethnic,C5
-604,16,Circle K at the University of Michigan,Service/Service Learning,C5
-605,16,Student Veterans of America: University of Michigan - Ann Arbor,Service/Service Learning,C5
-606,17,Ahimsa Multicultural Council (Oxford),Activism,5
-607,17,Creatives of Color,Cultural/Ethnic,5
-608,17,Student Veterans of America: University of Michigan - Ann Arbor,Service/Service Learning,5
-609,17,Ahimsa Multicultural Council (Oxford),Activism,6
-610,17,Creatives of Color,Cultural/Ethnic,6
-611,17,Student Veterans of America: University of Michigan - Ann Arbor,Service/Service Learning,6
-612,17,MEDPREP Engage,Service/Service Learning,6
-613,17,Ahimsa Multicultural Council (Oxford),Activism,7
-614,17,Creatives of Color,Cultural/Ethnic,7
-615,17,Student Veterans of America: University of Michigan - Ann Arbor,Service/Service Learning,7
-616,17,MEDPREP Engage,Service/Service Learning,7
-617,17,Creatives of Color,Cultural/Ethnic,8
-618,17,MEDPREP Engage,Service/Service Learning,8
-619,17,Biology Outreach Team,Science/Technology/Engineering,9
-620,17,Next Generation Ovarian Cancer Alliance,Service/Service Learning,9
-621,17,Michigan Health Aid,Science/Technology/Engineering,9
-622,17,Atmospheres Making Positive Moments ,Cultural/Ethnic,9
-623,17,Next Generation Ovarian Cancer Alliance,Service/Service Learning,10
-624,17,Atmospheres Making Positive Moments ,Cultural/Ethnic,10
-625,17,Next Generation Ovarian Cancer Alliance,Service/Service Learning,11
-626,17,Atmospheres Making Positive Moments ,Cultural/Ethnic,11
-627,17,Curriculum for Health Disparities and the Underserved,Cultural/Ethnic,11
-628,17,Next Generation Ovarian Cancer Alliance,Service/Service Learning,12
-629,17,Atmospheres Making Positive Moments ,Cultural/Ethnic,12
-630,17,Dance Marathon at the University of Michigan,Graduate/Professional,C1
-631,17,HeForShe,Service/Service Learning,C1
-632,17,Dance Marathon at the University of Michigan,Graduate/Professional,C2
-633,17,HeForShe,Service/Service Learning,C2
-634,17,Dance Marathon at the University of Michigan,Graduate/Professional,C3
-635,17,HeForShe,Service/Service Learning,C3
-636,17,Vietnamese Student Association,Service/Service Learning,C3
-637,17,Le Comité Francophone,Cultural/Ethnic,C3
-638,17,Dance Marathon at the University of Michigan,Graduate/Professional,C4
-639,17,Le Comité Francophone,Cultural/Ethnic,C4
-640,17,Dance Marathon at the University of Michigan,Graduate/Professional,C5
-641,17,Le Comité Francophone,Cultural/Ethnic,C5
-642,18,Dance Marathon at the University of Michigan,Graduate/Professional,5
-643,18,Le Comité Francophone,Cultural/Ethnic,5
-644,18,Michigan Branch of Telluride Association,Governance,5
-645,18,Dance Marathon at the University of Michigan,Graduate/Professional,6
-646,18,Le Comité Francophone,Cultural/Ethnic,6
-647,18,Michigan Branch of Telluride Association,Governance,6
-648,18,Dance Marathon at the University of Michigan,Graduate/Professional,7
-649,18,Le Comité Francophone,Cultural/Ethnic,7
-650,18,Michigan Branch of Telluride Association,Governance,7
-651,18,Le Comité Francophone,Cultural/Ethnic,8
-652,18,Michigan Branch of Telluride Association,Governance,8
-653,18,MENA Public Health,Activism,9
-654,18,Residence Halls Association,Governance,9
-655,18,The Ukrainian Club at UM,Cultural/Ethnic,9
-656,18,Michigan Private Equity & Venture Capital,Graduate/Professional,9
-657,18,The Ukrainian Club at UM,Cultural/Ethnic,10
-658,18,Michigan Private Equity & Venture Capital,Graduate/Professional,10
-659,18,The Ukrainian Club at UM,Cultural/Ethnic,11
-660,18,Michigan Private Equity & Venture Capital,Graduate/Professional,11
-661,18,Health Policy Student Association,Activism,11
-662,18,Michigan Private Equity & Venture Capital,Graduate/Professional,12
-663,18,Health Policy Student Association,Activism,12
-664,18,Black Film Society,Creative & Performing Arts,C1
-665,18,International Policy Students Association,Activism,C1
-666,18,Days for Girls at the University of Michigan,Health & Wellness,C1
-667,18,Black Film Society,Creative & Performing Arts,C2
-668,18,International Policy Students Association,Activism,C2
-669,18,Days for Girls at the University of Michigan,Health & Wellness,C2
-670,18,Association of Multicultural Scientists,Cultural/Ethnic,C2
-671,18,Black Film Society,Creative & Performing Arts,C3
-672,18,Association of Multicultural Scientists,Cultural/Ethnic,C3
-673,18,Black Film Society,Creative & Performing Arts,C4
-674,18,Association of Multicultural Scientists,Cultural/Ethnic,C4
-675,18,Black Film Society,Creative & Performing Arts,C5
-676,18,Association of Multicultural Scientists,Cultural/Ethnic,C5
-677,18,BlueNote Vocal Jazz Ensemble,Creative & Performing Arts,C5
-678,19,Black Film Society,Creative & Performing Arts,5
-679,19,Association of Multicultural Scientists,Cultural/Ethnic,5
-680,19,BlueNote Vocal Jazz Ensemble,Creative & Performing Arts,5
-681,19,Hikayat at U-M,Cultural/Ethnic,5
-682,19,Black Film Society,Creative & Performing Arts,6
-683,19,Association of Multicultural Scientists,Cultural/Ethnic,6
-684,19,BlueNote Vocal Jazz Ensemble,Creative & Performing Arts,6
-685,20,Black Film Society,Creative & Performing Arts,5
-686,20,Association of Multicultural Scientists,Cultural/Ethnic,5
-687,20,BlueNote Vocal Jazz Ensemble,Creative & Performing Arts,5
-688,20,Black Film Society,Creative & Performing Arts,6
-689,20,Association of Multicultural Scientists,Cultural/Ethnic,6
-690,20,Black Film Society,Creative & Performing Arts,7
-691,20,Association of Multicultural Scientists,Cultural/Ethnic,7
-692,20,FemForward Coalition,Gender/Sexuality,7
-693,20,University Activities Center,Media & Creative Writing,7
-694,20,Black Film Society,Creative & Performing Arts,8
-695,20,Association of Multicultural Scientists,Cultural/Ethnic,8
-696,20,University Activities Center,Media & Creative Writing,8
-697,20,United Asian American Medical Student Association / Asian Pacific American Medical Student Association,Graduate/Professional,9
-698,20,Black Leaders in Art Collective,Creative & Performing Arts,9
-699,20,Hip Hop Congress,Creative & Performing Arts,9
-700,20,United Asian American Medical Student Association / Asian Pacific American Medical Student Association,Graduate/Professional,10
-701,20,Hip Hop Congress,Creative & Performing Arts,10
-702,20,United Asian American Medical Student Association / Asian Pacific American Medical Student Association,Graduate/Professional,11
-703,20,Hip Hop Congress,Creative & Performing Arts,11
-704,20,United Asian American Medical Student Association / Asian Pacific American Medical Student Association,Graduate/Professional,12
-705,20,Hip Hop Congress,Creative & Performing Arts,12
-706,20,Photonix/UAC,Creative & Performing Arts,C1
-707,20,Sport Business Association,Business & Entrepreneurship,C1
-708,20,Photonix/UAC,Creative & Performing Arts,C2
-709,20,Sport Business Association,Business & Entrepreneurship,C2
-710,20,Wolverine Against Racism,Activism,C2
-711,20,Sport Business Association,Business & Entrepreneurship,C3
-712,20,Wolverine Against Racism,Activism,C3
-713,20,Sport Business Association,Business & Entrepreneurship,C4
-714,20,Wolverine Against Racism,Activism,C4
-715,20,Sport Business Association,Business & Entrepreneurship,C5
-716,20,Wolverine Against Racism,Activism,C5
-717,21,Sport Business Association,Business & Entrepreneurship,5
-718,21,Wolverine Against Racism,Activism,5
-719,21,MStars for the Make-A-Wish Foundation of Michigan,Service/Service Learning,5
-720,21,Sport Business Association,Business & Entrepreneurship,6
-721,21,Wolverine Against Racism,Activism,6
-722,21,MStars for the Make-A-Wish Foundation of Michigan,Service/Service Learning,6
-723,21,Delta Sigma Phi,Social Fraternity/Sorority,6
-724,21,Sport Business Association,Business & Entrepreneurship,7
-725,21,MStars for the Make-A-Wish Foundation of Michigan,Service/Service Learning,7
-726,21,Delta Sigma Phi,Social Fraternity/Sorority,7
-727,21,Sport Business Association,Business & Entrepreneurship,8
-728,21,MStars for the Make-A-Wish Foundation of Michigan,Service/Service Learning,8
-729,21,Delta Sigma Phi,Social Fraternity/Sorority,8
-730,21,Medical Students for Choice,Activism,9
-731,21,Rotaract Club,Activism,9
-732,21,Medical Students for Choice,Activism,10
-733,21,Rotaract Club,Activism,10
-734,21,The Wesley Foundation at the University of Michgan,Service/Service Learning,10
-735,21,Women In Leadership,Gender/Sexuality,10
-736,21,Rotaract Club,Activism,11
-737,21,Women In Leadership,Gender/Sexuality,11
-738,21,Rotaract Club,Activism,12
-739,21,Women In Leadership,Gender/Sexuality,12
-740,21,Global Scholars Program ,Academic/Honor Societies,12
-741,21,Korea Business Club,Graduate/Professional,C1
-742,21,Phi Iota Alpha Latino Fraternity Inc. ,Cultural/Ethnic,C1
-743,21,Filmic Productions,Graduate/Professional,C1
-744,22,Korea Business Club,Graduate/Professional,5
-745,22,Phi Iota Alpha Latino Fraternity Inc. ,Cultural/Ethnic,5
-746,22,Filmic Productions,Graduate/Professional,5
-747,22,Korea Business Club,Graduate/Professional,6
-748,22,Phi Iota Alpha Latino Fraternity Inc. ,Cultural/Ethnic,6
-749,22,Filmic Productions,Graduate/Professional,6
-750,22,Latinx Undergraduate Medical Association,Health & Wellness,6
-751,22,Phi Iota Alpha Latino Fraternity Inc. ,Cultural/Ethnic,7
-752,22,Filmic Productions,Graduate/Professional,7
-753,22,Latinx Undergraduate Medical Association,Health & Wellness,7
-754,22,Phi Iota Alpha Latino Fraternity Inc. ,Cultural/Ethnic,8
-755,22,Filmic Productions,Graduate/Professional,8
-756,22,Michigan Interactive Investments,Academic/Honor Societies,9
-757,22,Legal Alternative Winter Breaks ,Cultural/Ethnic,9
-758,22,Michigan Interactive Investments,Academic/Honor Societies,10
-759,22,Legal Alternative Winter Breaks ,Cultural/Ethnic,10
-760,22,Live in Color,Health & Wellness,10
-761,22,Ethical Investments,Activism,10
-762,22,Michigan Interactive Investments,Academic/Honor Societies,11
-763,22,Legal Alternative Winter Breaks ,Cultural/Ethnic,11
-764,22,Live in Color,Health & Wellness,11
-765,22,Ethical Investments,Activism,11
-766,22,Michigan Interactive Investments,Academic/Honor Societies,12
-767,22,Live in Color,Health & Wellness,12
-768,22,Phi Delta Epsilon International Medical Fraternity,Health & Wellness,C1
-769,22,Cooking Club at the University of Michigan,Cultural/Ethnic,C1
-770,22,Kappa Phi Lambda,Service/Service Learning,C1
-771,22,University Blood Initiative at The University of Michigan,Service/Service Learning,C1
-772,22,Cooking Club at the University of Michigan,Cultural/Ethnic,C2
-773,22,Kappa Phi Lambda,Service/Service Learning,C2
-774,22,Cooking Club at the University of Michigan,Cultural/Ethnic,C3
-775,22,Kappa Phi Lambda,Service/Service Learning,C3
-776,22,Academy of General Dentistry University of Michigan Chapter,Academic/Honor Societies,C3
-777,22,Basketball Medicine Club,Sport Clubs & Recreation,C3
-778,22,Cooking Club at the University of Michigan,Cultural/Ethnic,C4
-779,22,Kappa Phi Lambda,Service/Service Learning,C4
-780,22,Academy of General Dentistry University of Michigan Chapter,Academic/Honor Societies,C4
-781,22,Basketball Medicine Club,Sport Clubs & Recreation,C4
-782,22,Cooking Club at the University of Michigan,Cultural/Ethnic,C5
-783,22,Kappa Phi Lambda,Service/Service Learning,C5
-784,22,Basketball Medicine Club,Sport Clubs & Recreation,C5
-785,23,Cooking Club at the University of Michigan,Cultural/Ethnic,5
-786,23,Kappa Phi Lambda,Service/Service Learning,5
-787,23,Cooking Club at the University of Michigan,Cultural/Ethnic,6
-788,23,Kappa Phi Lambda,Service/Service Learning,6
-789,23,Mental Health Matters,Activism,6
-790,23,Cooking Club at the University of Michigan,Cultural/Ethnic,7
-791,23,Mental Health Matters,Activism,7
-792,23,Cooking Club at the University of Michigan,Cultural/Ethnic,8
-793,23,Mental Health Matters,Activism,8
-794,23,Michigan Team Handball Club,Sport Clubs & Recreation,8
-795,23,J Street U,Cultural/Ethnic,8
-796,23,Residence Halls Association,Health & Wellness,9
-797,23,The Friars,Creative & Performing Arts,9
-798,23,Alpha Chi Sigma,Service/Service Learning,9
-799,23,Residence Halls Association,Health & Wellness,10
-800,23,The Friars,Creative & Performing Arts,10
-801,23,Residence Halls Association,Health & Wellness,11
-802,23,The Friars,Creative & Performing Arts,11
-803,23,Residence Halls Association,Health & Wellness,12
-804,23,The Friars,Creative & Performing Arts,12
-805,23,Bursley Family,Gender/Sexuality,C1
-806,23,Sierra Club at the University of Michigan,Activism,C1
-807,23,Design + Business,Academic/Honor Societies,C1
-808,23,Bursley Family,Gender/Sexuality,C2
-809,23,Sierra Club at the University of Michigan,Activism,C2
-810,23,Bursley Family,Gender/Sexuality,C3
-811,23,Sierra Club at the University of Michigan,Activism,C3
-812,23,One Love at Michigan,Gender/Sexuality,C3
-813,23,Bursley Family,Gender/Sexuality,C4
-814,23,Sierra Club at the University of Michigan,Activism,C4
-815,23,One Love at Michigan,Gender/Sexuality,C4
-816,23,University of Michigan Women's Club Volleyball,Sport Clubs & Recreation,C4
-817,23,One Love at Michigan,Gender/Sexuality,C5
-818,23,University of Michigan Women's Club Volleyball,Sport Clubs & Recreation,C5
-819,24,One Love at Michigan,Gender/Sexuality,5
-820,24,University of Michigan Women's Club Volleyball,Sport Clubs & Recreation,5
-821,24,One Love at Michigan,Gender/Sexuality,6
-822,24,University of Michigan Women's Club Volleyball,Sport Clubs & Recreation,6
-823,24,National Lawyers Guild,Service/Service Learning,6
-824,24,Statistics in the Community,Service/Service Learning,6
-825,24,University of Michigan Women's Club Volleyball,Sport Clubs & Recreation,7
-826,24,Statistics in the Community,Service/Service Learning,7
-827,24,University of Michigan Women's Club Volleyball,Sport Clubs & Recreation,8
-828,24,Statistics in the Community,Service/Service Learning,8
-829,24,University of Michigan History Club,Academic/Honor Societies,8
-830,24,Visually Impaired Students Association,Media & Creative Writing,9
-831,24,University Activities Center,Academic/Honor Societies,9
-832,24,Visually Impaired Students Association,Media & Creative Writing,10
-833,24,University Activities Center,Academic/Honor Societies,10
-834,24,CURE-Michigan ,Health & Wellness,10
-835,24,Barger Leadership Institute,Department,10
-836,24,Visually Impaired Students Association,Media & Creative Writing,11
-837,24,University Activities Center,Academic/Honor Societies,11
-838,24,CURE-Michigan ,Health & Wellness,11
-839,24,Barger Leadership Institute,Department,11
-840,24,CURE-Michigan ,Health & Wellness,12
-841,24,Barger Leadership Institute,Department,12
-842,24,Bioethics Society ,Academic/Honor Societies,C1
-843,24,Fly Fishing Club at the University of Michigan,Health & Wellness,C1
-844,24,American Association of Pharmaceutical Scientists at the University of Michigan ,Service/Service Learning,C1
-845,24,Bioethics Society ,Academic/Honor Societies,C2
-846,24,Fly Fishing Club at the University of Michigan,Health & Wellness,C2
-847,24,American Association of Pharmaceutical Scientists at the University of Michigan ,Service/Service Learning,C2
-848,24,Wolverine Support Network,Cultural/Ethnic,C2
-849,24,Fly Fishing Club at the University of Michigan,Health & Wellness,C3
-850,24,American Association of Pharmaceutical Scientists at the University of Michigan ,Service/Service Learning,C3
-851,24,Wolverine Support Network,Cultural/Ethnic,C3
-852,24,American Association of Pharmaceutical Scientists at the University of Michigan ,Service/Service Learning,C4
-853,24,Wolverine Support Network,Cultural/Ethnic,C4
-854,24,American Association of Pharmaceutical Scientists at the University of Michigan ,Service/Service Learning,C5
-855,24,Wolverine Support Network,Cultural/Ethnic,C5
-856,24,Cost Assistance for Resilient Engineers,Activism,C5
-857,24,Student Veterans of America: University of Michigan - Ann Arbor,Activism,C5
-858,25,American Association of Pharmaceutical Scientists at the University of Michigan ,Service/Service Learning,5
-859,25,Wolverine Support Network,Cultural/Ethnic,5
-860,25,Cost Assistance for Resilient Engineers,Activism,5
-861,25,Student Veterans of America: University of Michigan - Ann Arbor,Activism,5
-862,25,American Association of Pharmaceutical Scientists at the University of Michigan ,Service/Service Learning,6
-863,25,Wolverine Support Network,Cultural/Ethnic,6
-864,25,American Association of Pharmaceutical Scientists at the University of Michigan ,Service/Service Learning,7
-865,25,Wolverine Support Network,Cultural/Ethnic,7
-866,25,Hellenic Student Association,Cultural/Ethnic,7
-867,25,American Association of Pharmaceutical Scientists at the University of Michigan ,Service/Service Learning,8
-868,25,Wolverine Support Network,Cultural/Ethnic,8
-869,25,Hellenic Student Association,Cultural/Ethnic,8
-870,25,Mental Health Matters,Health & Wellness,8
-871,25,RIA Group,Graduate/Professional,9
-872,25,Delta Lambda Phi Provisional Chapter,Social Fraternity/Sorority,9
-873,25,Womxn in Health Leadership,Gender/Sexuality,9
-874,25,RIA Group,Graduate/Professional,10
-875,25,Delta Lambda Phi Provisional Chapter,Social Fraternity/Sorority,10
-876,25,Womxn in Health Leadership,Gender/Sexuality,10
-877,25,Delta Lambda Phi Provisional Chapter,Social Fraternity/Sorority,11
-878,25,Womxn in Health Leadership,Gender/Sexuality,11
-879,25,Delta Lambda Phi Provisional Chapter,Social Fraternity/Sorority,12
-880,25,Womxn in Health Leadership,Gender/Sexuality,12
-881,25,LingoMatch,Service/Service Learning,12
-882,25,Soccer Club at Ross,Sport Clubs & Recreation,C1
-883,25,On the Board,Graduate/Professional,C1
-884,25,SGI Buddhist Club,Environmental,C1
-885,25,On the Board,Graduate/Professional,C2
-886,25,SGI Buddhist Club,Environmental,C2
-887,25,On the Board,Graduate/Professional,C3
-888,25,SGI Buddhist Club,Environmental,C3
-889,25,Out For Business Undergraduate,Graduate/Professional,C3
-890,25,JHealth at The University of Michigan,Academic/Honor Societies,C3
-891,25,On the Board,Graduate/Professional,C4
-892,25,SGI Buddhist Club,Environmental,C4
-893,25,JHealth at The University of Michigan,Academic/Honor Societies,C4
-894,25,SGI Buddhist Club,Environmental,C5
-895,25,JHealth at The University of Michigan,Academic/Honor Societies,C5
-896,26,SGI Buddhist Club,Environmental,5
-897,26,JHealth at The University of Michigan,Academic/Honor Societies,5
-898,26,Sports Medicine Club,Graduate/Professional,5
-899,26,SGI Buddhist Club,Environmental,6
-900,26,JHealth at The University of Michigan,Academic/Honor Societies,6
-901,26,Sports Medicine Club,Graduate/Professional,6
-902,26,South Asian Law Students Association,Graduate/Professional,6
-903,26,JHealth at The University of Michigan,Academic/Honor Societies,7
-904,26,Sports Medicine Club,Graduate/Professional,7
-905,26,South Asian Law Students Association,Graduate/Professional,7
-906,26,JHealth at The University of Michigan,Academic/Honor Societies,8
-907,26,Sports Medicine Club,Graduate/Professional,8
-908,26,South Asian Law Students Association,Graduate/Professional,8
-909,26,University Career Center,Department,9
-910,26,Filmic Productions,Creative & Performing Arts,9
-911,26,Epidemiology 890 Student Organization,Graduate/Professional,9
-912,26,University Career Center,Department,10
-913,26,Filmic Productions,Creative & Performing Arts,10
-914,26,Epidemiology 890 Student Organization,Graduate/Professional,10
-915,26,OutMD,Health & Wellness,10
-916,26,University Career Center,Department,11
-917,26,Filmic Productions,Creative & Performing Arts,11
-918,26,Epidemiology 890 Student Organization,Graduate/Professional,11
-919,26,OutMD,Health & Wellness,11
-920,26,University Career Center,Department,12
-921,26,Filmic Productions,Creative & Performing Arts,12
-922,26,Epidemiology 890 Student Organization,Graduate/Professional,12
-923,26,OutMD,Health & Wellness,12
-924,26,Blockchain at Michigan,Service/Service Learning,C1
-925,26,"Sexual Assault Prevention and Awareness Center: Consent, Outreach, and Relationship Education (CORE)",Gender/Sexuality,C1
-926,26,Smart Cities Club,Graduate/Professional,C1
-927,26,Jam Club,Creative & Performing Arts,C1
-928,26,Smart Cities Club,Graduate/Professional,C2
-929,26,Jam Club,Creative & Performing Arts,C2
-930,26,Smart Cities Club,Graduate/Professional,C3
-931,26,Jam Club,Creative & Performing Arts,C3
-932,26,Alternate Reality Initiative,Media & Creative Writing,C3
-933,26,Bangladeshi Students Association,Cultural/Ethnic,C3
-934,26,Smart Cities Club,Graduate/Professional,C4
-935,26,Jam Club,Creative & Performing Arts,C4
-936,26,Alternate Reality Initiative,Media & Creative Writing,C4
-937,26,Bangladeshi Students Association,Cultural/Ethnic,C4
-938,26,Smart Cities Club,Graduate/Professional,C5
-939,26,Jam Club,Creative & Performing Arts,C5
-940,26,Alternate Reality Initiative,Media & Creative Writing,C5
-941,26,Bangladeshi Students Association,Cultural/Ethnic,C5
-942,27,Jam Club,Creative & Performing Arts,5
-943,27,Alternate Reality Initiative,Media & Creative Writing,5
-944,27,Bangladeshi Students Association,Cultural/Ethnic,5
-945,27,Jam Club,Creative & Performing Arts,6
-946,27,Alternate Reality Initiative,Media & Creative Writing,6
-947,27,Bangladeshi Students Association,Cultural/Ethnic,6
-948,27,Seven Mile,Science/Technology/Engineering,6
-949,27,Jam Club,Creative & Performing Arts,7
-950,27,Alternate Reality Initiative,Media & Creative Writing,7
-951,27,Jam Club,Creative & Performing Arts,8
-952,27,Alternate Reality Initiative,Media & Creative Writing,8
-953,27,Students for Life,Service/Service Learning,8
-954,27,K-Grams (Kids' Programs),Service/Service Learning,8
-955,27,cataLIST: Ladies in Science & Technology,Graduate/Professional,9
-956,27,We the People Representing Our Unifying Diversity,Media & Creative Writing,9
-957,27,Latin American Business Student Association,Graduate/Professional,9
-958,27,Pre-Vet Club,Service/Service Learning,9
-959,27,cataLIST: Ladies in Science & Technology,Graduate/Professional,10
-960,27,We the People Representing Our Unifying Diversity,Media & Creative Writing,10
-961,27,Latin American Business Student Association,Graduate/Professional,10
-962,27,Pre-Vet Club,Service/Service Learning,10
-963,27,cataLIST: Ladies in Science & Technology,Graduate/Professional,11
-964,27,We the People Representing Our Unifying Diversity,Media & Creative Writing,11
-965,27,Latin American Business Student Association,Graduate/Professional,11
-966,27,Pre-Vet Club,Service/Service Learning,11
-967,27,cataLIST: Ladies in Science & Technology,Graduate/Professional,12
-968,27,We the People Representing Our Unifying Diversity,Media & Creative Writing,12
-969,27,Latin American Business Student Association,Graduate/Professional,12
-970,27,Pre-Vet Club,Service/Service Learning,12
-971,27,Public Health Sustainability Initiative,Activism,C1
-972,27,Archery Club,Sport Clubs & Recreation,C1
-973,28,Public Health Sustainability Initiative,Activism,5
-974,28,Archery Club,Sport Clubs & Recreation,5
-975,28,Public Health Sustainability Initiative,Activism,6
-976,28,Archery Club,Sport Clubs & Recreation,6
-977,28,Law School Hockey Team,Sport Clubs & Recreation,6
-978,28,Alpha Pi Mu - Industrial Engineering Honor Society,Science/Technology/Engineering,6
-979,28,Public Health Sustainability Initiative,Activism,7
-980,28,Archery Club,Sport Clubs & Recreation,7
-981,28,Law School Hockey Team,Sport Clubs & Recreation,7
-982,28,Alpha Pi Mu - Industrial Engineering Honor Society,Science/Technology/Engineering,7
-983,28,Public Health Sustainability Initiative,Activism,8
-984,28,Archery Club,Sport Clubs & Recreation,8
-985,28,Law School Hockey Team,Sport Clubs & Recreation,8
-986,28,Medical Academic Research Analysis Society,Media & Creative Writing,9
-987,28,Department of Sociology,Department,9
-988,28,Wolverines For Life Student Chapter,Service/Service Learning,9
-989,28,Department of Sociology,Department,10
-990,28,Wolverines For Life Student Chapter,Service/Service Learning,10
-991,28,Department of Sociology,Department,11
-992,28,Wolverines For Life Student Chapter,Service/Service Learning,11
-993,28,Department of Sociology,Department,12
-994,28,Wolverines For Life Student Chapter,Service/Service Learning,12
-995,28,Michigan Parkour,Sport Clubs & Recreation,12
-996,28,Multicultural Pharmacy Student Organization,Activism,C1
-997,28,Society of Hispanic Professional Engineers,Service/Service Learning,C1
-998,28,Multicultural Pharmacy Student Organization,Activism,C2
-999,28,Society of Hispanic Professional Engineers,Service/Service Learning,C2
-1000,28,Multicultural Pharmacy Student Organization,Activism,C3
-1001,28,Society of Hispanic Professional Engineers,Service/Service Learning,C3
-1002,28,Virtual Volunteers at the University of Michigan,Graduate/Professional,C3
-1003,28,Ahimsa Multicultural Council (Oxford),Gender/Sexuality,C3
-1004,28,Multicultural Pharmacy Student Organization,Activism,C4
-1005,28,Virtual Volunteers at the University of Michigan,Graduate/Professional,C4
-1006,28,Multicultural Pharmacy Student Organization,Activism,C5
-1007,28,Virtual Volunteers at the University of Michigan,Graduate/Professional,C5
-1008,28,Women's Club Soccer - UMWSC,Sport Clubs & Recreation,C5
-1009,28,International Society for Pharmacoeconomics and Outcomes Research / Academy of Managed Care Pharmacy,Health & Wellness,C5
-1010,29,Women's Club Soccer - UMWSC,Sport Clubs & Recreation,5
-1011,29,International Society for Pharmacoeconomics and Outcomes Research / Academy of Managed Care Pharmacy,Health & Wellness,5
-1012,29,Women's Club Soccer - UMWSC,Sport Clubs & Recreation,6
-1013,29,International Society for Pharmacoeconomics and Outcomes Research / Academy of Managed Care Pharmacy,Health & Wellness,6
-1014,29,Blueprints For Pangaea,Health & Wellness,6
-1015,29,Basketball Medicine Club,Sport Clubs & Recreation,6
-1016,29,Women's Club Soccer - UMWSC,Sport Clubs & Recreation,7
-1017,29,International Society for Pharmacoeconomics and Outcomes Research / Academy of Managed Care Pharmacy,Health & Wellness,7
-1018,29,Blueprints For Pangaea,Health & Wellness,7
-1019,29,Basketball Medicine Club,Sport Clubs & Recreation,7
-1020,29,Women's Club Soccer - UMWSC,Sport Clubs & Recreation,8
-1021,29,International Society for Pharmacoeconomics and Outcomes Research / Academy of Managed Care Pharmacy,Health & Wellness,8
-1022,29,Blueprints For Pangaea,Health & Wellness,8
-1023,29,Basketball Medicine Club,Sport Clubs & Recreation,8
-1024,29,Student Veterans of America: University of Michigan - Ann Arbor,Service/Service Learning,9
-1025,29,MECC Consulting Group,Business & Entrepreneurship,9
-1026,29,Canterbury House,Gender/Sexuality,9
-1027,29,Student Veterans of America: University of Michigan - Ann Arbor,Service/Service Learning,10
-1028,29,MECC Consulting Group,Business & Entrepreneurship,10
-1029,29,Canterbury House,Gender/Sexuality,10
-1030,29,Engineering Student Government ,Environmental,10
-1031,29,Student Veterans of America: University of Michigan - Ann Arbor,Service/Service Learning,11
-1032,29,MECC Consulting Group,Business & Entrepreneurship,11
-1033,29,Canterbury House,Gender/Sexuality,11
-1034,29,Engineering Student Government ,Environmental,11
-1035,29,Student Veterans of America: University of Michigan - Ann Arbor,Service/Service Learning,12
-1036,29,Engineering Student Government ,Environmental,12
-1037,29,If/When/How: Lawyering for Reproductive Rights,Health & Wellness,C1
-1038,29,Student Advocates for Nutrition,Service/Service Learning,C1
-1039,29,Graduate Society of Black Engineers and Scientists,Academic/Honor Societies,C1
-1040,29,CLASP Graduate and Undergraduate Student Organization,Graduate/Professional,C1
-1041,30,If/When/How: Lawyering for Reproductive Rights,Health & Wellness,5
-1042,30,Student Advocates for Nutrition,Service/Service Learning,5
-1043,30,Graduate Society of Black Engineers and Scientists,Academic/Honor Societies,5
-1044,30,CLASP Graduate and Undergraduate Student Organization,Graduate/Professional,5
-1045,30,If/When/How: Lawyering for Reproductive Rights,Health & Wellness,6
-1046,30,Student Advocates for Nutrition,Service/Service Learning,6
-1047,30,If/When/How: Lawyering for Reproductive Rights,Health & Wellness,7
-1048,30,Student Advocates for Nutrition,Service/Service Learning,7
-1049,30,LSA Student Honor Council,Governance,7
-1050,30,If/When/How: Lawyering for Reproductive Rights,Health & Wellness,8
-1051,30,Student Advocates for Nutrition,Service/Service Learning,8
-1052,30,LSA Student Honor Council,Governance,8
-1053,30,Black Undergraduate Medical Association,Academic/Honor Societies,8
-1054,30,Michigan Law Veterans Society,Cultural/Ethnic,9
-1055,30,Undergraduate Journal of Sustainability at U-M,Environmental,9
-1056,30,Michigan Law Veterans Society,Cultural/Ethnic,10
-1057,30,Undergraduate Journal of Sustainability at U-M,Environmental,10
-1058,30,Michigan Law Veterans Society,Cultural/Ethnic,11
-1059,30,Undergraduate Journal of Sustainability at U-M,Environmental,11
-1060,30,Michigan Law Veterans Society,Cultural/Ethnic,12
-1061,30,Undergraduate Journal of Sustainability at U-M,Environmental,12
-1062,30,Hong Kong Human Rights Concern Group ,Cultural/Ethnic,C1
-1063,30,Michigan Bodybuilding Club,Sport Clubs & Recreation,C1
+1,1,Next Generation Ovarian Cancer Alliance,Health & Wellness,10
+2,1,Next Generation Ovarian Cancer Alliance,Health & Wellness,11
+3,1,The Detroit Partnership,Cultural/Ethnic,C1
+4,2,Michigan Immigration and Labor Law Association,Service/Service Learning,7
+5,2,Michigan Immigration and Labor Law Association,Service/Service Learning,8
+6,2,M-HEAL Neonatal Asphyxia Project,Activism,9
+7,2,Next Generation Ovarian Cancer Alliance,Health & Wellness,11
+8,2,Next Generation Ovarian Cancer Alliance,Health & Wellness,12
+9,2,"Michigan Council of Nurse Practitioners, University of Michigan - Ann Arbor School of Nursing Student Affiliate Chapter",Service/Service Learning,C1
+10,2,Materials Science & Engineering Graduate Student Council,Science/Technology/Engineering,C5
+11,3,Materials Science & Engineering Graduate Student Council,Science/Technology/Engineering,5
+12,3,M-HEAL Meeting Elderly Needs by Design,Graduate/Professional,5
+13,3,Michigan Model Congress,Governance,5
+14,3,Choosing Wisely Chapter at the University of Michigan,Graduate/Professional,5
+15,3,Blueprint Literary Magazine,Media & Creative Writing,5
+16,3,Environmental Health Student Association,Science/Technology/Engineering,5
+17,3,Writers' Community,Media & Creative Writing,5
+18,3,Materials Science & Engineering Graduate Student Council,Science/Technology/Engineering,6
+19,3,M-HEAL Meeting Elderly Needs by Design,Graduate/Professional,6
+20,3,Michigan Model Congress,Governance,6
+21,3,Choosing Wisely Chapter at the University of Michigan,Graduate/Professional,6
+22,3,Writers' Community,Media & Creative Writing,6
+23,3,Materials Science & Engineering Graduate Student Council,Science/Technology/Engineering,7
+24,3,M-HEAL Meeting Elderly Needs by Design,Graduate/Professional,7
+25,3,Michigan Model Congress,Governance,7
+26,3,Choosing Wisely Chapter at the University of Michigan,Graduate/Professional,7
+27,3,Writers' Community,Media & Creative Writing,7
+28,3,Materials Science & Engineering Graduate Student Council,Science/Technology/Engineering,8
+29,3,M-HEAL Meeting Elderly Needs by Design,Graduate/Professional,8
+30,3,Michigan Model Congress,Governance,8
+31,3,Choosing Wisely Chapter at the University of Michigan,Graduate/Professional,8
+32,3,Writers' Community,Media & Creative Writing,8
+33,3,Tauber Institute Student Advisory Board,Graduate/Professional,9
+34,3,JHealth at The University of Michigan,Academic/Honor Societies,9
+35,3,American Society of Mechanical Engineers,Graduate/Professional,9
+36,3,Design + Business,Academic/Honor Societies,9
+37,3,Compost Michigan,Graduate/Professional,9
+38,3,Tauber Institute Student Advisory Board,Graduate/Professional,10
+39,3,JHealth at The University of Michigan,Academic/Honor Societies,10
+40,3,American Society of Mechanical Engineers,Graduate/Professional,10
+41,3,Design + Business,Academic/Honor Societies,10
+42,3,Compost Michigan,Graduate/Professional,10
+43,3,Criminal Law Society,Service/Service Learning,10
+44,3,Tauber Institute Student Advisory Board,Graduate/Professional,11
+45,3,JHealth at The University of Michigan,Academic/Honor Societies,11
+46,3,American Society of Mechanical Engineers,Graduate/Professional,11
+47,3,Design + Business,Academic/Honor Societies,11
+48,3,Compost Michigan,Graduate/Professional,11
+49,3,Criminal Law Society,Service/Service Learning,11
+50,3,Tauber Institute Student Advisory Board,Graduate/Professional,12
+51,3,JHealth at The University of Michigan,Academic/Honor Societies,12
+52,3,American Society of Mechanical Engineers,Graduate/Professional,12
+53,3,Design + Business,Academic/Honor Societies,12
+54,3,Compost Michigan,Graduate/Professional,12
+55,3,Criminal Law Society,Service/Service Learning,12
+56,3,"Lambda Theta Alpha Latin Sorority, Inc. - Beta Omicron Chapter",Service/Service Learning,C1
+57,3,Pre-Vet Club,Service/Service Learning,C1
+58,3,Affordable Michigan,Activism,C1
+59,3,Science For The People,Activism,C1
+60,3,THE AMERICAN RED CROSS CLUB ,Health & Wellness,C1
+61,3,Galens Medical Society Smoker,Media & Creative Writing,C1
+62,3,Future Doctors in Politics at the University of Michigan,Health & Wellness,C1
+63,3,"Lambda Theta Alpha Latin Sorority, Inc. - Beta Omicron Chapter",Service/Service Learning,C2
+64,3,Affordable Michigan,Activism,C2
+65,3,Science For The People,Activism,C2
+66,3,THE AMERICAN RED CROSS CLUB ,Health & Wellness,C2
+67,3,Future Doctors in Politics at the University of Michigan,Health & Wellness,C2
+68,3,"Lambda Theta Alpha Latin Sorority, Inc. - Beta Omicron Chapter",Service/Service Learning,C3
+69,3,Affordable Michigan,Activism,C3
+70,3,Science For The People,Activism,C3
+71,3,THE AMERICAN RED CROSS CLUB ,Health & Wellness,C3
+72,3,Future Doctors in Politics at the University of Michigan,Health & Wellness,C3
+73,3,Film and Video Student Association,Creative & Performing Arts,C3
+74,3,Microfluidics in Biomedical Sciences Student Organization,Academic/Honor Societies,C3
+75,3,"Lambda Theta Alpha Latin Sorority, Inc. - Beta Omicron Chapter",Service/Service Learning,C4
+76,3,Affordable Michigan,Activism,C4
+77,3,Science For The People,Activism,C4
+78,3,THE AMERICAN RED CROSS CLUB ,Health & Wellness,C4
+79,3,Future Doctors in Politics at the University of Michigan,Health & Wellness,C4
+80,3,Film and Video Student Association,Creative & Performing Arts,C4
+81,3,Microfluidics in Biomedical Sciences Student Organization,Academic/Honor Societies,C4
+82,3,Affordable Michigan,Activism,C5
+83,3,Science For The People,Activism,C5
+84,3,THE AMERICAN RED CROSS CLUB ,Health & Wellness,C5
+85,3,Future Doctors in Politics at the University of Michigan,Health & Wellness,C5
+86,3,Microfluidics in Biomedical Sciences Student Organization,Academic/Honor Societies,C5
+87,4,Affordable Michigan,Activism,5
+88,4,Science For The People,Activism,5
+89,4,Future Doctors in Politics at the University of Michigan,Health & Wellness,5
+90,4,Microfluidics in Biomedical Sciences Student Organization,Academic/Honor Societies,5
+91,4,Affordable Michigan,Activism,6
+92,4,Science For The People,Activism,6
+93,4,Future Doctors in Politics at the University of Michigan,Health & Wellness,6
+94,4,Microfluidics in Biomedical Sciences Student Organization,Academic/Honor Societies,6
+95,4,Friends of the Campus Farm,Health & Wellness,6
+96,4,Affordable Michigan,Activism,7
+97,4,Future Doctors in Politics at the University of Michigan,Health & Wellness,7
+98,4,Microfluidics in Biomedical Sciences Student Organization,Academic/Honor Societies,7
+99,4,Friends of the Campus Farm,Health & Wellness,7
+100,4,Affordable Michigan,Activism,8
+101,4,Future Doctors in Politics at the University of Michigan,Health & Wellness,8
+102,4,Friends of the Campus Farm,Health & Wellness,8
+103,4,The Socratic Club,Creative & Performing Arts,9
+104,4,LGBTQ+ Peer-Led Support Group,Activism,9
+105,4,Student Astronomical Society,Academic/Honor Societies,9
+106,4,The Socratic Club,Creative & Performing Arts,10
+107,4,LGBTQ+ Peer-Led Support Group,Activism,10
+108,4,Student Astronomical Society,Academic/Honor Societies,10
+109,4,The Socratic Club,Creative & Performing Arts,11
+110,4,LGBTQ+ Peer-Led Support Group,Activism,11
+111,4,Student Astronomical Society,Academic/Honor Societies,11
+112,4,Michigan Chapter of Triangle Fraternity,Graduate/Professional,11
+113,4,LGBTQ+ Peer-Led Support Group,Activism,12
+114,4,Student Astronomical Society,Academic/Honor Societies,12
+115,4,Michigan Chapter of Triangle Fraternity,Graduate/Professional,12
+116,4,Sigma Kappa,Service/Service Learning,C1
+117,4,Ballroom Dance Club,Health & Wellness,C1
+118,4,Undergraduate Student National Dental Association Chapter at the University of Michigan,Graduate/Professional,C1
+119,4,Sigma Kappa,Service/Service Learning,C2
+120,4,Ballroom Dance Club,Health & Wellness,C2
+121,4,Undergraduate Student National Dental Association Chapter at the University of Michigan,Graduate/Professional,C2
+122,4,Sigma Kappa,Service/Service Learning,C3
+123,4,Ballroom Dance Club,Health & Wellness,C3
+124,4,Undergraduate Student National Dental Association Chapter at the University of Michigan,Graduate/Professional,C3
+125,4,Black Student Psychological Association,Cultural/Ethnic,C3
+126,4,Sigma Kappa,Service/Service Learning,C4
+127,4,Ballroom Dance Club,Health & Wellness,C4
+128,4,Undergraduate Student National Dental Association Chapter at the University of Michigan,Graduate/Professional,C4
+129,4,Black Student Psychological Association,Cultural/Ethnic,C4
+130,4,Sigma Kappa,Service/Service Learning,C5
+131,4,Ballroom Dance Club,Health & Wellness,C5
+132,4,Undergraduate Student National Dental Association Chapter at the University of Michigan,Graduate/Professional,C5
+133,4,Black Student Psychological Association,Cultural/Ethnic,C5
+134,4,Undergraduate Political Science Association,Academic/Honor Societies,C5
+135,5,Ballroom Dance Club,Health & Wellness,5
+136,5,Undergraduate Political Science Association,Academic/Honor Societies,5
+137,5,University of Michigan Solar Car Team,Sport Clubs & Recreation,7
+138,5,University of Michigan Solar Car Team,Sport Clubs & Recreation,8
+139,5,FeelGood at the University of Michigan,Environmental,10
+140,5,FeelGood at the University of Michigan,Environmental,11
+141,5,Atmospheres Making Positive Moments ,Academic/Honor Societies,11
+142,5,WCBN FM,Media & Creative Writing,C1
+143,5,Women and Gender in Public Policy,Activism,C4
+144,5,Women and Gender in Public Policy,Activism,C5
+145,6,Women and Gender in Public Policy,Activism,5
+146,6,Not Even Really Drama Students,Gender/Sexuality,5
+147,6,Not Even Really Drama Students,Gender/Sexuality,6
+148,6,Not Even Really Drama Students,Gender/Sexuality,7
+149,6,Pi Alpha Phi,Cultural/Ethnic,7
+150,6,Not Even Really Drama Students,Gender/Sexuality,8
+151,6,Pi Alpha Phi,Cultural/Ethnic,8
+152,6,MAcc Student Association,Graduate/Professional,8
+153,6,Michigan Magic,Service/Service Learning,9
+154,6,Michigan Magic,Service/Service Learning,10
+155,6,Indian American Student Association,Creative & Performing Arts,10
+156,6,Student Sustainability Coalition,Health & Wellness,10
+157,6,Michigan Magic,Service/Service Learning,11
+158,6,Student Sustainability Coalition,Health & Wellness,11
+159,6,Michigan Magic,Service/Service Learning,12
+160,6,Student Sustainability Coalition,Health & Wellness,12
+161,6,Michigan Field Hockey Club,Sport Clubs & Recreation,12
+162,6,Kindness in Numbers,Health & Wellness,C1
+163,6,Canopy Sustainability Magazine,Creative & Performing Arts,C1
+164,6,Kindness in Numbers,Health & Wellness,C2
+165,6,Canopy Sustainability Magazine,Creative & Performing Arts,C2
+166,6,Kindness in Numbers,Health & Wellness,C3
+167,6,Canopy Sustainability Magazine,Creative & Performing Arts,C3
+168,6,Kindness in Numbers,Health & Wellness,C4
+169,6,Canopy Sustainability Magazine,Creative & Performing Arts,C4
+170,6,Kindness in Numbers,Health & Wellness,C5
+171,6,Canopy Sustainability Magazine,Creative & Performing Arts,C5
+172,7,Kindness in Numbers,Health & Wellness,5
+173,7,Canopy Sustainability Magazine,Creative & Performing Arts,5
+174,7,Earth Friendly Food,Activism,5
+175,7,Theta Sigma Transfer Student Professional Fraternity,Social Fraternity/Sorority,5
+176,7,Sigma Gamma Tau,Service/Service Learning,5
+177,7,Kindness in Numbers,Health & Wellness,6
+178,7,Canopy Sustainability Magazine,Creative & Performing Arts,6
+179,7,Earth Friendly Food,Activism,6
+180,7,Theta Sigma Transfer Student Professional Fraternity,Social Fraternity/Sorority,6
+181,7,Sigma Gamma Tau,Service/Service Learning,6
+182,7,Kindness in Numbers,Health & Wellness,7
+183,7,Earth Friendly Food,Activism,7
+184,7,Theta Sigma Transfer Student Professional Fraternity,Social Fraternity/Sorority,7
+185,7,Kindness in Numbers,Health & Wellness,8
+186,7,Earth Friendly Food,Activism,8
+187,7,Theta Sigma Transfer Student Professional Fraternity,Social Fraternity/Sorority,8
+188,7,College Republicans at the University of Michigan,Service/Service Learning,8
+189,7,Choosing Wisely Chapter at the University of Michigan,Health & Wellness,8
+190,7,Taiwan Student Association,Cultural/Ethnic,9
+191,7,M-HEAL Project Alivio,Cultural/Ethnic,9
+192,7,American Civil Liberties Union Undergraduate Chapter,Governance,9
+193,7,Taiwan Student Association,Cultural/Ethnic,10
+194,7,M-HEAL Project Alivio,Cultural/Ethnic,10
+195,7,American Civil Liberties Union Undergraduate Chapter,Governance,10
+196,7,Taiwan Student Association,Cultural/Ethnic,11
+197,7,M-HEAL Project Alivio,Cultural/Ethnic,11
+198,7,American Civil Liberties Union Undergraduate Chapter,Governance,11
+199,7,Taiwan Student Association,Cultural/Ethnic,12
+200,7,M-HEAL Project Alivio,Cultural/Ethnic,12
+201,7,American Civil Liberties Union Undergraduate Chapter,Governance,12
+202,7,Foundation for International Medical Relief of Children,Health & Wellness,C1
+203,7,Equitable Change Organization,Activism,C1
+204,7,Michigan Fashion Media Summit,Media & Creative Writing,C1
+205,7,Ambatana Multicultural Council,Service/Service Learning,C1
+206,7,Foundation for International Medical Relief of Children,Health & Wellness,C2
+207,7,Equitable Change Organization,Activism,C2
+208,7,Michigan Fashion Media Summit,Media & Creative Writing,C2
+209,7,Foundation for International Medical Relief of Children,Health & Wellness,C3
+210,7,Equitable Change Organization,Activism,C3
+211,7,Michigan Fashion Media Summit,Media & Creative Writing,C3
+212,7,Foundation for International Medical Relief of Children,Health & Wellness,C4
+213,7,Equitable Change Organization,Activism,C4
+214,7,Michigan Fashion Media Summit,Media & Creative Writing,C4
+215,7,Foundation for International Medical Relief of Children,Health & Wellness,C5
+216,7,Equitable Change Organization,Activism,C5
+217,7,Michigan Fashion Media Summit,Media & Creative Writing,C5
+218,7,Health-System Student Pharmacists at the University of Michigan,Graduate/Professional,C5
+219,7,"Entertainment, Media, and Arts Law Students Association",Creative & Performing Arts,C5
+220,8,Foundation for International Medical Relief of Children,Health & Wellness,5
+221,8,Equitable Change Organization,Activism,5
+222,8,Michigan Fashion Media Summit,Media & Creative Writing,5
+223,8,Health-System Student Pharmacists at the University of Michigan,Graduate/Professional,5
+224,8,"Entertainment, Media, and Arts Law Students Association",Creative & Performing Arts,5
+225,8,Michigan Baseball and Sabermetrics Club,Media & Creative Writing,5
+226,8,Foundation for International Medical Relief of Children,Health & Wellness,6
+227,8,Michigan Fashion Media Summit,Media & Creative Writing,6
+228,8,Health-System Student Pharmacists at the University of Michigan,Graduate/Professional,6
+229,8,"Entertainment, Media, and Arts Law Students Association",Creative & Performing Arts,6
+230,8,Michigan Baseball and Sabermetrics Club,Media & Creative Writing,6
+231,8,Foundation for International Medical Relief of Children,Health & Wellness,7
+232,8,Health-System Student Pharmacists at the University of Michigan,Graduate/Professional,7
+233,8,"Entertainment, Media, and Arts Law Students Association",Creative & Performing Arts,7
+234,8,Michigan Baseball and Sabermetrics Club,Media & Creative Writing,7
+235,8,Foundation for International Medical Relief of Children,Health & Wellness,8
+236,8,Health-System Student Pharmacists at the University of Michigan,Graduate/Professional,8
+237,8,"Entertainment, Media, and Arts Law Students Association",Creative & Performing Arts,8
+238,8,Michigan Baseball and Sabermetrics Club,Media & Creative Writing,8
+239,8,Women In Leadership,Graduate/Professional,9
+240,8,University of Michigan Solar Car Team,Sport Clubs & Recreation,9
+241,8,Psi Upsilon Fraternity,Activism,9
+242,8,International Refugee Assistance Project: Michigan Chapter,Activism,9
+243,8,University of Michigan Asylum Collaborative,Activism,9
+244,8,University of Michigan Solar Car Team,Sport Clubs & Recreation,10
+245,8,Psi Upsilon Fraternity,Activism,10
+246,8,International Refugee Assistance Project: Michigan Chapter,Activism,10
+247,8,University of Michigan Asylum Collaborative,Activism,10
+248,8,University of Michigan Solar Car Team,Sport Clubs & Recreation,11
+249,8,Psi Upsilon Fraternity,Activism,11
+250,8,International Refugee Assistance Project: Michigan Chapter,Activism,11
+251,8,University of Michigan Asylum Collaborative,Activism,11
+252,8,Michigan Academics Competition/UAC,Academic/Honor Societies,11
+253,8,Theta Capital,Science/Technology/Engineering,11
+254,8,University of Michigan Solar Car Team,Sport Clubs & Recreation,12
+255,8,Psi Upsilon Fraternity,Activism,12
+256,8,University of Michigan Asylum Collaborative,Activism,12
+257,8,Michigan Academics Competition/UAC,Academic/Honor Societies,12
+258,8,Domestic Policy Corps,Graduate/Professional,C1
+259,8,Michigan Muscle Club,Sport Clubs & Recreation,C1
+260,8,New Movement,Creative & Performing Arts,C1
+261,8,Student Rights Project,Activism,C1
+262,8,Relay for Life at the College of Pharmacy,Graduate/Professional,C1
+263,8,Domestic Policy Corps,Graduate/Professional,C2
+264,8,Michigan Muscle Club,Sport Clubs & Recreation,C2
+265,8,New Movement,Creative & Performing Arts,C2
+266,8,Student Rights Project,Activism,C2
+267,8,Relay for Life at the College of Pharmacy,Graduate/Professional,C2
+268,8,Medical Student Council at the University of Michigan Medical School,Graduate/Professional,C2
+269,8,Domestic Policy Corps,Graduate/Professional,C3
+270,8,New Movement,Creative & Performing Arts,C3
+271,8,Student Rights Project,Activism,C3
+272,8,Relay for Life at the College of Pharmacy,Graduate/Professional,C3
+273,8,Medical Student Council at the University of Michigan Medical School,Graduate/Professional,C3
+274,8,Domestic Policy Corps,Graduate/Professional,C4
+275,8,Student Rights Project,Activism,C4
+276,8,Relay for Life at the College of Pharmacy,Graduate/Professional,C4
+277,8,Medical Student Council at the University of Michigan Medical School,Graduate/Professional,C4
+278,8,Domestic Policy Corps,Graduate/Professional,C5
+279,8,Student Rights Project,Activism,C5
+280,8,Relay for Life at the College of Pharmacy,Graduate/Professional,C5
+281,8,Medical Student Council at the University of Michigan Medical School,Graduate/Professional,C5
+282,9,Relay for Life at the College of Pharmacy,Graduate/Professional,5
+283,9,Relay for Life at the College of Pharmacy,Graduate/Professional,6
+284,9,SAE Michigan Baja Racing,Graduate/Professional,6
+285,9,Biomedical Engineering Society,Academic/Honor Societies,8
+286,9,Project HEAL at the University of Michigan,Service/Service Learning,8
+287,9,Social Work Doctoral Student Organization,Graduate/Professional,9
+288,9,University of Michigan Women's Rugby Football Club,Sport Clubs & Recreation,9
+289,9,University of Michigan Women's Rugby Football Club,Sport Clubs & Recreation,10
+290,9,University of Michigan Women's Rugby Football Club,Sport Clubs & Recreation,11
+291,9,University of Michigan Women's Rugby Football Club,Sport Clubs & Recreation,12
+292,9,Foundation for International Medical Relief of Children,Health & Wellness,C1
+293,9,Foundation for International Medical Relief of Children,Health & Wellness,C2
+294,9,College Essay Revising Partnership,Media & Creative Writing,C2
+295,9,Foundation for International Medical Relief of Children,Health & Wellness,C3
+296,9,INvent,Cultural/Ethnic,C5
+297,11,Dance Mix,Creative & Performing Arts,5
+298,11,The PhD Forum at the Stephen M. Ross School of Business,Academic/Honor Societies,5
+299,11,Dance Mix,Creative & Performing Arts,6
+300,11,The PhD Forum at the Stephen M. Ross School of Business,Academic/Honor Societies,6
+301,11,Women in Mathematics,Gender/Sexuality,6
+302,11,Association of Black Social Work Students,Graduate/Professional,6
+303,11,The PhD Forum at the Stephen M. Ross School of Business,Academic/Honor Societies,7
+304,11,Women in Mathematics,Gender/Sexuality,7
+305,11,Association of Black Social Work Students,Graduate/Professional,7
+306,11,The PhD Forum at the Stephen M. Ross School of Business,Academic/Honor Societies,8
+307,11,Women in Mathematics,Gender/Sexuality,8
+308,11,Association of Black Social Work Students,Graduate/Professional,8
+309,11,Crochet Connections,Creative & Performing Arts,9
+310,11,Pay It Forward!,Academic/Honor Societies,9
+311,11,Crochet Connections,Creative & Performing Arts,10
+312,11,Pay It Forward!,Academic/Honor Societies,10
+313,11,Crochet Connections,Creative & Performing Arts,11
+314,11,Pay It Forward!,Academic/Honor Societies,11
+315,11,Zeta Omega Eta,Cultural/Ethnic,11
+316,11,Crochet Connections,Creative & Performing Arts,12
+317,11,Pay It Forward!,Academic/Honor Societies,12
+318,11,Zeta Omega Eta,Cultural/Ethnic,12
+319,11,Alpine Ski and Snowboard Team,Sport Clubs & Recreation,12
+320,11,The Quito Project,Activism,C1
+321,11,Alpha Pi Mu - Industrial Engineering Honor Society,Service/Service Learning,C1
+322,11,The Quito Project,Activism,C2
+323,11,Alpha Pi Mu - Industrial Engineering Honor Society,Service/Service Learning,C2
+324,11,The Quito Project,Activism,C3
+325,11,Alpha Pi Mu - Industrial Engineering Honor Society,Service/Service Learning,C3
+326,11,Sigma Nu ,Social Fraternity/Sorority,C3
+327,11,Graduate Christian Fellowship,Graduate/Professional,C3
+328,11,The Quito Project,Activism,C4
+329,11,Alpha Pi Mu - Industrial Engineering Honor Society,Service/Service Learning,C4
+330,11,Sigma Nu ,Social Fraternity/Sorority,C4
+331,11,Graduate Christian Fellowship,Graduate/Professional,C4
+332,11,The Quito Project,Activism,C5
+333,11,Sigma Nu ,Social Fraternity/Sorority,C5
+334,12,The Quito Project,Activism,5
+335,12,Sigma Nu ,Social Fraternity/Sorority,5
+336,12,WE READ,Creative & Performing Arts,5
+337,12,The Quito Project,Activism,6
+338,12,Sigma Nu ,Social Fraternity/Sorority,6
+339,12,WE READ,Creative & Performing Arts,6
+340,12,Human Powered Submarine Team,Sport Clubs & Recreation,6
+341,12,The Quito Project,Activism,7
+342,12,Sigma Nu ,Social Fraternity/Sorority,7
+343,12,WE READ,Creative & Performing Arts,7
+344,12,Human Powered Submarine Team,Sport Clubs & Recreation,7
+345,12,Sigma Nu ,Social Fraternity/Sorority,8
+346,12,WE READ,Creative & Performing Arts,8
+347,12,Human Powered Submarine Team,Sport Clubs & Recreation,8
+348,12,Michigan Scuba Club,Health & Wellness,9
+349,12,Computer Science and Engineering Graduate Student Organization,Graduate/Professional,9
+350,12,University of Michigan Esports,Sport Clubs & Recreation,9
+351,12,Michigan Scuba Club,Health & Wellness,10
+352,12,Computer Science and Engineering Graduate Student Organization,Graduate/Professional,10
+353,12,University of Michigan Esports,Sport Clubs & Recreation,10
+354,12,Michigan Scuba Club,Health & Wellness,11
+355,12,Computer Science and Engineering Graduate Student Organization,Graduate/Professional,11
+356,12,University of Michigan Esports,Sport Clubs & Recreation,11
+357,12,Michigan Scuba Club,Health & Wellness,12
+358,12,Computer Science and Engineering Graduate Student Organization,Graduate/Professional,12
+359,12,Michigan Finance and Mathematics Society,Academic/Honor Societies,C1
+360,12,Society for Space Law and the Law of the Sea,Graduate/Professional,C1
+361,12,Student Community of Progressive Empowerment,Activism,C1
+362,12,Society for Human Resource Management at the University of Michigan,Academic/Honor Societies,C1
+363,12,Society for Space Law and the Law of the Sea,Graduate/Professional,C2
+364,12,Society for Human Resource Management at the University of Michigan,Academic/Honor Societies,C2
+365,12,Society for Space Law and the Law of the Sea,Graduate/Professional,C3
+366,12,Society for Human Resource Management at the University of Michigan,Academic/Honor Societies,C3
+367,12,Michigan Business Group,Academic/Honor Societies,C3
+368,12,Society for Space Law and the Law of the Sea,Graduate/Professional,C4
+369,12,Society for Human Resource Management at the University of Michigan,Academic/Honor Societies,C4
+370,12,Michigan Business Group,Academic/Honor Societies,C4
+371,12,Society for Space Law and the Law of the Sea,Graduate/Professional,C5
+372,12,Society for Human Resource Management at the University of Michigan,Academic/Honor Societies,C5
+373,12,Michigan Business Group,Academic/Honor Societies,C5
+374,13,Society for Space Law and the Law of the Sea,Graduate/Professional,5
+375,13,Society for Human Resource Management at the University of Michigan,Academic/Honor Societies,5
+376,13,Michigan Business Group,Academic/Honor Societies,5
+377,13,Ford + Munk Conference Committee,Graduate/Professional,5
+378,13,Society for Space Law and the Law of the Sea,Graduate/Professional,6
+379,13,Society for Human Resource Management at the University of Michigan,Academic/Honor Societies,6
+380,13,Ford + Munk Conference Committee,Graduate/Professional,6
+381,13,Society for Space Law and the Law of the Sea,Graduate/Professional,7
+382,13,Society for Human Resource Management at the University of Michigan,Academic/Honor Societies,7
+383,13,Ford + Munk Conference Committee,Graduate/Professional,7
+384,13,WCBN FM,Creative & Performing Arts,7
+385,13,Society for Space Law and the Law of the Sea,Graduate/Professional,8
+386,13,WCBN FM,Creative & Performing Arts,8
+387,13,Epsilon Eta,Environmental,9
+388,13,Groove/UAC,Creative & Performing Arts,9
+389,13,Epsilon Eta,Environmental,10
+390,13,Groove/UAC,Creative & Performing Arts,10
+391,13,APEX Consulting Group,Business & Entrepreneurship,10
+392,13,Michigan Concrete Canoe Team,Sport Clubs & Recreation,10
+393,13,Epsilon Eta,Environmental,11
+394,13,Groove/UAC,Creative & Performing Arts,11
+395,13,APEX Consulting Group,Business & Entrepreneurship,11
+396,13,Michigan Concrete Canoe Team,Sport Clubs & Recreation,11
+397,13,Epsilon Eta,Environmental,12
+398,13,Groove/UAC,Creative & Performing Arts,12
+399,13,APEX Consulting Group,Business & Entrepreneurship,12
+400,13,Student Nurses' Association,Graduate/Professional,C1
+401,13,Public Interest Research Group in Michigan Students,Activism,C1
+402,13,Student Nurses' Association,Graduate/Professional,C2
+403,13,Public Interest Research Group in Michigan Students,Activism,C2
+404,13,Student Nurses' Association,Graduate/Professional,C3
+405,13,Public Interest Research Group in Michigan Students,Activism,C3
+406,13,National Council of Negro Women at The University of Michigan,Service/Service Learning,C3
+407,14,Student Nurses' Association,Graduate/Professional,5
+408,14,Public Interest Research Group in Michigan Students,Activism,5
+409,14,National Council of Negro Women at The University of Michigan,Service/Service Learning,5
+410,14,University of Michigan Student-Run Free Clinic,Health & Wellness,5
+411,14,Student Nurses' Association,Graduate/Professional,6
+412,14,Public Interest Research Group in Michigan Students,Activism,6
+413,14,National Council of Negro Women at The University of Michigan,Service/Service Learning,6
+414,14,University of Michigan Student-Run Free Clinic,Health & Wellness,6
+415,14,Multiple Sclerosis Awareness Association,Health & Wellness,6
+416,14,Student Nurses' Association,Graduate/Professional,7
+417,14,Public Interest Research Group in Michigan Students,Activism,7
+418,14,National Council of Negro Women at The University of Michigan,Service/Service Learning,7
+419,14,University of Michigan Student-Run Free Clinic,Health & Wellness,7
+420,14,Multiple Sclerosis Awareness Association,Health & Wellness,7
+421,14,Student Nurses' Association,Graduate/Professional,8
+422,14,Public Interest Research Group in Michigan Students,Activism,8
+423,14,National Council of Negro Women at The University of Michigan,Service/Service Learning,8
+424,14,University of Michigan Student-Run Free Clinic,Health & Wellness,8
+425,14,Multiple Sclerosis Awareness Association,Health & Wellness,8
+426,14,Climate Blue,Media & Creative Writing,8
+427,14,Pharmacy Student Government Council,Governance,9
+428,14,Community for Survivors,Cultural/Ethnic,9
+429,14,African Graduate Students Association,Activism,9
+430,14,EnspiRED Runway ,Media & Creative Writing,9
+431,14,Pharmacy Student Government Council,Governance,10
+432,14,Community for Survivors,Cultural/Ethnic,10
+433,14,African Graduate Students Association,Activism,10
+434,14,EnspiRED Runway ,Media & Creative Writing,10
+435,14,Adam Smith Society,Activism,10
+436,14,Pharmacy Student Government Council,Governance,11
+437,14,Community for Survivors,Cultural/Ethnic,11
+438,14,EnspiRED Runway ,Media & Creative Writing,11
+439,14,Adam Smith Society,Activism,11
+440,14,Pharmacy Student Government Council,Governance,12
+441,14,Community for Survivors,Cultural/Ethnic,12
+442,14,EnspiRED Runway ,Media & Creative Writing,12
+443,14,Adam Smith Society,Activism,12
+444,14,Women of Color & The Academy,Graduate/Professional,12
+445,14,Student Funded Fellowships,Service/Service Learning,C1
+446,14,Center for Research Support,Graduate/Professional,C1
+447,14,Legal Advocates for Children & Youth,Service/Service Learning,C1
+448,14,Tabletop Gaming Club,Sport Clubs & Recreation,C1
+449,14,Student Funded Fellowships,Service/Service Learning,C2
+450,14,Center for Research Support,Graduate/Professional,C2
+451,14,Legal Advocates for Children & Youth,Service/Service Learning,C2
+452,14,Tabletop Gaming Club,Sport Clubs & Recreation,C2
+453,14,Peer Led Support Group for People of Color,Gender/Sexuality,C2
+454,14,Student Funded Fellowships,Service/Service Learning,C3
+455,14,Center for Research Support,Graduate/Professional,C3
+456,14,Tabletop Gaming Club,Sport Clubs & Recreation,C3
+457,14,Peer Led Support Group for People of Color,Gender/Sexuality,C3
+458,14,Student Funded Fellowships,Service/Service Learning,C4
+459,14,Center for Research Support,Graduate/Professional,C4
+460,14,Tabletop Gaming Club,Sport Clubs & Recreation,C4
+461,14,Peer Led Support Group for People of Color,Gender/Sexuality,C4
+462,14,Student Funded Fellowships,Service/Service Learning,C5
+463,14,Center for Research Support,Graduate/Professional,C5
+464,14,Tabletop Gaming Club,Sport Clubs & Recreation,C5
+465,14,Peer Led Support Group for People of Color,Gender/Sexuality,C5
+466,14,Girl Up Michigan,Health & Wellness,C5
+467,14,Auto Repair Consulting Club,Health & Wellness,C5
+468,15,Student Funded Fellowships,Service/Service Learning,5
+469,15,Tabletop Gaming Club,Sport Clubs & Recreation,5
+470,15,Girl Up Michigan,Health & Wellness,5
+471,15,Student Funded Fellowships,Service/Service Learning,6
+472,15,Tabletop Gaming Club,Sport Clubs & Recreation,6
+473,15,Girl Up Michigan,Health & Wellness,6
+474,15,Wolverine Connections,Service/Service Learning,6
+475,15,Student Funded Fellowships,Service/Service Learning,7
+476,15,Tabletop Gaming Club,Sport Clubs & Recreation,7
+477,15,Girl Up Michigan,Health & Wellness,7
+478,15,Wolverine Connections,Service/Service Learning,7
+479,15,Michigan Business & Entrepreneurial Law Review ,Academic/Honor Societies,7
+480,15,Student Funded Fellowships,Service/Service Learning,8
+481,15,Tabletop Gaming Club,Sport Clubs & Recreation,8
+482,15,Girl Up Michigan,Health & Wellness,8
+483,15,Wolverine Connections,Service/Service Learning,8
+484,15,Michigan Business & Entrepreneurial Law Review ,Academic/Honor Societies,8
+485,15,Black Undergraduate Medical Association,Science/Technology/Engineering,9
+486,15,Lebanese Student Association,Cultural/Ethnic,9
+487,15,Graduate Student Advisory Committee-ISD,Governance,9
+488,15,Students for the Exploration and Development of Space,Service/Service Learning,9
+489,15,New Life Students,Religious/Spiritual,9
+490,15,Black Undergraduate Medical Association,Science/Technology/Engineering,10
+491,15,Lebanese Student Association,Cultural/Ethnic,10
+492,15,New Life Students,Religious/Spiritual,10
+493,15,Black Undergraduate Medical Association,Science/Technology/Engineering,11
+494,15,Lebanese Student Association,Cultural/Ethnic,11
+495,15,New Life Students,Religious/Spiritual,11
+496,15,Falun Dafa Student Association,Creative & Performing Arts,11
+497,15,Legal Advocates for Children & Youth,Service/Service Learning,11
+498,15,Black Undergraduate Medical Association,Science/Technology/Engineering,12
+499,15,Lebanese Student Association,Cultural/Ethnic,12
+500,15,New Life Students,Religious/Spiritual,12
+501,15,Falun Dafa Student Association,Creative & Performing Arts,12
+502,15,GIRLS at Michigan,Gender/Sexuality,C1
+503,15,Dermatology Interest Group,Graduate/Professional,C1
+504,15,Roe v. Rape at the University of Michigan,Gender/Sexuality,C1
+505,15,GIRLS at Michigan,Gender/Sexuality,C2
+506,15,Dermatology Interest Group,Graduate/Professional,C2
+507,15,Roe v. Rape at the University of Michigan,Gender/Sexuality,C2
+508,15,Student Archaeology Club ,Academic/Honor Societies,C2
+509,15,Dermatology Interest Group,Graduate/Professional,C3
+510,15,Roe v. Rape at the University of Michigan,Gender/Sexuality,C3
+511,15,Student Archaeology Club ,Academic/Honor Societies,C3
+512,15,Dermatology Interest Group,Graduate/Professional,C4
+513,15,Roe v. Rape at the University of Michigan,Gender/Sexuality,C4
+514,15,Student Archaeology Club ,Academic/Honor Societies,C4
+515,15,Dermatology Interest Group,Graduate/Professional,C5
+516,15,Roe v. Rape at the University of Michigan,Gender/Sexuality,C5
+517,15,Student Archaeology Club ,Academic/Honor Societies,C5
+518,15,Japan Student Association,Cultural/Ethnic,C5
+519,15,Cognitive Strength Organization at the University of Michigan,Service/Service Learning,C5
+520,16,Dermatology Interest Group,Graduate/Professional,5
+521,16,Roe v. Rape at the University of Michigan,Gender/Sexuality,5
+522,16,Student Archaeology Club ,Academic/Honor Societies,5
+523,16,Japan Student Association,Cultural/Ethnic,5
+524,16,Cognitive Strength Organization at the University of Michigan,Service/Service Learning,5
+525,16,Swing Ann Arbor,Health & Wellness,5
+526,16,Dermatology Interest Group,Graduate/Professional,6
+527,16,Roe v. Rape at the University of Michigan,Gender/Sexuality,6
+528,16,Student Archaeology Club ,Academic/Honor Societies,6
+529,16,Japan Student Association,Cultural/Ethnic,6
+530,16,Cognitive Strength Organization at the University of Michigan,Service/Service Learning,6
+531,16,Swing Ann Arbor,Health & Wellness,6
+532,16,Dermatology Interest Group,Graduate/Professional,7
+533,16,Student Archaeology Club ,Academic/Honor Societies,7
+534,16,Japan Student Association,Cultural/Ethnic,7
+535,16,Cognitive Strength Organization at the University of Michigan,Service/Service Learning,7
+536,16,Swing Ann Arbor,Health & Wellness,7
+537,16,Dermatology Interest Group,Graduate/Professional,8
+538,16,Student Archaeology Club ,Academic/Honor Societies,8
+539,16,Cognitive Strength Organization at the University of Michigan,Service/Service Learning,8
+540,16,Swing Ann Arbor,Health & Wellness,8
+541,16,AIESEC,Graduate/Professional,9
+542,16,Canterbury House,Environmental,9
+543,16,Michigan Political Consulting ,Graduate/Professional,9
+544,16,Michigan Hillel,Sport Clubs & Recreation,9
+545,16,AIESEC,Graduate/Professional,10
+546,16,Canterbury House,Environmental,10
+547,16,Michigan Political Consulting ,Graduate/Professional,10
+548,16,Michigan Hillel,Sport Clubs & Recreation,10
+549,16,AIESEC,Graduate/Professional,11
+550,16,Canterbury House,Environmental,11
+551,16,Michigan Political Consulting ,Graduate/Professional,11
+552,16,Michigan Hillel,Sport Clubs & Recreation,11
+553,16,Michigan Backpacking Club,Health & Wellness,11
+554,16,K-Motion,Creative & Performing Arts,11
+555,16,Canterbury House,Environmental,12
+556,16,Michigan Political Consulting ,Graduate/Professional,12
+557,16,Michigan Hillel,Sport Clubs & Recreation,12
+558,16,Michigan Backpacking Club,Health & Wellness,12
+559,16,National Association for the Advancement of Colored People,Governance,C1
+560,16,The Michigan Quidditch Team,Sport Clubs & Recreation,C1
+561,16,The Ukrainian Club at UM,Activism,C1
+562,16,Club Golf at Michigan,Sport Clubs & Recreation,C1
+563,16,National Association for the Advancement of Colored People,Governance,C2
+564,16,The Michigan Quidditch Team,Sport Clubs & Recreation,C2
+565,16,The Ukrainian Club at UM,Activism,C2
+566,16,Club Golf at Michigan,Sport Clubs & Recreation,C2
+567,16,The Education Project at the University of Michigan,Service/Service Learning,C2
+568,16,Intercollegiate Athlete Network,Health & Wellness,C2
+569,16,National Association for the Advancement of Colored People,Governance,C3
+570,16,The Michigan Quidditch Team,Sport Clubs & Recreation,C3
+571,16,The Ukrainian Club at UM,Activism,C3
+572,16,Club Golf at Michigan,Sport Clubs & Recreation,C3
+573,16,National Association for the Advancement of Colored People,Governance,C4
+574,16,The Michigan Quidditch Team,Sport Clubs & Recreation,C4
+575,16,The Ukrainian Club at UM,Activism,C4
+576,16,Club Golf at Michigan,Sport Clubs & Recreation,C4
+577,16,FISLL at UMICH,Religious/Spiritual,C4
+578,16,National Association for the Advancement of Colored People,Governance,C5
+579,16,The Michigan Quidditch Team,Sport Clubs & Recreation,C5
+580,16,The Ukrainian Club at UM,Activism,C5
+581,16,Club Golf at Michigan,Sport Clubs & Recreation,C5
+582,16,FISLL at UMICH,Religious/Spiritual,C5
+583,16,Theta Delta Chi Fraternity,Social Fraternity/Sorority,C5
+584,17,The Michigan Quidditch Team,Sport Clubs & Recreation,5
+585,17,FISLL at UMICH,Religious/Spiritual,5
+586,17,The Michigan Quidditch Team,Sport Clubs & Recreation,6
+587,17,FISLL at UMICH,Religious/Spiritual,6
+588,17,The Michigan Quidditch Team,Sport Clubs & Recreation,7
+589,17,FISLL at UMICH,Religious/Spiritual,7
+590,17,FISLL at UMICH,Religious/Spiritual,8
+591,17,"Here Earning a Destiny through Honesty, Eagerness, and Determination of Self",Service/Service Learning,9
+592,17,Students for Reproductive Rights and Justice ,Health & Wellness,9
+593,18,The Dance Student Assembly,Governance,5
+594,18,Phi Delta Epsilon International Medical Fraternity,Graduate/Professional,5
+595,18,Public Health Association,Service/Service Learning,5
+596,18,Entrepreneur and Venture Club,Business & Entrepreneurship,5
+597,18,The Dance Student Assembly,Governance,6
+598,18,Phi Delta Epsilon International Medical Fraternity,Graduate/Professional,6
+599,18,Public Health Association,Service/Service Learning,6
+600,18,Entrepreneur and Venture Club,Business & Entrepreneurship,6
+601,18,Michigan Aviators,Science/Technology/Engineering,6
+602,18,Asian Consortium for Economic Development,Cultural/Ethnic,6
+603,18,The Dance Student Assembly,Governance,7
+604,18,Phi Delta Epsilon International Medical Fraternity,Graduate/Professional,7
+605,18,Entrepreneur and Venture Club,Business & Entrepreneurship,7
+606,18,Michigan Aviators,Science/Technology/Engineering,7
+607,18,Asian Consortium for Economic Development,Cultural/Ethnic,7
+608,18,The Dance Student Assembly,Governance,8
+609,18,Phi Delta Epsilon International Medical Fraternity,Graduate/Professional,8
+610,18,Entrepreneur and Venture Club,Business & Entrepreneurship,8
+611,18,Michigan Aviators,Science/Technology/Engineering,8
+612,18,Asian Consortium for Economic Development,Cultural/Ethnic,8
+613,18,Michigan Refugee Assistance Program ,Service/Service Learning,8
+614,18,Student Hunger Initiative,Environmental,9
+615,18,Couzens Hall Council,Health & Wellness,9
+616,18,The Dance Student Assembly,Governance,9
+617,18,"Zeta Phi Beta Sorority, Inc. Gamma Delta Chapter",Academic/Honor Societies,9
+618,18,Student Hunger Initiative,Environmental,10
+619,18,Couzens Hall Council,Health & Wellness,10
+620,18,The Dance Student Assembly,Governance,10
+621,18,"Zeta Phi Beta Sorority, Inc. Gamma Delta Chapter",Academic/Honor Societies,10
+622,18,Thirst Project ,Activism,10
+623,18,Student Hunger Initiative,Environmental,11
+624,18,Couzens Hall Council,Health & Wellness,11
+625,18,The Dance Student Assembly,Governance,11
+626,18,"Zeta Phi Beta Sorority, Inc. Gamma Delta Chapter",Academic/Honor Societies,11
+627,18,Thirst Project ,Activism,11
+628,18,Student Hunger Initiative,Environmental,12
+629,18,Couzens Hall Council,Health & Wellness,12
+630,18,The Dance Student Assembly,Governance,12
+631,18,Thirst Project ,Activism,12
+632,18,Michigan Fabrication,Science/Technology/Engineering,C1
+633,18,Developer Student Club at the University of Michigan,Science/Technology/Engineering,C1
+634,18,Students Empowering Education,Service/Service Learning,C1
+635,18,Biointerfaces Interlaboratory Committees,Academic/Honor Societies,C1
+636,18,MRun - Running Club at the University of Michigan,Sport Clubs & Recreation,C1
+637,18,Malt and Blue Scotch Society,Cultural/Ethnic,C1
+638,18,Michigan Fabrication,Science/Technology/Engineering,C2
+639,18,Developer Student Club at the University of Michigan,Science/Technology/Engineering,C2
+640,18,Students Empowering Education,Service/Service Learning,C2
+641,18,Biointerfaces Interlaboratory Committees,Academic/Honor Societies,C2
+642,18,Malt and Blue Scotch Society,Cultural/Ethnic,C2
+643,18,Michigan Fabrication,Science/Technology/Engineering,C3
+644,18,Developer Student Club at the University of Michigan,Science/Technology/Engineering,C3
+645,18,Students Empowering Education,Service/Service Learning,C3
+646,18,Malt and Blue Scotch Society,Cultural/Ethnic,C3
+647,18,Michigan Fabrication,Science/Technology/Engineering,C4
+648,18,Developer Student Club at the University of Michigan,Science/Technology/Engineering,C4
+649,18,Students Empowering Education,Service/Service Learning,C4
+650,18,Malt and Blue Scotch Society,Cultural/Ethnic,C4
+651,18,Queer Advocacy Coalition,Gender/Sexuality,C4
+652,18,Michigan Fabrication,Science/Technology/Engineering,C5
+653,18,Developer Student Club at the University of Michigan,Science/Technology/Engineering,C5
+654,18,Students Empowering Education,Service/Service Learning,C5
+655,18,Malt and Blue Scotch Society,Cultural/Ethnic,C5
+656,18,Queer Advocacy Coalition,Gender/Sexuality,C5
+657,19,Michigan Fabrication,Science/Technology/Engineering,5
+658,19,Developer Student Club at the University of Michigan,Science/Technology/Engineering,5
+659,19,Students Empowering Education,Service/Service Learning,5
+660,19,Malt and Blue Scotch Society,Cultural/Ethnic,5
+661,19,Queer Advocacy Coalition,Gender/Sexuality,5
+662,19,Michigan Comics for Social Justice,Service/Service Learning,5
+663,19,Michigan Fabrication,Science/Technology/Engineering,6
+664,19,Developer Student Club at the University of Michigan,Science/Technology/Engineering,6
+665,19,Students Empowering Education,Service/Service Learning,6
+666,19,Malt and Blue Scotch Society,Cultural/Ethnic,6
+667,19,Queer Advocacy Coalition,Gender/Sexuality,6
+668,19,Michigan Comics for Social Justice,Service/Service Learning,6
+669,19,GIRLS at Michigan,Health & Wellness,6
+670,19,Michigan Fabrication,Science/Technology/Engineering,7
+671,19,Developer Student Club at the University of Michigan,Science/Technology/Engineering,7
+672,19,Students Empowering Education,Service/Service Learning,7
+673,19,Malt and Blue Scotch Society,Cultural/Ethnic,7
+674,19,Queer Advocacy Coalition,Gender/Sexuality,7
+675,19,Michigan Comics for Social Justice,Service/Service Learning,7
+676,19,GIRLS at Michigan,Health & Wellness,7
+677,19,Developer Student Club at the University of Michigan,Science/Technology/Engineering,8
+678,19,Students Empowering Education,Service/Service Learning,8
+679,19,Malt and Blue Scotch Society,Cultural/Ethnic,8
+680,19,Queer Advocacy Coalition,Gender/Sexuality,8
+681,19,Michigan Comics for Social Justice,Service/Service Learning,8
+682,19,GIRLS at Michigan,Health & Wellness,8
+683,19,Child Welfare Student Association,Service/Service Learning,9
+684,19,Egyptian Student Association,Cultural/Ethnic,9
+685,19,Michigan Gospel Chorale,Religious/Spiritual,9
+686,19,Maize Futbol Club,Sport Clubs & Recreation,9
+687,19,Michigan Chapter of Triangle Fraternity,Social Fraternity/Sorority,9
+688,19,Photonix/UAC,Creative & Performing Arts,9
+689,19,Institute of Electrical and Electronics Engineers,Academic/Honor Societies,9
+690,19,University of Michigan Permaculture Design Team,Health & Wellness,9
+691,19,Egyptian Student Association,Cultural/Ethnic,10
+692,19,Michigan Gospel Chorale,Religious/Spiritual,10
+693,19,Maize Futbol Club,Sport Clubs & Recreation,10
+694,19,Michigan Chapter of Triangle Fraternity,Social Fraternity/Sorority,10
+695,19,Institute of Electrical and Electronics Engineers,Academic/Honor Societies,10
+696,19,University of Michigan Permaculture Design Team,Health & Wellness,10
+697,19,Egyptian Student Association,Cultural/Ethnic,11
+698,19,Michigan Gospel Chorale,Religious/Spiritual,11
+699,19,Maize Futbol Club,Sport Clubs & Recreation,11
+700,19,Michigan Chapter of Triangle Fraternity,Social Fraternity/Sorority,11
+701,19,Institute of Electrical and Electronics Engineers,Academic/Honor Societies,11
+702,19,University of Michigan Permaculture Design Team,Health & Wellness,11
+703,19,Egyptian Student Association,Cultural/Ethnic,12
+704,19,Michigan Gospel Chorale,Religious/Spiritual,12
+705,19,Maize Futbol Club,Sport Clubs & Recreation,12
+706,19,Michigan Chapter of Triangle Fraternity,Social Fraternity/Sorority,12
+707,19,Institute of Electrical and Electronics Engineers,Academic/Honor Societies,12
+708,19,University of Michigan Permaculture Design Team,Health & Wellness,12
+709,19,The American Constitution Society at the University of Michigan,Service/Service Learning,12
+710,19,University Skateboard Collective,Health & Wellness,C1
+711,19,Abeng Multicultural Council,Activism,C1
+712,19,Cultural Heritage Law Society,Cultural/Ethnic,C1
+713,19,Undergraduate Student National Dental Association Chapter at the University of Michigan,Graduate/Professional,C1
+714,19,University of Michigan Figure Skating Club,Creative & Performing Arts,C1
+715,19,General Management Club,Graduate/Professional,C1
+716,19,Mentality Magazine,Activism,C1
+717,19,University Skateboard Collective,Health & Wellness,C2
+718,19,Abeng Multicultural Council,Activism,C2
+719,19,Cultural Heritage Law Society,Cultural/Ethnic,C2
+720,19,Undergraduate Student National Dental Association Chapter at the University of Michigan,Graduate/Professional,C2
+721,19,University of Michigan Figure Skating Club,Creative & Performing Arts,C2
+722,19,General Management Club,Graduate/Professional,C2
+723,19,Mentality Magazine,Activism,C2
+724,19,Video Game Music Club,Media & Creative Writing,C2
+725,19,University Skateboard Collective,Health & Wellness,C3
+726,19,Abeng Multicultural Council,Activism,C3
+727,19,Cultural Heritage Law Society,Cultural/Ethnic,C3
+728,19,Undergraduate Student National Dental Association Chapter at the University of Michigan,Graduate/Professional,C3
+729,19,University of Michigan Figure Skating Club,Creative & Performing Arts,C3
+730,19,General Management Club,Graduate/Professional,C3
+731,19,Mentality Magazine,Activism,C3
+732,19,Video Game Music Club,Media & Creative Writing,C3
+733,19,University Skateboard Collective,Health & Wellness,C4
+734,19,Abeng Multicultural Council,Activism,C4
+735,19,Cultural Heritage Law Society,Cultural/Ethnic,C4
+736,19,Undergraduate Student National Dental Association Chapter at the University of Michigan,Graduate/Professional,C4
+737,19,University of Michigan Figure Skating Club,Creative & Performing Arts,C4
+738,19,General Management Club,Graduate/Professional,C4
+739,19,Mentality Magazine,Activism,C4
+740,19,Video Game Music Club,Media & Creative Writing,C4
+741,19,University Skateboard Collective,Health & Wellness,C5
+742,19,Abeng Multicultural Council,Activism,C5
+743,19,Cultural Heritage Law Society,Cultural/Ethnic,C5
+744,19,Undergraduate Student National Dental Association Chapter at the University of Michigan,Graduate/Professional,C5
+745,19,University of Michigan Figure Skating Club,Creative & Performing Arts,C5
+746,19,General Management Club,Graduate/Professional,C5
+747,19,Mentality Magazine,Activism,C5
+748,19,Video Game Music Club,Media & Creative Writing,C5
+749,20,General Management Club,Graduate/Professional,5
+750,20,General Management Club,Graduate/Professional,6
+751,20,Michigan Branch of Telluride Association,Academic/Honor Societies,6
+752,20,Phi Epsilon Kappa,Academic/Honor Societies,6
+753,20,Michigan Branch of Telluride Association,Academic/Honor Societies,7
+754,20,Phi Epsilon Kappa,Academic/Honor Societies,7
+755,20,Michigan Branch of Telluride Association,Academic/Honor Societies,8
+756,20,Phi Epsilon Kappa,Academic/Honor Societies,8
+757,20,Architectural Representative Committee,Creative & Performing Arts,9
+758,20,Architectural Representative Committee,Creative & Performing Arts,10
+759,20,Active Minds at the University of Michigan,Health & Wellness,10
+760,20,Society for Advancement of Hispanics/Chicanos and Native Americans in Science at University of Michigan Chapter ,Service/Service Learning,10
+761,20,Architectural Representative Committee,Creative & Performing Arts,11
+762,20,Active Minds at the University of Michigan,Health & Wellness,11
+763,20,Architectural Representative Committee,Creative & Performing Arts,12
+764,20,Active Minds at the University of Michigan,Health & Wellness,12
+765,20,Medical Students for Disability Health and Advocacy,Health & Wellness,C1
+766,20,Medical Students for Disability Health and Advocacy,Health & Wellness,C2
+767,20,Cooking Club at the University of Michigan,Cultural/Ethnic,C2
+768,20,Cooking Club at the University of Michigan,Cultural/Ethnic,C3
+769,20,Cooking Club at the University of Michigan,Cultural/Ethnic,C4
+770,20,Alpha Theta Delta,Science/Technology/Engineering,C4
+771,20,Cooking Club at the University of Michigan,Cultural/Ethnic,C5
+772,20,Alpha Theta Delta,Science/Technology/Engineering,C5
+773,20,Pi Alpha Phi,Cultural/Ethnic,C5
+774,21,Markley Multicultural Affairs Council ,Activism,10
+775,21,Beta Upsilon Chi,Religious/Spiritual,C2
+776,21,Couzens Active Multi Ethnic Organization (CAMEO),Cultural/Ethnic,C4
+777,22,Sunrise Ann Arbor,Environmental,C5
+778,23,Sunrise Ann Arbor,Environmental,5
+779,23,Sunrise Ann Arbor,Environmental,6
+780,23,First Year Experience,Department,6
+781,23,FitX: Health and Wellness Professional and Innovation Club,Graduate/Professional,6
+782,23,Sunrise Ann Arbor,Environmental,7
+783,23,First Year Experience,Department,7
+784,23,Sunrise Ann Arbor,Environmental,8
+785,23,First Year Experience,Department,8
+786,23,Wishful Wolverine,Activism,9
+787,23,Special Olympics College at the University of Michigan,Health & Wellness,9
+788,23,FISLL at UMICH,Sport Clubs & Recreation,9
+789,23,Wishful Wolverine,Activism,10
+790,23,Wishful Wolverine,Activism,11
+791,23,Groove/UAC,Creative & Performing Arts,11
+792,23,Wishful Wolverine,Activism,12
+793,23,Michigan China Forum,Science/Technology/Engineering,C1
+794,23,Michigan China Forum,Science/Technology/Engineering,C2
+795,23,COPE,Health & Wellness,C2
+796,23,Michigan China Forum,Science/Technology/Engineering,C3
+797,23,COPE,Health & Wellness,C3
+798,23,Michigan China Forum,Science/Technology/Engineering,C4
+799,23,COPE,Health & Wellness,C4
+800,23,Michigan China Forum,Science/Technology/Engineering,C5
+801,23,COPE,Health & Wellness,C5
+802,23,Martin Luther King Jr. Planning Committee,Activism,C5
+803,24,Michigan China Forum,Science/Technology/Engineering,5
+804,24,COPE,Health & Wellness,5
+805,24,Martin Luther King Jr. Planning Committee,Activism,5
+806,24,Michigan Undergraduate Students of Statistics,Science/Technology/Engineering,5
+807,24,COPE,Health & Wellness,6
+808,24,Martin Luther King Jr. Planning Committee,Activism,6
+809,24,Michigan Undergraduate Students of Statistics,Science/Technology/Engineering,6
+810,24,COPE,Health & Wellness,7
+811,24,Martin Luther King Jr. Planning Committee,Activism,7
+812,24,Michigan Undergraduate Students of Statistics,Science/Technology/Engineering,7
+813,24,Women in Mathematics,Gender/Sexuality,7
+814,24,COPE,Health & Wellness,8
+815,24,Martin Luther King Jr. Planning Committee,Activism,8
+816,24,Michigan Undergraduate Students of Statistics,Science/Technology/Engineering,8
+817,24,Women in Mathematics,Gender/Sexuality,8
+818,24,University Musical Society Student Committee,Cultural/Ethnic,8
+819,24,Michigan Journal of Asian Studies,Academic/Honor Societies,9
+820,24,Michigan Argentine Tango Club,Creative & Performing Arts,9
+821,24,optiMize,Environmental,9
+822,24,Trans and GNC Arts Review,Gender/Sexuality,9
+823,24,Health Policy Student Association,Graduate/Professional,9
+824,24,Michigan Journal of Asian Studies,Academic/Honor Societies,10
+825,24,Trans and GNC Arts Review,Gender/Sexuality,10
+826,24,Health Policy Student Association,Graduate/Professional,10
+827,24,Michigan Journal of Asian Studies,Academic/Honor Societies,11
+828,24,Trans and GNC Arts Review,Gender/Sexuality,11
+829,24,Health Policy Student Association,Graduate/Professional,11
+830,24,Liberty in North Korea (LiNK),Cultural/Ethnic,11
+831,24,American Chemical Society Polymer Division – Student Chapter,Academic/Honor Societies,11
+832,24,Michigan Journal of Asian Studies,Academic/Honor Societies,12
+833,24,Trans and GNC Arts Review,Gender/Sexuality,12
+834,24,Health Policy Student Association,Graduate/Professional,12
+835,24,Liberty in North Korea (LiNK),Cultural/Ethnic,12
+836,24,The Collaborative Archaeology Workgroup,Academic/Honor Societies,C1
+837,24,Bankruptcy Law Society,Graduate/Professional,C1
+838,24,Seven Mile,Activism,C1
+839,24,Design + Business,Media & Creative Writing,C1
+840,24,The Collaborative Archaeology Workgroup,Academic/Honor Societies,C2
+841,24,Bankruptcy Law Society,Graduate/Professional,C2
+842,24,Seven Mile,Activism,C2
+843,24,Design + Business,Media & Creative Writing,C2
+844,24,The Collaborative Archaeology Workgroup,Academic/Honor Societies,C3
+845,24,Bankruptcy Law Society,Graduate/Professional,C3
+846,24,Design + Business,Media & Creative Writing,C3
+847,24,The Collaborative Archaeology Workgroup,Academic/Honor Societies,C4
+848,24,Bankruptcy Law Society,Graduate/Professional,C4
+849,24,Design + Business,Media & Creative Writing,C4
+850,24,Sikh Students Association,Cultural/Ethnic,C4
+851,24,Student Interest Group in Neurology,Academic/Honor Societies,C4
+852,24,The Collaborative Archaeology Workgroup,Academic/Honor Societies,C5
+853,24,Bankruptcy Law Society,Graduate/Professional,C5
+854,24,Design + Business,Media & Creative Writing,C5
+855,24,Sikh Students Association,Cultural/Ethnic,C5
+856,24,Student Interest Group in Neurology,Academic/Honor Societies,C5
+857,25,Bankruptcy Law Society,Graduate/Professional,5
+858,25,Design + Business,Media & Creative Writing,5
+859,25,Student Interest Group in Neurology,Academic/Honor Societies,5
+860,25,Bankruptcy Law Society,Graduate/Professional,6
+861,25,Design + Business,Media & Creative Writing,6
+862,25,Student Interest Group in Neurology,Academic/Honor Societies,6
+863,25,Bankruptcy Law Society,Graduate/Professional,7
+864,25,Design + Business,Media & Creative Writing,7
+865,25,Student Interest Group in Neurology,Academic/Honor Societies,7
+866,25,Bankruptcy Law Society,Graduate/Professional,8
+867,25,Student Interest Group in Neurology,Academic/Honor Societies,8
+868,25,Dreams Multicultural Council,Activism,9
+869,25,"Sigma Lambda Beta International Fraternity, Inc.",Social Fraternity/Sorority,9
+870,25,Cognitive Strength Organization at the University of Michigan,Service/Service Learning,9
+871,25,American Geriatrics Society Student Chapter,Health & Wellness,9
+872,25,"Sigma Lambda Beta International Fraternity, Inc.",Social Fraternity/Sorority,10
+873,25,Cognitive Strength Organization at the University of Michigan,Service/Service Learning,10
+874,25,"Sigma Lambda Beta International Fraternity, Inc.",Social Fraternity/Sorority,11
+875,25,Cognitive Strength Organization at the University of Michigan,Service/Service Learning,11
+876,25,Wolverine Tutors,Service/Service Learning,11
+877,25,Cognitive Strength Organization at the University of Michigan,Service/Service Learning,12
+878,25,Wolverine Tutors,Service/Service Learning,12
+879,25,Michigan Gospel Chorale,Service/Service Learning,C1
+880,25,Earthquake Engineering Research Institute,Science/Technology/Engineering,C1
+881,25,Michigan Gospel Chorale,Service/Service Learning,C2
+882,25,Earthquake Engineering Research Institute,Science/Technology/Engineering,C2
+883,25,Atmospheres Making Positive Moments ,Health & Wellness,C2
+884,25,Michigan Pompon,Sport Clubs & Recreation,C2
+885,25,Earthquake Engineering Research Institute,Science/Technology/Engineering,C3
+886,25,Michigan Pompon,Sport Clubs & Recreation,C3
+887,25,Earthquake Engineering Research Institute,Science/Technology/Engineering,C4
+888,25,Michigan Pompon,Sport Clubs & Recreation,C4
+889,25,Earthquake Engineering Research Institute,Science/Technology/Engineering,C5
+890,25,Michigan Pompon,Sport Clubs & Recreation,C5
+891,25,"Delta Delta Delta, Iota Chapter",Social Fraternity/Sorority,C5
+892,26,Botany Undergrads Doing Stuff,Environmental,7
+893,26,Northwood Multicultural and Community Council,Cultural/Ethnic,7
+894,26,Chaldean American Student Association,Health & Wellness,9
+895,26,Chaldean American Student Association,Health & Wellness,10
+896,26,Chaldean American Student Association,Health & Wellness,11
+897,26,Global Brigades,Cultural/Ethnic,11
+898,26,Creatives of Color,Creative & Performing Arts,C3
+899,26,People of the Global Majority for the Environment,Graduate/Professional,C3
+900,26,People of the Global Majority for the Environment,Graduate/Professional,C4
+901,26,People of the Global Majority for the Environment,Graduate/Professional,C5
+902,27,People of the Global Majority for the Environment,Graduate/Professional,5
+903,27,People of the Global Majority for the Environment,Graduate/Professional,6
+904,27,Redeemed Christian Fellowship,Religious/Spiritual,6
+905,27,The Quito Project,Academic/Honor Societies,6
+906,27,People of the Global Majority for the Environment,Graduate/Professional,7
+907,27,The Quito Project,Academic/Honor Societies,7
+908,27,The Quito Project,Academic/Honor Societies,8
+909,27,Architectural Representative Committee,Governance,9
+910,27,Society of American Archivists Student Chapter,Academic/Honor Societies,9
+911,27,Wolverine Capital Investments,Graduate/Professional,9
+912,27,Architectural Representative Committee,Governance,10
+913,27,Society of American Archivists Student Chapter,Academic/Honor Societies,10
+914,27,Wolverine Capital Investments,Graduate/Professional,10
+915,27,Architectural Representative Committee,Governance,11
+916,27,Wolverine Capital Investments,Graduate/Professional,11
+917,27,Architectural Representative Committee,Governance,12
+918,27,Wolverine Capital Investments,Graduate/Professional,12
+919,27,Child Welfare Student Association,Graduate/Professional,12
+920,27,The Youth Movement Against Alzheimer's,Service/Service Learning,C1
+921,27,Global Brigades,Service/Service Learning,C1
+922,27,Global Brigades,Service/Service Learning,C2
+923,27,Global Brigades,Service/Service Learning,C3
+924,27,Asian/Pacific Islander American Students in Business,Cultural/Ethnic,C3
+925,27,Global Brigades,Service/Service Learning,C4
+926,27,Asian/Pacific Islander American Students in Business,Cultural/Ethnic,C4
+927,27,Michigan European Law Organization,Graduate/Professional,C4
+928,27,Michigan European Law Organization,Graduate/Professional,C5
+929,28,Michigan European Law Organization,Graduate/Professional,5
+930,28,Chinese Culture Salon Seminars,Graduate/Professional,5
+931,28,"Sigma Lambda Gamma National Sorority, Inc.",Service/Service Learning,5
+932,28,Sierra Club at the University of Michigan,Environmental,5
+933,28,Michigan European Law Organization,Graduate/Professional,6
+934,28,Chinese Culture Salon Seminars,Graduate/Professional,6
+935,28,"Sigma Lambda Gamma National Sorority, Inc.",Service/Service Learning,6
+936,28,Sierra Club at the University of Michigan,Environmental,6
+937,28,Wolverine Sports Analytics,Science/Technology/Engineering,6
+938,29,Sierra Club at the University of Michigan,Environmental,5
+939,29,Women Law Students Association,Service/Service Learning,8
+940,29,University of Michigan Undergraduate Research Journal,Media & Creative Writing,C1
+941,30,MRacing Formula SAE,Business & Entrepreneurship,5
+942,30,Propel Business Club,Academic/Honor Societies,5
+943,30,American Medical Women's Association,Health & Wellness,5
+944,30,MRacing Formula SAE,Business & Entrepreneurship,6
+945,30,Propel Business Club,Academic/Honor Societies,6
+946,30,American Medical Women's Association,Health & Wellness,6
+947,30,MRacing Formula SAE,Business & Entrepreneurship,7
+948,30,Propel Business Club,Academic/Honor Societies,7
+949,30,American Medical Women's Association,Health & Wellness,7
+950,30,Medical Students for Choice,Health & Wellness,7
+951,30,MRacing Formula SAE,Business & Entrepreneurship,8
+952,30,Propel Business Club,Academic/Honor Societies,8
+953,30,American Medical Women's Association,Health & Wellness,8
+954,30,Medical Students for Choice,Health & Wellness,8
+955,30,Michigan Waffle House,Activism,9
+956,30,The Dot Org,Health & Wellness,9
+957,30,Operation Smile at the University of Michigan,Service/Service Learning,9
+958,30,Human Rights Advocates,Service/Service Learning,9
+959,30,Michigan Waffle House,Activism,10
+960,30,The Dot Org,Health & Wellness,10
+961,30,Operation Smile at the University of Michigan,Service/Service Learning,10
+962,30,Human Rights Advocates,Service/Service Learning,10
+963,30,Michigan Waffle House,Activism,11
+964,30,The Dot Org,Health & Wellness,11
+965,30,Operation Smile at the University of Michigan,Service/Service Learning,11
+966,30,Human Rights Advocates,Service/Service Learning,11
+967,30,The Dot Org,Health & Wellness,12
+968,30,Operation Smile at the University of Michigan,Service/Service Learning,12
+969,30,Human Rights Advocates,Service/Service Learning,12
+970,30,Global Business Club,Cultural/Ethnic,C1
+971,30,Public Health Students of African Descent,Graduate/Professional,C1
+972,30,First Year Information Program,Graduate/Professional,C1
+973,30,Black Undergraduate Law Association ,Service/Service Learning,C1
+974,30,Global Business Club,Cultural/Ethnic,C2
+975,30,Public Health Students of African Descent,Graduate/Professional,C2
+976,30,Black Undergraduate Law Association ,Service/Service Learning,C2
+977,30,Global Business Club,Cultural/Ethnic,C3
+978,30,Public Health Students of African Descent,Graduate/Professional,C3
+979,30,Black Undergraduate Law Association ,Service/Service Learning,C3
+980,30,La Salud ,Activism,C3
+981,30,Chinese Psychology Student Association of UM,Health & Wellness,C3
+982,30,Public Health Students of African Descent,Graduate/Professional,C4
+983,30,Black Undergraduate Law Association ,Service/Service Learning,C4
+984,30,La Salud ,Activism,C4
+985,30,Chinese Psychology Student Association of UM,Health & Wellness,C4
+986,30,Public Health Students of African Descent,Graduate/Professional,C5
+987,30,La Salud ,Activism,C5
+988,30,Chinese Psychology Student Association of UM,Health & Wellness,C5
